@@ -314,3 +314,20 @@ TypeError: open() got an unexpected keyword argument 'metadata_errors'
 2026-11-15 14:26:13 | INFO    | 📊 Histórico: 0 subidos | 5 generados
 2026-11-15 14:26:13 | INFO    | 🧾 Cola: 4 video(s). Siguiente: corto_20261115_115738_nueva-harbor.mp4
 2026-11-15 14:26:13 | INFO    | ⏳ Pausa anti rate-limit: faltan 9m.
+2026-11-15 18:46:10 | INFO    | 📡 Latidos de Discord activos (cada 5 minutos).
+2026-11-15 18:46:10 | INFO    | ================================================================
+2026-11-15 18:46:10 | INFO    | 🤖 BOT AUTÓNOMO DE YOUTUBE SHORTS 24/7 — iniciado
+2026-11-15 18:46:10 | INFO    |    Lote: 5 videos | Pausa: 2.0-2.5 h | Video: 720x1280 @30fps
+2026-11-15 18:46:10 | INFO    |    Log: bot_activity.log | Voz: es-MX-JorgeNeural | Whisper: small
+2026-11-15 18:46:10 | INFO    | ================================================================
+2026-11-15 18:46:11 | INFO    | 💾 Sesión guardada en token.pickle (no se pedirá de nuevo).
+2026-11-15 18:46:11 | INFO    | ✅ Autenticación lista (token.pickle).
+2026-11-15 18:46:11 | INFO    | 📊 Histórico: 0 subidos | 5 generados
+2026-11-15 18:46:11 | INFO    | 🧾 Cola: 4 video(s). Siguiente: corto_20261115_115738_nueva-harbor.mp4
+2026-11-15 18:46:11 | INFO    | 📤 Subiendo a YouTube: corto_20261115_115738_nueva-harbor.mp4
+2026-11-15 18:46:13 | INFO    |    ⏫ Subida al 30%...
+2026-11-15 18:46:13 | INFO    |    ⏫ Subida al 61%...
+2026-11-15 18:46:13 | INFO    |    ⏫ Subida al 92%...
+2026-11-15 18:46:14 | INFO    | 🚀 PUBLICADO: https://youtube.com/shorts/kY51Uq9RGss (0m de subida) | Título: 'El pueblo de Roblox con más reglas que habitantes: Nueva Harbor ⚠️'
+2026-11-15 18:46:14 | INFO    | 📦 corto_20261115_115738_nueva-harbor.mp4 movido a /subidos
+2026-11-15 18:46:14 | INFO    | 🔁 Modo ciclo: video publicado y estado guardado (próxima subida en 2h 29m). Saliendo.

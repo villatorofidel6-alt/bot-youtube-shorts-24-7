@@ -1,8 +1,10 @@
 {
-  "ultimo_upload_ts": 1794744709.5216432,
-  "proximo_upload_ts": 1794753341.2082586,
-  "subidos_total": 0,
+  "ultimo_upload_ts": 1794768374.3448172,
+  "proximo_upload_ts": 1794777355.2862682,
+  "subidos_total": 1,
   "generados_total": 5,
   "intentos": {},
-  "subidos_ids": {}
+  "subidos_ids": {
+    "corto_20261115_115738_nueva-harbor.mp4": "kY51Uq9RGss"
+  }
 }
