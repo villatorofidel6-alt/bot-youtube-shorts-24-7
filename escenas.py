@@ -585,12 +585,340 @@ def _escena_parque():
     return base, animar
 
 
+def _escena_cementerio():
+    """Cementerio: lápidas, árbol muerto, luz errante y figura que aparece."""
+    rng = random.Random(random.randrange(2 ** 31))
+    base = _degradado((8, 12, 20), (24, 34, 30))
+    horizonte = int(ESH * 0.55)
+    mx, my, mr = ESW * 0.68, ESH * 0.13, ESH * 0.085
+    for k, a in ((2.7, 14), (2.0, 26), (1.45, 40)):
+        halo = Image.new("RGBA", base.size, (0, 0, 0, 0))
+        ImageDraw.Draw(halo).ellipse((mx - mr * k, my - mr * k, mx + mr * k, my + mr * k),
+                                     fill=(205, 215, 255, a))
+        base.paste(Image.alpha_composite(base.convert("RGBA"), halo).convert("RGB"), (0, 0))
+    d = ImageDraw.Draw(base)
+    d.ellipse((mx - mr, my - mr, mx + mr, my + mr), fill=(235, 238, 214))
+    d.ellipse((mx - mr * 0.35, my - mr * 0.4, mx + mr * 0.05, my), fill=(216, 220, 196))
+    d.rectangle((0, horizonte, ESW, ESH), fill=(14, 20, 16))
+    for _ in range(8):
+        cx = rng.uniform(0, ESW)
+        r = rng.uniform(0.04, 0.09) * ESW
+        cy = horizonte + rng.uniform(0.02, 0.14) * ESH
+        d.ellipse((cx - r, cy - r * 0.25, cx + r, cy + r * 0.25), fill=(17, 24, 19))
+    # árbol muerto con ramas
+    ax = ESW * 0.16
+    d.line((ax, horizonte + 0.10 * ESH, ax, horizonte - 0.16 * ESH), fill=(8, 10, 8), width=9)
+    for ang, largo in ((-0.9, 0.09), (-0.5, 0.11), (0.4, 0.10), (0.8, 0.08)):
+        import math
+        x2 = ax + math.sin(ang) * largo * ESW
+        y2 = horizonte - 0.16 * ESH - math.cos(ang) * largo * ESH
+        d.line((ax, horizonte - 0.10 * ESH, x2, y2), fill=(8, 10, 8), width=5)
+        d.line((x2, y2, x2 + math.sin(ang * 1.6) * 0.05 * ESW, y2 - 0.05 * ESH),
+               fill=(8, 10, 8), width=3)
+    # lápidas y cruces (más lejos = más pequeñas)
+    for _ in range(11):
+        tx = rng.uniform(0.03, 0.95) * ESW
+        ty = rng.uniform(0.60, 0.93) * ESH
+        esc = max(0.35, 1.0 - (ty - horizonte) / (ESH - horizonte) * 0.5)
+        if rng.random() < 0.5:
+            w_t = max(8, int(0.045 * ESW * esc))
+            h_t = max(12, int(0.075 * ESH * esc))
+            inclin = rng.uniform(-6, 6)
+            tumba = _rgba((w_t, h_t), lambda dd, w=w_t, h=h_t: dd.rounded_rectangle(
+                (0, int(h * 0.25), w - 1, h - 1), radius=w // 2, fill=(48, 50, 58, 255),
+                outline=(22, 24, 30, 255), width=2), 1).rotate(inclin, expand=True)
+            _paste = True
+        else:
+            w_t = max(8, int(0.04 * ESW * esc))
+            h_t = max(14, int(0.085 * ESH * esc))
+            tumba = _rgba((w_t, h_t), lambda dd, w=w_t, h=h_t: (
+                dd.line((w // 2, int(h * 0.05), w // 2, h - 1), fill=(62, 57, 50, 255),
+                        width=max(3, w // 4)),
+                dd.line((0, int(h * 0.30), w - 1, int(h * 0.30)), fill=(62, 57, 50, 255),
+                        width=max(3, w // 4))), 1)
+        base.paste(tumba, (int(tx - tumba.width / 2), int(ty - tumba.height)), tumba)
+    nieblas = [(_sprite_niebla(int(ESW * 0.9), (130, 165, 150)), rng.uniform(0, ESW),
+                ESH * 0.60, rng.uniform(10, 18)),
+               (_sprite_niebla(int(ESW * 0.9), (130, 165, 150)), rng.uniform(0, ESW),
+                ESH * 0.80, rng.uniform(18, 30))]
+    base = _vineta(base, 0.55)
+    brasa = _sprite_brillo(int(0.055 * ESW), int(0.055 * ESW), (170, 255, 200), 230)
+    pe = _sprite_personaje(int(ESH * 0.145), de_espaldas=True)
+
+    def animar(t: float, img: Image.Image) -> None:
+        for niebla, x0, y0, vel in nieblas:
+            x = (x0 - vel * t) % (ESW + niebla.width) - niebla.width
+            _pegar(img, niebla, x, y0, 0.85)
+        bx = ESW * (0.30 + 0.18 * np.sin(t * 0.23))
+        by = ESH * (0.60 + 0.10 * np.sin(t * 0.41 + 1.3))
+        _pegar(img, brasa, bx, by, max(0.15, 0.5 + 0.5 * np.sin(t * 2.1)))
+        k = max(0.0, np.sin(t * 0.35 + 2.0)) ** 6
+        if k > 0.02:
+            _pegar(img, pe, ESW * 0.74 - pe.width / 2, ESH * 0.80 - pe.height, k)
+
+    return base, animar
+
+
+def _escena_pasillo():
+    """Corredor interminable: puertas entreabiertas y figura que se desvanece."""
+    rng = random.Random(random.randrange(2 ** 31))
+    base = _degradado((30, 22, 32), (12, 8, 14))
+    d = ImageDraw.Draw(base)
+    vx, vy = ESW * 0.5, ESH * 0.52
+    d.polygon([(0, ESH), (ESW, ESH), (vx + ESW * 0.05, vy + 0.06 * ESH),
+               (vx - ESW * 0.05, vy + 0.06 * ESH)], fill=(38, 28, 30))
+    for i in range(1, 9):
+        f = (i / 9) ** 1.6
+        yy = vy + 0.06 * ESH + (ESH - vy - 0.06 * ESH) * f
+        d.line((0, yy, ESW, yy), fill=(30, 21, 23), width=2)
+    d.polygon([(0, 0), (vx - ESW * 0.05, vy - 0.09 * ESH), (vx - ESW * 0.05, vy + 0.06 * ESH),
+               (0, ESH)], fill=(36, 26, 38))
+    d.polygon([(ESW, 0), (vx + ESW * 0.05, vy - 0.09 * ESH), (vx + ESW * 0.05, vy + 0.06 * ESH),
+               (ESW, ESH)], fill=(32, 23, 34))
+    d.polygon([(0, 0), (ESW, 0), (vx + ESW * 0.05, vy - 0.09 * ESH),
+               (vx - ESW * 0.05, vy - 0.09 * ESH)], fill=(24, 16, 22))
+    # puerta del fondo
+    d.rectangle((vx - 0.045 * ESW, vy - 0.09 * ESH, vx + 0.045 * ESW, vy + 0.07 * ESH),
+                fill=(10, 7, 12), outline=(4, 3, 6), width=3)
+    # puertas laterales (algunas con luz)
+    puertas = []
+    for lado in (-1, 1):
+        for k in (0.30, 0.55, 0.78):
+            px = (0 if lado < 0 else ESW) * (1 - k) + (vx + lado * 0.048 * ESW) * k
+            py_t = 0.16 * ESH * (1 - k) + (vy - 0.088 * ESH) * k
+            py_b = ESH * (1 - k) + (vy + 0.068 * ESH) * k
+            w_d = 0.075 * ESW * (1 - k * 0.75)
+            x_d = px + lado * 0.012 * ESW
+            d.rectangle((x_d, py_t, x_d + w_d * (1 if lado > 0 else 1), py_b),
+                        fill=(26, 18, 24), outline=(10, 7, 10), width=2)
+            if rng.random() < 0.5:
+                puertas.append((x_d + w_d / 2, py_t, w_d * 0.9, py_b - py_t,
+                                rng.uniform(1.2, 3.0), rng.uniform(0, 6.3)))
+    # lámparas del techo
+    conos = []
+    for k in (0.25, 0.55, 0.85):
+        y_c = 0.06 * ESH * (1 - k) + (vy - 0.09 * ESH) * k
+        tam = 0.13 * ESW * (1 - k * 0.7) + 0.02 * ESW
+        d.ellipse((vx - 6 * (1 - k) - 3, y_c - 4, vx + 6 * (1 - k) + 3, y_c + 4),
+                  fill=(255, 226, 150))
+        conos.append((_sprite_cono(int(tam), int(tam * 2.2)), vx - tam / 2, y_c,
+                      rng.uniform(1.5, 3.0), rng.uniform(0, 6.3)))
+    base = _vineta(base, 0.52)
+    glow_p = _sprite_brillo(int(0.05 * ESW), int(0.05 * ESW), (255, 214, 130), 190)
+    pe = _sprite_personaje(int(ESH * 0.105), de_espaldas=True)
+
+    def animar(t: float, img: Image.Image) -> None:
+        for cx, cy, w_d, h_d, frec, fase in puertas:
+            _pegar(img, glow_p, cx - glow_p.width / 2, cy + h_d * 0.35,
+                   0.55 + 0.45 * np.sin(t * frec + fase))
+        for cono, cx, cy, frec, fase in conos:
+            _pegar(img, cono, cx, cy, 0.75 + 0.25 * np.sin(t * frec + fase))
+        k = max(0.0, np.sin(t * 0.4 + 1.0)) ** 10
+        if k > 0.02:
+            _pegar(img, pe, vx - pe.width / 2, vy + 0.068 * ESH - pe.height, k)
+
+    return base, animar
+
+
+def _escena_tunel():
+    """Túnel infinito: anillos que se pierden, luces de emergencia y caminante."""
+    rng = random.Random(random.randrange(2 ** 31))
+    base = _degradado((10, 9, 14), (20, 17, 24))
+    d = ImageDraw.Draw(base)
+    vx, vy = ESW * 0.5, ESH * 0.52
+    d.polygon([(0, ESH), (ESW, ESH), (vx + ESW * 0.05, vy + 0.05 * ESH),
+               (vx - ESW * 0.05, vy + 0.05 * ESH)], fill=(20, 18, 24))
+    for i in range(1, 8):
+        f = (i / 8) ** 1.6
+        yy = vy + 0.05 * ESH + (ESH - vy - 0.05 * ESH) * f
+        d.line((0, yy, ESW, yy), fill=(16, 14, 19), width=2)
+    for i in range(10):
+        f = (i / 10) ** 1.8
+        rx = ESW * 0.48 * (1 - f) + ESW * 0.035
+        ry = ESH * 0.44 * (1 - f) + ESH * 0.05
+        d.ellipse((vx - rx, vy - ry, vx + rx, vy + ry),
+                  outline=(28 + i * 3, 26 + i * 3, 36 + i * 3),
+                  width=max(3, int(12 * (1 - f)) + 2))
+    luces = []
+    for i in range(6):
+        f = (i / 6) ** 1.7
+        rx = ESW * 0.46 * (1 - f) + 0.04 * ESW
+        yy = vy + 0.055 * ESH * (1 - f)
+        esc = 1.0 - f * 0.65
+        for lado in (-1, 1):
+            lx = vx + lado * rx
+            r_l = max(2, int(6 * esc))
+            d.ellipse((lx - r_l, yy - r_l, lx + r_l, yy + r_l), fill=(255, 180, 70))
+            luces.append((lx, yy, esc, rng.uniform(2.0, 5.0), rng.uniform(0, 6.3)))
+    niebla_t = _sprite_niebla(int(ESW * 0.9), (100, 96, 120))
+    base = _vineta(base, 0.55)
+    alto_pe = int(ESH * 0.16)
+    poses = [_sprite_personaje(alto_pe, pose=p, de_espaldas=True) for p in range(4)]
+
+    def animar(t: float, img: Image.Image) -> None:
+        x = (ESW * 0.4 - 20 * t) % (ESW + niebla_t.width) - niebla_t.width
+        _pegar(img, niebla_t, x, ESH * 0.70, 0.6)
+        for lx, ly, esc, frec, fase in luces:
+            k = 0.55 + 0.45 * np.sin(t * frec + fase)
+            if np.sin(t * 0.9 + fase * 1.7) < -0.92:
+                k *= 0.10
+            brillo = _sprite_brillo(max(6, int(0.035 * ESW * esc)),
+                                    max(6, int(0.035 * ESW * esc)), (255, 180, 70), 200)
+            _pegar(img, brillo, lx - brillo.width / 2, ly - brillo.height / 2, k)
+        progreso = (t / 26.0) % 1.0
+        f = 1.0 - 0.45 * progreso
+        py = ESH * (0.82 - 0.20 * progreso)
+        pose = poses[int(t * 5.0) % 4]
+        w_p, h_p = max(1, int(pose.width * f)), max(1, int(pose.height * f))
+        mini = pose.resize((w_p, h_p), Image.BILINEAR)
+        _pegar(img, mini, ESW * 0.5 - w_p / 2, py - h_p + np.sin(t * 6.0) * 3 * f)
+
+    return base, animar
+
+
+def _escena_iglesia():
+    """Iglesia: vitral, velas que tiemblan y bancos en perspectiva."""
+    rng = random.Random(random.randrange(2 ** 31))
+    base = _degradado((28, 24, 40), (14, 10, 18))
+    d = ImageDraw.Draw(base)
+    vx, vy = ESW * 0.5, ESH * 0.50
+    d.polygon([(0, ESH), (ESW, ESH), (vx + ESW * 0.10, vy + 0.10 * ESH),
+               (vx - ESW * 0.10, vy + 0.10 * ESH)], fill=(40, 36, 34))
+    for i in range(1, 8):
+        f = (i / 8) ** 1.6
+        yy = vy + 0.10 * ESH + (ESH - vy - 0.10 * ESH) * f
+        d.line((0, yy, ESW, yy), fill=(32, 28, 27), width=2)
+    # vitral
+    wx1, wy1 = vx - 0.14 * ESW, vy - 0.26 * ESH
+    wx2, wy2 = vx + 0.14 * ESW, vy + 0.02 * ESH
+    d.rounded_rectangle((wx1, wy1, wx2, wy2), radius=int(0.07 * ESW), fill=(56, 44, 20),
+                        outline=(20, 16, 12), width=4)
+    colores = [(140, 60, 80), (60, 90, 140), (150, 120, 50), (80, 120, 90), (120, 60, 130)]
+    for gy in range(6):
+        for gx in range(4):
+            cx_g = wx1 + (wx2 - wx1) * (gx + 0.5) / 4
+            cy_g = wy1 + (wy2 - wy1) * (gy + 0.5) / 6
+            r_g = min((wx2 - wx1) / 4, (wy2 - wy1) / 6) * 0.42
+            d.polygon([(cx_g, cy_g - r_g), (cx_g + r_g, cy_g), (cx_g, cy_g + r_g),
+                       (cx_g - r_g, cy_g)], fill=rng.choice(colores))
+    # cruz y altar
+    d.rectangle((vx - 0.09 * ESW, vy + 0.02 * ESH, vx + 0.09 * ESW, vy + 0.10 * ESH),
+                fill=(50, 40, 30), outline=(24, 18, 14), width=3)
+    d.line((vx, vy - 0.20 * ESH, vx, vy - 0.06 * ESH), fill=(205, 195, 165), width=9)
+    d.line((vx - 0.05 * ESW, vy - 0.16 * ESH, vx + 0.05 * ESW, vy - 0.16 * ESH),
+           fill=(205, 195, 165), width=7)
+    # velas sobre el altar
+    velas = []
+    for off in (-0.06, 0.06):
+        x_v = vx + ESW * off
+        y_v = vy + 0.018 * ESH
+        d.rectangle((x_v - 4, y_v - 22, x_v + 4, y_v), fill=(214, 204, 184),
+                    outline=(90, 80, 70), width=1)
+        velas.append((x_v, y_v - 24, rng.uniform(4, 8), rng.uniform(0, 6.3)))
+    # bancos a los lados
+    for k in (0.85, 0.68, 0.53, 0.40, 0.29, 0.20):
+        y_base = (vy + 0.10 * ESH) + (ESH * 0.99 - (vy + 0.10 * ESH)) * ((k - 0.20) / 0.65)
+        w_b = ESW * 0.16 * k
+        h_b = ESH * 0.055 * k
+        sep = ESW * (0.50 * k + 0.055)
+        for lado in (-1, 1):
+            cx_b = vx + lado * sep
+            d.rounded_rectangle((cx_b - w_b / 2, y_base - h_b * 1.7, cx_b + w_b / 2, y_base - h_b),
+                                radius=max(2, int(3 * k)), fill=(30, 24, 20),
+                                outline=(12, 9, 8), width=max(1, int(2 * k)))
+            d.rounded_rectangle((cx_b - w_b / 2, y_base - h_b, cx_b + w_b / 2, y_base),
+                                radius=max(2, int(3 * k)), fill=(26, 21, 18),
+                                outline=(12, 9, 8), width=max(1, int(2 * k)))
+    haz = _sprite_cono(int(0.30 * ESW), int(0.36 * ESH), (255, 240, 190), 36)
+    base = _vineta(base, 0.45)
+
+    def animar(t: float, img: Image.Image) -> None:
+        dd = ImageDraw.Draw(img)
+        for x_v, y_v, frec, fase in velas:
+            k = 0.6 + 0.4 * np.sin(t * frec * 3 + fase)
+            v = int(180 + 70 * k)
+            dd.ellipse((x_v - 3, y_v - 9, x_v + 3, y_v), fill=(255, v, int(v * 0.45)))
+        _pegar(img, haz, vx - haz.width / 2, wy2 - 6,
+               0.75 + 0.25 * np.sin(t * 0.5))
+
+    return base, animar
+
+
+def _escena_sotano():
+    """Sótano: muro de piedra, escalera, bombilla que oscila y sombra."""
+    rng = random.Random(random.randrange(2 ** 31))
+    base = _degradado((24, 18, 16), (10, 8, 10))
+    d = ImageDraw.Draw(base)
+    horizonte = int(ESH * 0.60)
+    bh = ESH * 0.055
+    for fy in range(int(horizonte / bh) + 1):
+        y0 = fy * bh
+        off = (fy % 2) * ESH * 0.03
+        for fx in range(int(ESW / (ESH * 0.075)) + 2):
+            x0 = fx * ESH * 0.075 - off
+            col = rng.choice([(38, 30, 26), (32, 25, 22), (42, 33, 28)])
+            d.rectangle((x0, y0, x0 + ESH * 0.07, y0 + bh * 0.94), fill=col,
+                        outline=(16, 12, 10), width=2)
+    d.rectangle((0, horizonte, ESW, ESH), fill=(20, 16, 14))
+    # escalera hacia arriba (derecha)
+    d.polygon([(ESW * 0.70, horizonte + 0.02 * ESH), (ESW * 0.99, horizonte + 0.02 * ESH),
+               (ESW * 0.99, ESH * 0.28), (ESW * 0.84, ESH * 0.28)],
+              fill=(30, 24, 20), outline=(12, 9, 8), width=3)
+    for i in range(6):
+        f = i / 6.0
+        x1 = ESW * (0.72 + 0.13 * f)
+        y1 = (horizonte + 0.01 * ESH) * (1 - f) + ESH * 0.30 * f
+        x2 = ESW * (0.84 + 0.13 * f)
+        d.rectangle((x1, y1 - 6, x2, y1 + 4), fill=(44, 34, 26), outline=(12, 9, 8), width=2)
+    # cajas
+    d.rounded_rectangle((ESW * 0.10, horizonte - 0.10 * ESH, ESW * 0.22, horizonte + 0.02 * ESH),
+                        radius=4, fill=(44, 32, 20), outline=(14, 10, 8), width=3)
+    d.rounded_rectangle((ESW * 0.18, horizonte - 0.05 * ESH, ESW * 0.31, horizonte + 0.06 * ESH),
+                        radius=4, fill=(40, 29, 18), outline=(14, 10, 8), width=3)
+    # bombilla colgante (sprite para que oscile) + charco de luz
+    w_b, h_b = int(0.05 * ESW), int(0.20 * ESH)
+    bulbo = _rgba((w_b, h_b), lambda dd: (
+        dd.line((w_b / 2, 0, w_b / 2, h_b * 0.70), fill=(30, 22, 18, 255), width=3),
+        dd.ellipse((w_b / 2 - 10, h_b * 0.66, w_b / 2 + 10, h_b * 0.66 + 22),
+                   fill=(255, 226, 150, 255))))
+    charco = _rgba((int(0.30 * ESW), int(0.09 * ESH)),
+                   lambda dd: dd.ellipse((0, 0, 0.30 * ESW, 0.09 * ESH),
+                                         fill=(255, 220, 140, 55)), 10)
+    w_s, h_s = int(0.09 * ESW), int(0.34 * ESH)
+    sombra = _rgba((w_s, h_s), lambda dd: dd.polygon(
+        [(w_s * 0.50, 0), (w_s * 0.72, h_s * 0.12), (w_s * 0.66, h_s * 0.40),
+         (w_s * 1.05, h_s * 0.98), (w_s * 0.10, h_s * 0.98), (w_s * 0.30, h_s * 0.40),
+         (w_s * 0.28, h_s * 0.12)], fill=(8, 5, 8, 220)), 2)
+    bruma = _sprite_niebla(int(ESW * 0.85), (120, 70, 70))
+    base = _vineta(base, 0.55)
+    bx = ESW * 0.45
+
+    def animar(t: float, img: Image.Image) -> None:
+        ang = 7.0 * np.sin(t * 0.9)
+        rot = bulbo.rotate(ang, center=(w_b / 2, 0), resample=Image.BILINEAR)
+        _pegar(img, rot, bx - rot.width / 2, 0)
+        _pegar(img, charco, bx - charco.width / 2 + np.sin(t * 0.9) * 0.02 * ESW,
+               horizonte + 0.02 * ESH, 0.7 + 0.3 * np.sin(t * 2.0))
+        f_s = 1.0 + 0.03 * np.sin(t * 1.2 + 0.5)
+        mini = sombra.resize((max(1, int(w_s * f_s)), max(1, int(h_s * f_s))), Image.BILINEAR)
+        _pegar(img, mini, ESW * 0.60 - mini.width / 2, ESH * 0.28, 1.0)
+        x = (ESW * 0.5 - 16 * t) % (ESW + bruma.width) - bruma.width
+        _pegar(img, bruma, x, ESH * 0.72, 0.55)
+
+    return base, animar
+
+
 _ESCENAS = {
     "calle": _escena_calle,
     "casa": _escena_casa,
     "bosque": _escena_bosque,
     "tienda": _escena_tienda,
     "parque": _escena_parque,
+    "cementerio": _escena_cementerio,
+    "pasillo": _escena_pasillo,
+    "tunel": _escena_tunel,
+    "iglesia": _escena_iglesia,
+    "sotano": _escena_sotano,
 }
 
 
@@ -606,7 +934,19 @@ def elegir_escenas(historia: dict) -> list:
         extra.append("casa")
     if any(k in texto for k in ("parque", "columpi", "juegos", "tobogán", "tobogan")):
         extra.append("parque")
-    resto = ["casa", "bosque", "tienda", "parque"]
+    if any(k in texto for k in ("cementerio", "tumba", "muerto", "murió", "murio",
+                                "cadáver", "cadaver")):
+        extra.append("cementerio")
+    if any(k in texto for k in ("iglesia", "rezar", "santo", "oración", "oracion", "cruz")):
+        extra.append("iglesia")
+    if any(k in texto for k in ("sótano", "sotano", "maquinaria", "escondite")):
+        extra.append("sotano")
+    if any(k in texto for k in ("túnel", "tunel", "tubería", "tuberia", "pasaje")):
+        extra.append("tunel")
+    if any(k in texto for k in ("pasillo", "escuela", "puertas", "habitación", "habitacion")):
+        extra.append("pasillo")
+    resto = ["casa", "bosque", "tienda", "parque", "cementerio", "pasillo",
+             "tunel", "iglesia", "sotano"]
     random.shuffle(resto)
     escenas = ["calle"]
     for tipo in extra + resto:
