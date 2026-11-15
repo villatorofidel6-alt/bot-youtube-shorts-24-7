@@ -67,8 +67,8 @@ INTERVALO_HEARTBEAT_SEG = 300                   # latido a Discord cada 5 minuto
 INICIO_RUN = time.time()
 
 VIDEOS_POR_LOTE = 5          # videos generados en cada fase de producción
-PAUSA_MIN_H = 4.0            # pausa mínima tras subir (horas)
-PAUSA_MAX_H = 6.0            # pausa máxima tras subir (horas)
+PAUSA_MIN_H = 2.0            # pausa mínima tras subir (horas)
+PAUSA_MAX_H = 2.5            # pausa máxima tras subir (horas)
 REINTENTO_SEG = 600          # esperar 10 min ante fallos de red/API
 MAX_INTENTOS = 5             # intentos por video antes de mandarlo a /errores
 
