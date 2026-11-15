@@ -14,6 +14,8 @@ edge-tts>=6.1.9
 
 # --- Subtítulos dinámicos con marcas de tiempo por palabra ---
 faster-whisper>=1.0.2
+# PyAV 16 rompió la API que usa faster-whisper para decodificar audio
+av>=13.0,<16
 
 # --- Render del video vertical 9:16 (trae ffmpeg automático) ---
 moviepy>=2.1.2,<3.0

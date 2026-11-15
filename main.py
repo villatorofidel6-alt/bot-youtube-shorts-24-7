@@ -149,7 +149,11 @@ def discord_log(mensaje: str | None = None, embed: dict | None = None) -> None:
         peticion = urllib.request.Request(
             DISCORD_WEBHOOK,
             data=datos,
-            headers={"Content-Type": "application/json"},
+            headers={
+                "Content-Type": "application/json; charset=utf-8",
+                "User-Agent": "Mozilla/5.0 (compatible; BotYouTubeShorts/1.0)",
+                "Accept": "application/json",
+            },
         )
         urllib.request.urlopen(peticion, timeout=15)
     except Exception as error:
