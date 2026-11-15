@@ -1,11 +1,11 @@
 name: Bot YouTube Shorts 24/7
 
 on:
-  schedule:
-    # Cada 2 horas: 00:07, 02:07, 04:07, ... UTC (24 corridas/día)
-    # (hora México GMT-6: 18:07, 20:07, 22:07, ...)
-    - cron: "7 */2 * * *"
-  workflow_dispatch: {}   # permite lanzarlo a mano desde la pestaña Actions
+  # ⏸️ BOT APAGADO — el cron está desactivado a petición del dueño.
+  # Para ENCENDERLO: descomenta las 2 líneas del schedule y haz push.
+  # schedule:
+  #   - cron: "7 */2 * * *"
+  workflow_dispatch: {}   # lanzamiento manual desde la pestaña Actions
 
 # No solapar ejecuciones
 concurrency:
