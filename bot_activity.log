@@ -1,0 +1,117 @@
+2026-11-15 02:02:02 | INFO    | 📡 Latidos de Discord activos (cada 5 minutos).
+2026-11-15 02:02:02 | INFO    | ================================================================
+2026-11-15 02:02:02 | INFO    | 🤖 BOT AUTÓNOMO DE YOUTUBE SHORTS 24/7 — iniciado
+2026-11-15 02:02:02 | INFO    |    Lote: 5 videos | Pausa: 4.0-6.0 h | Video: 720x1280 @30fps
+2026-11-15 02:02:02 | INFO    |    Log: bot_activity.log | Voz: es-MX-JorgeNeural | Whisper: small
+2026-11-15 02:02:02 | INFO    | ================================================================
+2026-11-15 02:02:02 | DEBUG   | 📡 Discord no respondió: HTTP Error 403: Forbidden
+2026-11-15 02:02:03 | INFO    | ✅ Autenticación lista (token.pickle).
+2026-11-15 02:02:03 | INFO    | 📊 Histórico: 0 subidos | 0 generados
+2026-11-15 02:02:03 | INFO    | 📚 Cola vacía: toca fabricar un nuevo lote de videos.
+2026-11-15 02:02:03 | INFO    | ================================================================
+2026-11-15 02:02:03 | INFO    | 🏭 FASE DE PRODUCCIÓN MASIVA: generando 5 videos...
+2026-11-15 02:02:03 | INFO    | ================================================================
+2026-11-15 02:02:23 | INFO    | 🧠 Cargando faster-whisper (small) (la primera vez descarga el modelo, ten paciencia)...
+2026-11-15 02:02:32 | ERROR   | ❌ [1/5] Fallo generando el video: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-15 02:02:32 | DEBUG   | 
+Traceback (most recent call last):
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 732, in generar_lote
+    render_video(historia, destino)
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 647, in render_video
+    palabras = transcribir(ruta_voz)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 463, in transcribir
+    segmentos, _ = modelo.transcribe(
+                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/faster_whisper/audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-15 02:02:45 | ERROR   | ❌ [2/5] Fallo generando el video: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-15 02:02:45 | DEBUG   | 
+Traceback (most recent call last):
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 732, in generar_lote
+    render_video(historia, destino)
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 647, in render_video
+    palabras = transcribir(ruta_voz)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 463, in transcribir
+    segmentos, _ = modelo.transcribe(
+                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/faster_whisper/audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-15 02:02:58 | ERROR   | ❌ [3/5] Fallo generando el video: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-15 02:02:58 | DEBUG   | 
+Traceback (most recent call last):
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 732, in generar_lote
+    render_video(historia, destino)
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 647, in render_video
+    palabras = transcribir(ruta_voz)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 463, in transcribir
+    segmentos, _ = modelo.transcribe(
+                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/faster_whisper/audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-15 02:03:03 | ERROR   | ❌ [4/5] Fallo generando el video: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-15 02:03:03 | DEBUG   | 
+Traceback (most recent call last):
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 732, in generar_lote
+    render_video(historia, destino)
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 647, in render_video
+    palabras = transcribir(ruta_voz)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 463, in transcribir
+    segmentos, _ = modelo.transcribe(
+                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/faster_whisper/audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-15 02:03:09 | ERROR   | ❌ [5/5] Fallo generando el video: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-15 02:03:09 | DEBUG   | 
+Traceback (most recent call last):
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 732, in generar_lote
+    render_video(historia, destino)
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 647, in render_video
+    palabras = transcribir(ruta_voz)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bot-youtube-shorts-24-7/bot-youtube-shorts-24-7/main.py", line 463, in transcribir
+    segmentos, _ = modelo.transcribe(
+                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/faster_whisper/audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-15 02:03:09 | INFO    | 🏭 Lote terminado: 0/5 videos en /cola_videos
+2026-11-15 02:03:09 | DEBUG   | 📡 Discord no respondió: HTTP Error 403: Forbidden
+2026-11-15 02:03:09 | WARNING | ⚠️ El lote no produjo videos; se reintentará la próxima ejecución.
