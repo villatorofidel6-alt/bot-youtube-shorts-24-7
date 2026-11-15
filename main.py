@@ -579,7 +579,7 @@ def construir_subtitulos(palabras: list[dict]) -> list:
                      text_align="center", method="label", transparent=True)
             .with_duration(tarjeta["duracion"])
             .with_start(max(0.0, tarjeta["inicio"]))
-            .with_position(("center", int(ALTO * 0.62) + salto_y[i % 3]))
+            .with_position(("center", int(ALTO * 0.72) + salto_y[i % 3]))
         )
         clips.append(clip)
     return clips
