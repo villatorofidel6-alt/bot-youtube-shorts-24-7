@@ -510,38 +510,8 @@ def buscar_fuente() -> str:
     raise RuntimeError("No se encontró ninguna fuente .ttf. Define FUENTE_TTF.")
 
 
-def crear_fondo() -> np.ndarray:
-    """Fondo oscuro procedural: degradado + viñeta + grano (sin assets)."""
-    ancho, alto = ANCHO, ALTO
-    paletas = [
-        ((10, 14, 26), (26, 32, 56)),    # azul noche
-        ((18, 10, 12), (44, 16, 24)),    # rojo apagado
-        ((8, 16, 12), (18, 38, 28)),     # verde bosque
-        ((16, 10, 24), (36, 24, 58)),    # violeta
-    ]
-    (r1, g1, b1), (r2, g2, b2) = random.choice(paletas)
-    y = np.linspace(0.0, 1.0, alto, dtype=np.float32)[:, None, None]
-    base = (1.0 - y) * np.array([r1, g1, b1], np.float32) + y * np.array([r2, g2, b2], np.float32)
-    base = np.repeat(base, ancho, axis=1)
-
-    # viñeta radial
-    xx = np.linspace(-1, 1, ancho, dtype=np.float32)[None, :]
-    yy = np.linspace(-1, 1, alto, dtype=np.float32)[:, None]
-    dist = np.sqrt(xx * xx + yy * yy)
-    base *= (1.0 - 0.45 * np.clip(dist / 1.2, 0, 1))[..., None]
-
-    # grano de película
-    base += np.random.normal(0.0, 6.5, (alto, ancho, 1)).astype(np.float32)
-
-    # neblinas horizontales suaves
-    for _ in range(3):
-        centro = random.uniform(0.15, 0.85)
-        ancho_banda = random.uniform(0.04, 0.10)
-        yy2 = np.linspace(0, 1, alto, dtype=np.float32)[:, None, None]
-        banda = np.exp(-((yy2 - centro) ** 2) / (2 * ancho_banda ** 2))
-        base += banda * random.uniform(6, 14)
-
-    return np.clip(base, 0, 255).astype(np.uint8)
+# El fondo estático fue reemplazado por el motor de escenas animadas
+# procedurales del módulo escenas.py (ver sección de render).
 
 
 def agrupar_palabras(palabras: list[dict]) -> list[dict]:
@@ -609,7 +579,7 @@ def construir_subtitulos(palabras: list[dict]) -> list:
                      text_align="center", method="label", transparent=True)
             .with_duration(tarjeta["duracion"])
             .with_start(max(0.0, tarjeta["inicio"]))
-            .with_position(("center", int(ALTO * 0.40) + salto_y[i % 3]))
+            .with_position(("center", int(ALTO * 0.62) + salto_y[i % 3]))
         )
         clips.append(clip)
     return clips
@@ -637,7 +607,7 @@ def generar_dron(duracion: float, ruta_wav: Path) -> None:
 
 def render_video(historia: dict, ruta_salida: Path) -> None:
     from moviepy import (AudioFileClip, CompositeAudioClip, CompositeVideoClip,
-                         ImageClip, afx, vfx)
+                         afx, vfx)
 
     CARPETA_TEMP.mkdir(exist_ok=True)
     ruta_voz = CARPETA_TEMP / "voz.mp3"
@@ -660,12 +630,20 @@ def render_video(historia: dict, ruta_salida: Path) -> None:
             .with_effects([afx.MultiplyVolume(0.55), afx.AudioFadeOut(2.5)]))
     mezcla = CompositeAudioClip([voz, dron]).with_duration(total)
 
-    # 5) Fondo + etiqueta + subtítulos dinámicos
-    fondo = ImageClip(crear_fondo()).with_duration(total)
-    try:  # zoom lento de cámara (si falla, queda fondo estático)
-        fondo = fondo.with_effects([vfx.Resize(lambda t: 1.0 + 0.08 * (t / total))])
-    except Exception:
-        pass
+    # 5) Escenas animadas (calle/casa/bosque/tienda/parque) + cámara + fundidos
+    import escenas
+    escenas.configurar(ANCHO, ALTO, FPS)
+    tipos = escenas.elegir_escenas(historia)
+    log.info(f"🎨 Escenas animadas: {' + '.join(tipos)}")
+    dur_e = (total + 2 * escenas.DESVANECIMIENTO) / len(tipos)
+    partes = []
+    for i, tipo in enumerate(tipos):
+        clip = escenas.clip_escena(tipo, dur_e).with_start(
+            i * (dur_e - escenas.DESVANECIMIENTO))
+        if i > 0:
+            clip = clip.with_effects([vfx.CrossFadeIn(escenas.DESVANECIMIENTO)])
+        partes.append(clip)
+    fondo = CompositeVideoClip(partes).with_duration(total)
 
     from moviepy import TextClip
     etiqueta = (
@@ -759,7 +737,9 @@ def generar_lote(cantidad: int) -> int:
 # ------------------------------------------------------------------ #
 # 9. AUTENTICACIÓN OAuth 2.0 (client_secret.json -> token.pickle)
 # ------------------------------------------------------------------ #
-SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+# force-ssl: permite GESTIONAR videos (borrar). upload: subir. Ambas juntas cubren todo.
+SCOPES = ["https://www.googleapis.com/auth/youtube.upload",
+          "https://www.googleapis.com/auth/youtube.force-ssl"]
 
 
 def guardar_token(creds) -> None:
@@ -812,6 +792,45 @@ def crear_servicio(sin_navegador: bool = False):
     from googleapiclient.discovery import build
 
     return build("youtube", "v3", credentials=obtener_credenciales(sin_navegador))
+
+
+def borrar_todo_youtube() -> None:
+    """BORRA todos los videos que el bot subió a YouTube y vacía la cola local."""
+    from googleapiclient.errors import HttpError
+
+    estado = cargar_estado()
+    ids = dict(estado.get("subidos_ids", {}))
+    servicio = crear_servicio()
+
+    if not ids:
+        log.info("🗑️ No hay videos registrados como subidos en el estado.")
+    for nombre, vid in list(ids.items()):
+        try:
+            servicio.videos().delete(id=vid).execute()
+            log.info(f"🗑️ BORRADO de YouTube: https://youtube.com/shorts/{vid} ({nombre})")
+            estado["subidos_ids"].pop(nombre, None)
+        except HttpError as error:
+            motivo = razon_error(error) or str(error)
+            log.warning(f"⚠️ No se pudo borrar {vid}: {motivo}")
+            if "videoNotFound" in motivo or "forbidden" in motivo:
+                estado["subidos_ids"].pop(nombre, None)  # ya no existe: quitar del registro
+    estado["subidos_total"] = len(estado.get("subidos_ids", {}))
+
+    # Vaciar carpetas locales (cola, subidos, errores, temp)
+    borrados = 0
+    for carpeta in (CARPETA_COLA, CARPETA_SUBIDOS, CARPETA_ERRORES, CARPETA_TEMP):
+        if carpeta.exists():
+            for archivo in carpeta.iterdir():
+                try:
+                    archivo.unlink()
+                    borrados += 1
+                except Exception:
+                    pass
+    guardar_estado(estado)
+    log.info(f"🧹 Cola local vaciada ({borrados} archivos eliminados). "
+             f"Histórico subidos: {estado['subidos_total']}")
+    discord_log("🗑️ **Limpieza total** · videos borrados de YouTube y cola local vaciada. "
+                "A partir de ahora todo será **video animado** 🎬")
 
 
 # ------------------------------------------------------------------ #
@@ -1086,6 +1105,9 @@ def main() -> None:
     parser.add_argument("--sin-navegador", action="store_true",
                         help="no abre navegador para autenticar (CI); falla con mensaje "
                              "claro si el token está vencido")
+    parser.add_argument("--borrar-todos", action="store_true",
+                        help="BORRA todos los videos publicados por el bot en YouTube "
+                             "y vacía la cola local")
     args = parser.parse_args()
 
     log.info("=" * 64)
@@ -1106,6 +1128,10 @@ def main() -> None:
         if args.autorizar:
             crear_servicio()
             log.info("✅ Autenticación completada. Ya puedes dejar el bot en segundo plano.")
+            return
+
+        if args.borrar_todos:
+            borrar_todo_youtube()
             return
 
         # Validar autenticación ANTES del bucle (solo pide navegador la 1ª vez).
