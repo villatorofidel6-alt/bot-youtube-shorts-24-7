@@ -264,3 +264,42 @@ TypeError: open() got an unexpected keyword argument 'metadata_errors'
 2026-11-15 02:28:35 | INFO    | 🚀 PUBLICADO: https://youtube.com/shorts/r4tGO6OPMv8 (0m de subida) | Título: 'El pueblo de Roblox con más reglas que habitantes: Nueva Harbor ⚠️'
 2026-11-15 02:28:36 | INFO    | 📦 corto_20261115_021011_nueva-harbor.mp4 movido a /subidos
 2026-11-15 02:28:36 | INFO    | 🔁 Modo ciclo: video publicado y estado guardado (próxima subida en 5h 59m). Saliendo.
+2026-11-15 11:53:32 | INFO    | 📡 Latidos de Discord activos (cada 5 minutos).
+2026-11-15 11:53:32 | INFO    | ================================================================
+2026-11-15 11:53:32 | INFO    | 🤖 BOT AUTÓNOMO DE YOUTUBE SHORTS 24/7 — iniciado
+2026-11-15 11:53:32 | INFO    |    Lote: 5 videos | Pausa: 2.0-2.5 h | Video: 720x1280 @30fps
+2026-11-15 11:53:32 | INFO    |    Log: bot_activity.log | Voz: es-MX-JorgeNeural | Whisper: small
+2026-11-15 11:53:32 | INFO    | ================================================================
+2026-11-15 11:53:33 | INFO    | 💾 Sesión guardada en token.pickle (no se pedirá de nuevo).
+2026-11-15 11:53:33 | INFO    | ✅ Autenticación lista (token.pickle).
+2026-11-15 11:53:33 | INFO    | 📊 Histórico: 0 subidos | 0 generados
+2026-11-15 11:53:33 | INFO    | 📚 Cola vacía: toca fabricar un nuevo lote de videos.
+2026-11-15 11:53:33 | INFO    | ================================================================
+2026-11-15 11:53:33 | INFO    | 🏭 FASE DE PRODUCCIÓN MASIVA: generando 5 videos...
+2026-11-15 11:53:33 | INFO    | ================================================================
+2026-11-15 11:53:39 | INFO    | 🧠 Cargando faster-whisper (small) (la primera vez descarga el modelo, ten paciencia)...
+2026-11-15 11:53:56 | INFO    | 🎨 Escenas animadas: calle + bosque + casa
+2026-11-15 11:53:57 | INFO    | 🎬 Renderizando corto_20261115_115333_nueva-harbor.mp4 (137s @ 30fps, 720x1280)...
+2026-11-15 11:57:38 | INFO    | ✅ [1/5] corto_20261115_115333_nueva-harbor.mp4 listo en cola (4m de producción)
+2026-11-15 11:58:05 | INFO    | 🎨 Escenas animadas: calle + casa + parque
+2026-11-15 11:58:06 | INFO    | 🎬 Renderizando corto_20261115_115738_nueva-harbor.mp4 (129s @ 30fps, 720x1280)...
+2026-11-15 12:01:06 | INFO    | ✅ [2/5] corto_20261115_115738_nueva-harbor.mp4 listo en cola (3m de producción)
+2026-11-15 12:01:34 | INFO    | 🎨 Escenas animadas: calle + casa + parque
+2026-11-15 12:01:35 | INFO    | 🎬 Renderizando corto_20261115_120107_nueva-harbor.mp4 (130s @ 30fps, 720x1280)...
+2026-11-15 12:04:35 | INFO    | ✅ [3/5] corto_20261115_120107_nueva-harbor.mp4 listo en cola (3m de producción)
+2026-11-15 12:05:10 | INFO    | 🎨 Escenas animadas: calle + casa + cementerio
+2026-11-15 12:05:10 | INFO    | 🎬 Renderizando corto_20261115_120435_costa-rosa.mp4 (138s @ 30fps, 720x1280)...
+2026-11-15 12:08:19 | INFO    | ✅ [4/5] corto_20261115_120435_costa-rosa.mp4 listo en cola (3m de producción)
+2026-11-15 12:08:47 | INFO    | 🎨 Escenas animadas: calle + casa + sotano
+2026-11-15 12:08:48 | INFO    | 🎬 Renderizando corto_20261115_120819_brookhaven.mp4 (134s @ 30fps, 720x1280)...
+2026-11-15 12:11:46 | INFO    | ✅ [5/5] corto_20261115_120819_brookhaven.mp4 listo en cola (3m de producción)
+2026-11-15 12:11:47 | INFO    | 🏭 Lote terminado: 5/5 videos en /cola_videos
+2026-11-15 12:11:47 | INFO    | 🔁 Lote listo; continúo en este mismo ciclo con la subida del primero.
+2026-11-15 12:11:47 | INFO    | 🧾 Cola: 5 video(s). Siguiente: corto_20261115_115333_nueva-harbor.mp4
+2026-11-15 12:11:47 | INFO    | 📤 Subiendo a YouTube: corto_20261115_115333_nueva-harbor.mp4
+2026-11-15 12:11:48 | INFO    |    ⏫ Subida al 28%...
+2026-11-15 12:11:48 | INFO    |    ⏫ Subida al 57%...
+2026-11-15 12:11:48 | INFO    |    ⏫ Subida al 86%...
+2026-11-15 12:11:49 | INFO    | 🚀 PUBLICADO: https://youtube.com/shorts/C5jkf51nMe8 (0m de subida) | Título: 'NO entres a Nueva Harbor después de las 3:33 AM ⚠️ Roblox #shorts'
+2026-11-15 12:11:49 | INFO    | 📦 corto_20261115_115333_nueva-harbor.mp4 movido a /subidos
+2026-11-15 12:11:49 | INFO    | 🔁 Modo ciclo: video publicado y estado guardado (próxima subida en 2h 23m). Saliendo.
