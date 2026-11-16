@@ -7,6 +7,8 @@ import json
 import os
 import time
 import urllib.request
+import uuid
+from pathlib import Path
 
 WEBHOOK = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
 BOT_NAME = "Bot YouTube Shorts"
@@ -84,6 +86,63 @@ def video_listo(nombre, estilo, titulo, peso_mb, segundos):
         ("Peso", f"{peso_mb:.1f} MB", True),
         ("Producción", f"{segundos / 60:.1f} min", True),
     ], VERDE)
+
+
+def video_completo(nombre, estilo, titulo, ruta_video, peso_mb, segundos):
+    """Embed + el MP4 COMPLETO como adjunto de Discord (fallback a embed si pesa > 24 MB).
+
+    El video ya está seguro en la cola; este mensaje permite verlo entero
+    antes de que publicar.py lo suba a YouTube.
+    """
+    e = {"title": "🎬 Video terminado (100% completo)", "color": VERDE,
+         "footer": {"text": BOT_NAME},
+         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+         "fields": [
+             {"name": "Estilo", "value": str(estilo)[:256], "inline": True},
+             {"name": "Título", "value": str(titulo or "(sin título)")[:1000], "inline": False},
+             {"name": "Archivo", "value": f"`{nombre}`", "inline": True},
+             {"name": "Peso", "value": f"{peso_mb:.1f} MB", "inline": True},
+             {"name": "Producción", "value": f"{segundos / 60:.1f} min", "inline": True},
+             {"name": "Siguiente paso", "value": "En la cola; publicar lo sube a YouTube automáticamente", "inline": False},
+         ]}
+    if not WEBHOOK:
+        print("[discord] (sin webhook) video_completo: " + nombre)
+        return False
+    ruta = Path(ruta_video)
+    try:
+        tam = ruta.stat().st_size
+    except OSError:
+        tam = 0
+    if tam <= 0 or tam > 24 * 1024 * 1024:
+        e["fields"].append({"name": "Adjunto", "value": "demasiado pesado para Discord; ya está en la cola", "inline": False})
+        return _post({"username": BOT_NAME, "embeds": [e]})
+    payload = json.dumps({"username": BOT_NAME, "embeds": [e],
+                          "attachments": [{"id": 0, "filename": ruta.name}]},
+                         ensure_ascii=False).encode("utf-8")
+    frontera = "BotShorts" + uuid.uuid4().hex
+    partes = [
+        f"--{frontera}\r\nContent-Disposition: form-data; name=\"payload_json\"\r\nContent-Type: application/json\r\n\r\n".encode("utf-8"),
+        payload, b"\r\n",
+        f"--{frontera}\r\nContent-Disposition: form-data; name=\"files[0]\"; filename=\"{ruta.name}\"\r\nContent-Type: video/mp4\r\n\r\n".encode("utf-8"),
+        ruta.read_bytes(), b"\r\n",
+        f"--{frontera}--\r\n".encode("utf-8"),
+    ]
+    datos = b"".join(partes)
+    for i in range(2):
+        try:
+            peticion = urllib.request.Request(
+                WEBHOOK, data=datos,
+                headers={"Content-Type": f"multipart/form-data; boundary={frontera}",
+                         "User-Agent": "Mozilla/5.0 (compatible; BotShorts/2.0)"})
+            with urllib.request.urlopen(peticion, timeout=120) as r:
+                r.read()
+            return True
+        except Exception as ex:
+            print(f"[discord] intento {i + 1} (adjunto) fallo: {ex}")
+            time.sleep(3)
+    # último recurso: solo embed
+    e["fields"].append({"name": "Adjunto", "value": "falló la subida del archivo; ya está en la cola", "inline": False})
+    return _post({"username": BOT_NAME, "embeds": [e]})
 
 
 def produccion_viva(grupo, hechos, total, fallos, actual):

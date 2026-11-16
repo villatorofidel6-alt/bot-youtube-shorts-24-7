@@ -119,8 +119,8 @@ def main():
                 peso = mp4.stat().st_size / (1024 * 1024)
                 hechos += 1
                 contadores["hechos"] = hechos
-                discord.video_listo(mp4.name, estilo, tarjeta.get("titulo", ""),
-                                    peso, time.time() - t0)
+                discord.video_completo(mp4.name, estilo, tarjeta.get("titulo", ""),
+                                       mp4, peso, time.time() - t0)
             except Exception as err:
                 fallos += 1
                 contadores["fallos"] = fallos
