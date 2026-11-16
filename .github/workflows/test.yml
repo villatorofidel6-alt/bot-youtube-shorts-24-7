@@ -1,9 +1,0 @@
-name: test-minimo
-on:
-  workflow_dispatch: {}
-jobs:
-  hola:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Prueba
-        run: echo "El runner de Actions funciona"
