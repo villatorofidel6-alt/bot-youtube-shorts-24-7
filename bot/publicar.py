@@ -116,7 +116,7 @@ def main():
     ultimo = ""
     for intento in range(4):
         # los assets recién subidos tardan ~1 min en ser descargables (consistencia de GitHub)
-        r = _gh(["release", "download", "cola", objetivo, "-D", str(d)], timeout=900)
+        r = _gh(["release", "download", "cola", "-p", objetivo, "-D", str(d)], timeout=900)
         if ruta.exists() and ruta.stat().st_size > 0:
             break
         ultimo = (r.stderr or r.stdout or "(sin salida)").strip()[-300:]
@@ -126,7 +126,7 @@ def main():
         raise RuntimeError(f"la descarga del asset {objetivo} falló: {ultimo}")
     meta = {}
     if meta_nombre in nombres:
-        _gh(["release", "download", "cola", meta_nombre, "-D", str(d)], timeout=300)
+        _gh(["release", "download", "cola", "-p", meta_nombre, "-D", str(d)], timeout=300)
         ruta_meta = d / meta_nombre
         if ruta_meta.exists():
             meta = json.loads(ruta_meta.read_text(encoding="utf-8"))
