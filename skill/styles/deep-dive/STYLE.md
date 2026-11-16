@@ -32,11 +32,21 @@ estilo: `style-sheet.png` (regenérala abriendo `example/sheet.html` vía `node 
 | `core/sdf.js` | esculpido: `sphere, ellipsoid, capsule, rbox, torus, smin/smax/ssub, noise3`, `mesh(sdf, bounds, step, colorFn)` (surface nets → BufferGeometry suave con colores por vértice). Úsalo para cualquier órgano, objeto o pieza de set nuevo para que todo comparta el look de arcilla suave |
 | `core/human.js` | `new Human(look)`: `.group` (pies en y 0, mira a +z), `.pose({ spine, head, shL, elL, shR, elR, hipL, knL, hipR, knR, lid, look })` (grados; lid -0.4 abierto … 1 cerrado), `.walk(fase, amt)`, `.setBodyMaterial(m)` (rayos X), `.parts[0]` = torso (escálalo para respirar), `.spine` (engancha vísceras), `.hips.position.y` (sentado: 0,66 + caderas 88°, rodillas 88°) |
 | `core/sets.js` | `kitchen(E)`, `xrayStage(E)`, `vessel(E)` (`.update(t, camZ, co2, dark)`), `xrayMaterial(color)`, `insides()` → `{ group, stomach, heart, lungs }` |
+| `core/skeleton.js` | `new Skeleton()`: esqueleto completo de primitivas con la MISMA API de pose que Human (`.pose(q)`, `.walk(ph, amt)`); `.mano('L'|'R')` da la posición de la mano en mundo (para anclar la barra); `.brillo(v)` sube/baja el brillo del hueso (picos de esfuerzo). `barbell()`: barra con discos rojos. Va sobre el `xrayStage`: alterna visibilidad con el cuerpo x-ray (`SK.group.visible`, `BAR.visible`) |
 | `core/look2d.js` | capa 2D sobre el 3D: `caption`, `label(texto, x, y, tx, ty, scale)`, `pill(texto, x, y, scale, color)`, `warning(x, y, s)`, `blackout(k)` |
 | `src/shots.js` | el archivo por-video. `screen(vec3, cam)` da el punto 2D de un punto 3D (apunta etiquetas a órganos) |
 | `src/main.js` | renderiza el frame 3D al canvas oculto `#gl`, lo copia a `#cv`, luego 2D + subtítulos |
 
-## 4. Una toma
+## 4. Escenas del generador (params del plan)
+`hablando` {texto?} · `respira` {prof, ritmo, etiqueta?} · `corazon` {latido, etiqueta?} · `cerebro` {pulso, etiqueta?} ·
+`sangre` {co2, dark, etiqueta?} · `alarma` {etiqueta?} · `golpe` {periodo, fuerza, etiqueta?} · `dato` {numero, texto, ancla_x} ·
+`apagon` {etiqueta?} · `final` {etiqueta?} ·
+`esqueleto` {accion: quieto|camina|tiembla|cae, tropiezo?, impacto?, etiqueta?} — el esqueleto de cuerpo entero sobre el escenario x-ray;
+`cae` = desfallece y se desploma hacia atrás con rebote + sacudida de cámara en el impacto ·
+`pesas` {reps, fatiga: 0..1, etiqueta?} — el esqueleto hace press de barra (discos rojos): la barra sigue las manos de verdad
+(se lee la posición de la mano tras posar), contador de reps, pico de brillo del hueso en cada repetición y temblor+rojo con la fatiga.
+
+## 5. Una toma
 ```js
 add({ id: 'S03', at: cut(2), note: 'rayos X del pecho, pulmones llenos', draw(lt, d, t, blit) {
   reset(); lungs(1);                                                     // posa todo como función pura del tiempo
@@ -48,12 +58,12 @@ add({ id: 'S03', at: cut(2), note: 'rayos X del pecho, pulmones llenos', draw(lt
 Mantén las pills y etiquetas 2D fuera de los rostros (y 1150-1250 sobre el torso, o arriba en y 300 cuando la cabeza está
 baja en el frame).
 
-## 5. Velocidad de render
+## 6. Velocidad de render
 Los frames 3D son pesados sin tarjeta gráfica. En un ordenador normal con GPU renderiza a plena calidad. En una máquina
 sin ella (o un sandbox en la nube) renderiza con `SOFTWARE_GL=1 QS='&res=0.6&aa=0&shadow=1024' FPS=24` (≈2 s por frame,
 ~30 min para un short de 37 s) y comprueba con `sheet ... 1` (un frame por segundo) antes del render completo.
 
-## 6. Trampas de QA que ya sufrimos
+## 7. Trampas de QA que ya sufrimos
 - Una cámara dentro del cono de brillo de una luz lava el frame plano (los conos son mallas volumétricas): mantén las
   cámaras fuera de ellos.
 - Respaldos de asiento / objetos entre cámara y sujeto: mantén la cámara en espacio despejado (centro de un pasillo).

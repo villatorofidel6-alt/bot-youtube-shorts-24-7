@@ -32,7 +32,7 @@ BIBLIOTECAS = {
         'voces': ['em_alex', 'ef_dora', 'em_santa'],
     },
     'deep-dive': {
-        'escenas': ['hablando', 'respira', 'corazon', 'cerebro', 'sangre', 'alarma', 'golpe', 'dato', 'apagon', 'final'],
+        'escenas': ['hablando', 'respira', 'corazon', 'cerebro', 'sangre', 'alarma', 'golpe', 'dato', 'apagon', 'final', 'esqueleto', 'pesas'],
         'objetos': [],
         'voces': ['em_alex', 'ef_dora', 'em_santa'],
     },

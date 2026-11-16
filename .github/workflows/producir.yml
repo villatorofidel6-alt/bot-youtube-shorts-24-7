@@ -2,7 +2,16 @@ name: producir videos
 on:
   schedule:
     - cron: "0 */6 * * *"   # 4 ciclos/día: la cola nunca se queda vacía (0, 6, 12, 18 UTC)
-  workflow_dispatch: {}     # lanzamiento manual desde la pestaña Actions
+  workflow_dispatch:
+    inputs:
+      estilo:
+        description: "estilo único (opcional): inside-out, deep-dive, night-file, paper-atlas, stick-story, tall-tale"
+        required: false
+        default: ""
+      run:
+        description: "nº de run para la rotación de tarjetas (opcional)"
+        required: false
+        default: ""
 permissions:
   contents: write           # crea la release cola y sube los assets
 concurrency:
@@ -49,7 +58,19 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           GH_TOKEN: ${{ github.token }}
-        run: ~/.faceless-shorts/venv/bin/python bot/producir.py --grupo ${{ matrix.grupo }}
+        run: |
+          E="${{ inputs.estilo }}"
+          R="${{ inputs.run }}"
+          if [ -n "$E" ]; then
+            if [ "${{ matrix.grupo }}" = "prio" ]; then
+              ARGS="--estilo $E"; [ -n "$R" ] && ARGS="$ARGS --run $R"
+              ~/.faceless-shorts/venv/bin/python bot/producir.py $ARGS
+            else
+              echo "lanzamiento de un solo estilo: este job no produce"
+            fi
+          else
+            ~/.faceless-shorts/venv/bin/python bot/producir.py --grupo ${{ matrix.grupo }}
+          fi
 
       - name: Artefactos de diagnóstico (3 días)
         if: always()

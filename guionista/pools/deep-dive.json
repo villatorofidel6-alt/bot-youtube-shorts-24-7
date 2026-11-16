@@ -8,6 +8,386 @@
  "gap": 0.32,
  "tarjetas": [
   {
+   "id": "pesas1000",
+   "titulo": "¿Qué pasa si haces 1000 levantamientos de pesas?",
+   "meta_titulo": "¿1000 LEVANTAMIENTOS de pesas? Esto pasa dentro 💀🏋️",
+   "desc": "Mil repeticiones en un día: la fábrica de energía de tus fibras se queda sin moneda, el músculo se deshilacha y la rabdomiólisis entra en escena. Esto pasa dentro, rep por rep.",
+   "tags": [
+    "pesas",
+    "levantamiento de pesas",
+    "músculos",
+    "gym",
+    "qué pasa si",
+    "cuerpo humano",
+    "curiosidades",
+    "esqueleto"
+   ],
+   "fuentes": [
+    "La fuerza se construye en el descanso: la síntesis proteica muscular permanece elevada 24-48 h tras entrenar (Philp et al., 2005)",
+    "El entrenamiento extremo sin descanso puede provocar rabdomiólisis: CPK muy elevada y riesgo renal (Clínica Mayo)",
+    "Recomendación estándar ACSM: 2-3 sesiones por semana y por grupo muscular, 8-12 repeticiones"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa si haces mil levantamientos de pesas en un solo día?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Las primeras repeticiones son fáciles: quemas glucosa y listo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada contracción gasta ATP, la moneda de energía del músculo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Sobre la centésima, el ácido láctico ya quema por dentro.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "A las trescientas, las fibras rápidas dejan de responder.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El músculo se deshilacha: son microdesgarros diminutos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y si insistes, la proteína de las fibras se derrama a la sangre.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El cuerpo grita pare: es la rabdomiólisis, y es seria.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "A la mañana siguiente no puedes levantar los brazos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La fuerza de verdad se construye descansando, no reventando.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Mil de golpe te dejan una semana fuera: mejor cinco series de ocho.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La regla de oro: entrena fuerte, descansa más, repite.",
+     "pausa": 0.35
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "esqueleto",
+     "params": {
+      "accion": "camina",
+      "etiqueta": "MODO BESTIA",
+      "ancla_etiqueta": "levantamientos"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "texto": "GLUCOSA ⚡",
+      "ancla_texto": "glucosa"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "pesas",
+     "params": {
+      "reps": 3,
+      "etiqueta": "ATP ↑",
+      "ancla_etiqueta": "atp"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "corazon",
+     "params": {
+      "etiqueta": "ÁCIDO LÁCTICO",
+      "ancla_etiqueta": "quema"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "pesas",
+     "params": {
+      "reps": 4,
+      "fatiga": 0.3,
+      "etiqueta": "FIBRA RÁPIDA ✗",
+      "ancla_etiqueta": "fibras"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "esqueleto",
+     "params": {
+      "accion": "tiembla",
+      "etiqueta": "MICRODES GARROS",
+      "ancla_etiqueta": "microdesgarros"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "sangre",
+     "params": {
+      "co2": 0.2,
+      "dark": 0.55,
+      "etiqueta": "A LA SANGRE",
+      "ancla_etiqueta": "sangre"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "⚠ RABDOMIÓLISIS",
+      "ancla_etiqueta": "pare"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "esqueleto",
+     "params": {
+      "accion": "tiembla",
+      "etiqueta": "SIN FUERZA",
+      "ancla_etiqueta": "brazos"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "dato",
+     "params": {
+      "numero": "48 h",
+      "texto": "DE SÍNTESIS",
+      "ancla_x": "descansando"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "esqueleto",
+     "params": {
+      "accion": "cae",
+      "etiqueta": "FUERA 7 DÍAS",
+      "ancla_etiqueta": "semana"
+     }
+    },
+    {
+     "id": "T12",
+     "linea": 11,
+     "escena": "final",
+     "params": {
+      "etiqueta": "SERIES · DESCANSO · PROGRESO",
+      "ancla_etiqueta": "descansa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sarcopenia",
+   "titulo": "¿Qué pasa si nunca levantas peso?",
+   "meta_titulo": "¿NUNCA levantas PESO? Tu cuerpo lo paga 💀",
+   "desc": "Sin carga, el músculo y el hueso se apagan década a década: es la sarcopenia. Esto pasa dentro y cómo revertirlo a cualquier edad.",
+   "tags": [
+    "sarcopenia",
+    "músculos",
+    "huesos",
+    "envejecimiento",
+    "fuerza",
+    "qué pasa si",
+    "curiosidades",
+    "esqueleto"
+   ],
+   "fuentes": [
+    "Sarcopenia: pérdida de 3-8% de masa muscular por década después de los 30 (Volpi et al., J Appl Physiol 2004)",
+    "El entrenamiento de fuerza aumenta masa muscular y densidad ósea incluso a los 80+ años (Fiatarone et al., JAMA 1990)",
+    "La OMS recomienda entrenamiento de fuerza al menos 2 días por semana"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa si nunca levantas peso en tu vida?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "A partir de los treinta, pierdes músculo cada año.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Es la sarcopenia: el músculo se apaga poco a poco.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Sin estímulo, las fibras rápidas son las primeras en irse.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tus huesos también pierden densidad sin carga.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y la grasa se cuela dentro del músculo debilitado.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Subir escaleras se vuelve una tarea de verdad.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada caída pesa más cuando no hay músculo que te sostenga.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La buena noticia: la sarcopenia responde al entrenamiento.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "A cualquier edad, las fibras vuelven a crecer con carga.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Dos sesiones por semana ya cambian la curva.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tu esqueleto no pide gimnasio: pide cargar peso, hoy.",
+     "pausa": 0.35
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "esqueleto",
+     "params": {
+      "accion": "quieto",
+      "etiqueta": "TU ESQUELETO",
+      "ancla_etiqueta": "peso"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "texto": "MÚSCULO ↓",
+      "ancla_texto": "pierdes"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dato",
+     "params": {
+      "numero": "3-8%",
+      "texto": "POR DÉCADA",
+      "ancla_x": "apaga"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "esqueleto",
+     "params": {
+      "accion": "tiembla",
+      "etiqueta": "FIBRA RÁPIDA ✗",
+      "ancla_etiqueta": "fibras"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "esqueleto",
+     "params": {
+      "accion": "quieto",
+      "etiqueta": "HUESO DÉBIL",
+      "ancla_etiqueta": "huesos"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "GRASA DENTRO",
+      "ancla_etiqueta": "grasa"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "esqueleto",
+     "params": {
+      "accion": "tiembla",
+      "etiqueta": "ESCALERAS: MODO DIFÍCIL",
+      "ancla_etiqueta": "escaleras"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "esqueleto",
+     "params": {
+      "accion": "cae",
+      "etiqueta": "SIN RED",
+      "ancla_etiqueta": "pesa"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "texto": "RESPONDE ✓",
+      "ancla_texto": "entrenamiento"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "pesas",
+     "params": {
+      "reps": 3,
+      "etiqueta": "CARGA ✓",
+      "ancla_etiqueta": "carga"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "dato",
+     "params": {
+      "numero": "2×",
+      "texto": "POR SEMANA",
+      "ancla_x": "sesiones"
+     }
+    },
+    {
+     "id": "T12",
+     "linea": 11,
+     "escena": "final",
+     "params": {
+      "etiqueta": "CARGA PESO, HOY",
+      "ancla_etiqueta": "esqueleto"
+     }
+    }
+   ]
+  },
+  {
    "id": "aguantar",
    "titulo": "¿Qué pasa si aguantas la respiración?",
    "meta_titulo": "¿Aguantar la RESPIRACIÓN? Esto pasa dentro 🫁",
