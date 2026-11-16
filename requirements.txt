@@ -1,25 +1,10 @@
 # ============================================================
-# BOT AUTÓNOMO DE YOUTUBE SHORTS 24/7 — Dependencias
-# Instalar con:  pip install -r requirements.txt
+# BOT DE YOUTUBE SHORTS — dependencias del PUBLICADOR
+# (la subida a YouTube por OAuth es lo único que necesita pip;
+#  el entorno de voz/render lo construye skill/scripts/setup.sh)
 # ============================================================
 
-# --- API oficial de YouTube (subida con OAuth 2.0) ---
 google-api-python-client>=2.100.0
 google-auth>=2.23.0
 google-auth-oauthlib>=1.1.0
 google-auth-httplib2>=0.1.8
-
-# --- Voz en off neuronal (gratuita, Microsoft Edge TTS) ---
-edge-tts>=6.1.9
-
-# --- Subtítulos dinámicos con marcas de tiempo por palabra ---
-faster-whisper>=1.0.2
-# PyAV 16 rompió la API que usa faster-whisper para decodificar audio
-av>=13.0,<16
-
-# --- Render del video vertical 9:16 (trae ffmpeg automático) ---
-moviepy>=2.1.2,<3.0
-Pillow>=10.0.0
-
-# --- Procesamiento numérico (fondos, dron de audio, grano) ---
-numpy>=1.24.0

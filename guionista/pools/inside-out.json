@@ -1,0 +1,4349 @@
+{
+ "estilo": "inside-out",
+ "voz": "em_alex",
+ "velocidad": 1.0,
+ "musica": "bed",
+ "lead": 0.45,
+ "outro": 0.9,
+ "gap": 0.32,
+ "tarjetas": [
+  {
+   "id": "chicle",
+   "titulo": "¿Qué pasa si te tragas el chicle?",
+   "meta_titulo": "¿Qué pasa si te tragas el chicle? 😱",
+   "desc": "Te tragas un chicle sin querer… ¿se queda 7 años pegado en tu estómago? La respuesta real te va a sorprender.",
+   "tags": [
+    "chicle",
+    "estómago",
+    "cuerpo humano",
+    "qué pasa si",
+    "digestión",
+    "curiosidades médicas",
+    "salud"
+   ],
+   "fuentes": [
+    "Mayo Clinic: ¿el chicle se queda 7 años en el estómago? (la base del chicle no se digiere; pasa en días)",
+    "Milov et al., Pediatrics 1998: bezoares de goma de mascar (grandes cantidades pueden causar obstrucción)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa si te tragas el chicle?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Bueno, se desliza por tu garganta y cae en tu estómago,"
+    },
+    {
+     "texto": "donde el ácido entra en acción.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El azúcar se disuelve en segundos, pero la base del chicle aguanta.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "¿Siete años? Mito total.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tu cuerpo no puede romperla,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "así que viaja entera por tus intestinos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "En dos o tres días, fuera.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Tragar una de vez en cuando no hace nada,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "pero montones a la semana pueden atascar el tubo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Así que… escúpela.",
+     "pausa": 0.2
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "chicle",
+      "brazo": "mouth",
+      "cara": "chew",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "viaje",
+     "params": {
+      "objeto": "chicle",
+      "ancla_llegada": "estómago"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "estomago",
+     "params": {
+      "objeto": "chicle",
+      "ancla_acido": "ácido",
+      "acido": 1
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "estomago",
+     "params": {
+      "objeto": "chicle",
+      "etiqueta": "BASE DEL CHICLE",
+      "ancla_etiqueta": "base",
+      "acido": 0.6
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "mito",
+     "params": {
+      "numero": "7",
+      "texto": "AÑOS",
+      "ancla_x": "mito"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "estomago",
+     "params": {
+      "objeto": "chicle",
+      "acido": 0.3,
+      "etiqueta": "INDESTRUCTIBLE",
+      "ancla_etiqueta": "romperla"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "intestino",
+     "params": {
+      "objeto": "chicle"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "crono",
+     "params": {
+      "objeto": "chicle",
+      "dias": [
+       "DÍA 1",
+       "DÍA 2",
+       "DÍA 3"
+      ],
+      "ancla_salida": "fuera"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "brazo": "down",
+      "cejas": 0.1
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "lluvia",
+     "params": {
+      "objeto": "chicle",
+      "n": 14
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "ancla_sonrisa": "escúpela"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pila",
+   "titulo": "¿Qué pasa si te tragas una pila de botón?",
+   "meta_titulo": "¿Te tragas una pila de botón? ⚠️ URGENTE",
+   "desc": "Las pilas de botón son la emergencia de ingesta más seria en niños. Aquí está la química de por qué cada minuto cuenta.",
+   "tags": [
+    "pila de botón",
+    "emergencia",
+    "cuerpo humano",
+    "qué pasa si",
+    "seguridad",
+    "curiosidades médicas"
+   ],
+   "fuentes": [
+    "National Capital Poison Center: ingesta de pilas de botón (la descarga genera hidróxido en 2 horas)",
+    "Litovitz et al., Pediatrics 2010: 8648 ingestas de pilas de botón en EE. UU. (1997-2009); lesiones graves concentradas en pilas ≥15 mm"
+   ],
+   "lineas": [
+    {
+     "texto": "Si alguien se traga una pila de botón, es una emergencia.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Y no, no es por el contenido químico.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La pila genera corriente contra el tejido del esófago,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y esa corriente quema un agujero en dos horas.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Mira: la carga entra por un lado y sale por el otro,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "mientras el esófago queda en medio del circuito.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Por eso, la regla es correr al hospital,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "no esperar a que se vaya sola.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las pilas grandes, de quince milímetros o más,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "son las que se quedan atascadas con más facilidad.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Y guarda las pilas sueltas lejos de los niños.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "bateria",
+      "brazo": "mouth",
+      "cara": "smile",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "brazo": "hip",
+      "cejas": 0
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "viaje",
+     "params": {
+      "objeto": "bateria",
+      "ancla_llegada": "esófago"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "peligro",
+     "params": {
+      "objeto": "bateria",
+      "ancla_aviso": "quema",
+      "escala": 2.6
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "bateria",
+      "escala": 3.2,
+      "etiqueta": "CARGA",
+      "ancla_etiqueta": "carga"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "bloqueo",
+     "params": {
+      "objeto": "bateria",
+      "ancla_aviso": "circuito",
+      "etiqueta": "ESÓFAGO"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "final",
+     "params": {
+      "cara": "smirk",
+      "ancla_sonrisa": "hospital",
+      "etiqueta": "URGENCIAS",
+      "ancla_etiqueta": "hospital"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "brazo": "down",
+      "cejas": 0.4
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "bateria",
+      "escala": 3.4,
+      "etiqueta": "15 MM",
+      "ancla_etiqueta": "milímetros"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "peligro",
+     "params": {
+      "objeto": "bateria",
+      "ancla_aviso": "atascadas"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "cara": "grin",
+      "ancla_sonrisa": "niños"
+     }
+    }
+   ]
+  },
+  {
+   "id": "imanes",
+   "titulo": "¿Qué pasa si te tragas dos imanes?",
+   "meta_titulo": "¿Dos imanes dentro del cuerpo? 🧲 Peligro real",
+   "desc": "Un imán solo pasa. Dos imanes se buscan a través de tus intestinos… y ahí viene el problema.",
+   "tags": [
+    "imanes",
+    "intestino",
+    "qué pasa si",
+    "peligro",
+    "cuerpo humano",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "CPSC: advertencias sobre juguetes con imanes (ingestas múltiples causan perforaciones intestinales)",
+    "Boyle et al., NEJM 2019: 'Magnetic Foreign Bodies' (perforación por atracción trans-parietal de imanes)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Y si te tragas dos imanes? Aquí viene lo feo.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Un imán solo suele pasar sin problema,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "pero dos se buscan a través de la pared del intestino.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Se atan el uno al otro,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "y la pared queda atrapada en medio.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El tejido se exprime, pierde sangre, y muere.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Después viene un agujero, una infección,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y una cirugía de por medio.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Por eso los juguetes con bolitas magnéticas,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "están prohibidos en medio mundo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Dos imanes dentro de un cuerpo: nunca.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "iman",
+      "brazo": "mouth",
+      "cara": "smile",
+      "cejas": 0.4
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "viaje",
+     "params": {
+      "objeto": "iman",
+      "ancla_llegada": "pasar"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "bloqueo",
+     "params": {
+      "objeto": "iman",
+      "ancla_aviso": "pared",
+      "etiqueta": "SE BUSCAN"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "iman",
+      "escala": 3,
+      "etiqueta": "IMÁN 1 + IMÁN 2",
+      "ancla_etiqueta": "atan"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "peligro",
+     "params": {
+      "objeto": "iman",
+      "ancla_aviso": "medio",
+      "escala": 2.4
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "estomago",
+     "params": {
+      "objeto": "iman",
+      "acido": 0.8,
+      "etiqueta": "TEJIDO",
+      "ancla_etiqueta": "exprime"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "peligro",
+     "params": {
+      "objeto": "iman",
+      "ancla_aviso": "agujero"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "final",
+     "params": {
+      "cara": "smirk",
+      "ancla_sonrisa": "cirugía"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "objeto": "iman",
+      "cara": "flat",
+      "brazo": "down",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "mito",
+     "params": {
+      "numero": "0",
+      "texto": "IMANES",
+      "ancla_x": "prohibidos"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "cara": "grin",
+      "ancla_sonrisa": "nunca"
+     }
+    }
+   ]
+  },
+  {
+   "id": "moneda",
+   "titulo": "¿Qué pasa si te tragas una moneda?",
+   "meta_titulo": "¿Te tragas una moneda? 🪙 Esto pasa en tu cuerpo",
+   "desc": "Una moneda entra al estómago… ¿sale sola o se queda? Los pediatras cronometraron lo que pasa.",
+   "tags": [
+    "moneda",
+    "estómago",
+    "qué pasa si",
+    "cuerpo humano",
+    "digestión",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Cincinnati Children's Hospital Medical Center: ingestas de monedas (la mayoría pasa en 2-11 días)",
+    "Sazuka et al., Pediatr Int 2017: manejo de monedas ingeridas en niños (observación con radiografías de seguimiento)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Te tragaste una moneda? Respira.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Si llegó al estómago sin atascarse en la garganta,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "lo más probable es que pase sola.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Tu estómago la rodea de ácido,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "y el zinc empieza a disolverse poquito a poco.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Pero antes, viaja: estómago, intestino delgado,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "intestino grueso… una jornada de dos a once días.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El peligro solo es que se clave en la garganta,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "o que bloquee el paso en algún codo estrecho.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Por eso los médicos hacen radiografías de control.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Casi siempre: paciencia y esperarla.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "moneda",
+      "brazo": "mouth",
+      "cara": "o",
+      "ojos": "wide",
+      "cejas": 0.5
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "smile",
+      "brazo": "down",
+      "cejas": 0.1
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "viaje",
+     "params": {
+      "objeto": "moneda",
+      "ancla_llegada": "sola"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "estomago",
+     "params": {
+      "objeto": "moneda",
+      "acido": 1,
+      "etiqueta": "ZINC",
+      "ancla_etiqueta": "ácido"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "estomago",
+     "params": {
+      "objeto": "moneda",
+      "acido": 1,
+      "ancla_acido": "disolverse"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "intestino",
+     "params": {
+      "objeto": "moneda"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "crono",
+     "params": {
+      "objeto": "moneda",
+      "dias": [
+       "DÍA 2",
+       "DÍA 6",
+       "DÍA 11"
+      ],
+      "ancla_salida": "once"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "peligro",
+     "params": {
+      "objeto": "moneda",
+      "ancla_aviso": "clave",
+      "escala": 2.4
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "bloqueo",
+     "params": {
+      "objeto": "moneda",
+      "ancla_aviso": "bloquee"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "reloj",
+      "escala": 2.6,
+      "etiqueta": "CONTROL",
+      "ancla_etiqueta": "radiografías"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "cara": "grin",
+      "ancla_sonrisa": "paciencia"
+     }
+    }
+   ]
+  },
+  {
+   "id": "semillas",
+   "titulo": "¿Qué pasa si masticas semillas de manzana?",
+   "meta_titulo": "¿Semillas de manzana tóxicas? 🍎 La dosis real",
+   "desc": "Las semillas de manzana contienen amigdalina, que libera cianuro. ¿Cuántas necesitarías masticar para que pase algo?",
+   "tags": [
+    "semillas de manzana",
+    "amigdalina",
+    "cianuro",
+    "qué pasa si",
+    "toxicología",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Agency for Toxic Substances and Disease Registry (ATSDR): amigdalina en huesos y semillas de frutas",
+    "Centros de control de envenenamiento (EE. UU.): las semillas enteras pasan sin liberar cianuro; habría que masticar cientos"
+   ],
+   "lineas": [
+    {
+     "texto": "Las semillas de manzana esconden cianuro.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Bueno, casi: esconden amigdalina,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "un compuesto que se rompe en cianuro al masticarlas.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Si las tragas enteras, nada pasa,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "la cáscara dura pasa de largo sin abrirse.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Pero si las masticas, ahí sí se libera.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Tu cuerpo lo limpia en dosis pequeñas,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y necesitarías cientos de semillas masticadas de golpe,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "para llegar a una dosis peligrosa.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Así que una manzana entera con todo y semillas,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "spicy, pero no mortal.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "pastilla",
+      "brazo": "mouth",
+      "cara": "chew",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "brazo": "point",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "estomago",
+     "params": {
+      "objeto": "pastilla",
+      "acido": 1,
+      "ancla_acido": "cianuro",
+      "etiqueta": "CIANURO",
+      "ancla_etiqueta": "cianuro"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "cara": "smile",
+      "brazo": "down"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "intestino",
+     "params": {
+      "objeto": "pastilla"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "estomago",
+     "params": {
+      "objeto": "pastilla",
+      "acido": 1,
+      "ancla_acido": "libera"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 2.8,
+      "etiqueta": "HÍGADO",
+      "ancla_etiqueta": "limpia"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "lluvia",
+     "params": {
+      "objeto": "pastilla",
+      "n": 16,
+      "nota": "cientos de semillas"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "mito",
+     "params": {
+      "numero": "0",
+      "texto": "MUERTES",
+      "ancla_x": "peligrosa"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "cara": "grin",
+      "ancla_sonrisa": "mortal"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pelo",
+   "titulo": "¿Qué pasa si comes tu pelo?",
+   "meta_titulo": "¿Comer pelo? Esto pasa dentro del estómago 😨",
+   "desc": "La tricofagia es real y el estómago no digiere el pelo. Con los años, se forma una bola: el síndrome de Rapunzel.",
+   "tags": [
+    "tricobezoar",
+    "síndrome de Rapunzel",
+    "pelo",
+    "estómago",
+    "qué pasa si",
+    "curiosidades médicas"
+   ],
+   "fuentes": [
+    "Gyawali et al., Int J Surg Case Rep 2015: síndrome de Rapunzel (tricobezoar con cola hacia el intestino)",
+    "Mayo Clinic: tricobezoar (bola de pelo en el estómago; no se digiere)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Y si comes tu propio pelo? Se acumula.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El estómago no tiene tijeras para cortarlo,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y el ácido no lo disuelve: es proteína enrollada.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Trago a trago, los pelos se enredan,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "y se van formando una bola negra y brillante.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Los médicos la llaman tricobezoar.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La bola crece, toma la forma del estómago,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y hasta deja una cola por los intestinos.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Eso ya tiene nombre: síndrome de Rapunzel.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Ya no cabe comida, duele, y hay que operar.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Moraleja: el pelo, afuera del plato.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "pelo",
+      "brazo": "mouth",
+      "cara": "smile",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "estomago",
+     "params": {
+      "objeto": "pelo",
+      "acido": 0.5,
+      "etiqueta": "SIN TIJERAS",
+      "ancla_etiqueta": "tijeras"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "estomago",
+     "params": {
+      "objeto": "pelo",
+      "acido": 0.5,
+      "ancla_acido": "disuelve"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "lluvia",
+     "params": {
+      "objeto": "pelo",
+      "n": 12,
+      "nota": "trago a trago"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "estomago",
+     "params": {
+      "objeto": "pelo",
+      "acido": 0.3,
+      "etiqueta": "BOLA",
+      "ancla_etiqueta": "bola"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "pelo",
+      "escala": 3,
+      "etiqueta": "TRICOBEZOAR",
+      "ancla_etiqueta": "tricobezoar"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "estomago",
+     "params": {
+      "objeto": "pelo",
+      "acido": 0.2,
+      "escala": 4,
+      "ancla_acido": "forma"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "intestino",
+     "params": {
+      "objeto": "pelo"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "nota",
+      "escala": 2.4,
+      "etiqueta": "SÍNDROME DE RAPUNZEL",
+      "ancla_etiqueta": "rapunzel"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "peligro",
+     "params": {
+      "objeto": "pelo",
+      "ancla_aviso": "operar"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "cara": "grin",
+      "ancla_sonrisa": "plato"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hielo",
+   "titulo": "¿Qué pasa si comes hielo todos los días?",
+   "meta_titulo": "¿Comer hielo todos los días? 🧊 Señal oculta",
+   "desc": "Mastica hielo a diario puede ser señal de anemia ferropénica: la pagofagia. Y tus dientes pagan la factura.",
+   "tags": [
+    "hielo",
+    "pagofagia",
+    "anemia",
+    "dientes",
+    "qué pasa si",
+    "salud"
+   ],
+   "fuentes": [
+    "Mayo Clinic: pagofagia (deseo compulsivo de hielo; señal clásica de deficiencia de hierro)",
+    "American Dental Association: masticar hielo fractura esmalte y dientes"
+   ],
+   "lineas": [
+    {
+     "texto": "Comer hielo todos los días dice dos cosas.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Una: tu esmalte dental sufre cada mordida.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El hielo es duro, y el esmalte no se regenera.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Cada grieta que aparece ya no vuelve.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Dos, y esta es rara,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "el hielo crónico puede ser señal de anemia.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Se llama pagofagia, y sin hierro suficiente,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "el cerebro pide hielo de forma misteriosa.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cuando te tratan la anemia, el antojo desaparece.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Así que si te hinchas el vaso de hielo a diario,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "pide un análisis de sangre.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "gota",
+      "brazo": "mouth",
+      "cara": "chew",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "brazo": "point",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 3,
+      "etiqueta": "ESMALTE",
+      "ancla_etiqueta": "esmalte"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "peligro",
+     "params": {
+      "objeto": "gota",
+      "ancla_aviso": "vuelve",
+      "escala": 2.4
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.4
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "etiqueta": "ANEMIA",
+      "ancla_etiqueta": "anemia"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "pagofagia"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "brazo": "hip"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "etiqueta": "SIN ANTOJO",
+      "ancla_etiqueta": "desaparece"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "objeto": "gota",
+      "cara": "flat",
+      "brazo": "down"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "ANÁLISIS",
+      "ancla_etiqueta": "sangre",
+      "ancla_sonrisa": "sangre"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sal",
+   "titulo": "¿Qué pasa si comes una cucharada de sal?",
+   "meta_titulo": "¿Una cucharada de sal de golpe? 🧂 Peligro real",
+   "desc": "El desafío de la canela y la sal tiene una base médica seria: la hipernatremia. Esto pasa en tu sangre.",
+   "tags": [
+    "sal",
+    "hipernatremia",
+    "sodio",
+    "desafíos",
+    "qué pasa si",
+    "toxicología"
+   ],
+   "fuentes": [
+    "Estudios de caso de hipernatremia por sal ingerida en una sola dosis (Clinical Toxicology, 2005)",
+    "NIH / MedlinePlus: hipernatremia (sodio sérico alto); dosis tóxica aproximada 0.5-1 g de sodio por kg"
+   ],
+   "lineas": [
+    {
+     "texto": "Una cucharada de sal de golpe no es un reto.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Son diecisiete gramos de sodio en un trago.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tu sangre hace algo raro: se vuelve salada.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Y ahora, la física juega en tu contra.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El agua de tus células sale hacia la sangre,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "para diluir todo ese sodio.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las neuronas se deshidratan primero,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "confusión, convulsiones, coma.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "En niños, con cuerpos pequeños,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "la dosis letal es de medio a un gramo por kilo.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "La sal, poco a poco y con agua.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "nota",
+      "brazo": "mouth",
+      "cara": "smile",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "nota",
+      "escala": 2.8,
+      "etiqueta": "17 G DE SODIO",
+      "ancla_etiqueta": "sodio"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "estomago",
+     "params": {
+      "objeto": "nota",
+      "acido": 0.8,
+      "etiqueta": "SALADA",
+      "ancla_etiqueta": "salada"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "brazo": "point",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "etiqueta": "SALIDA",
+      "ancla_etiqueta": "sale"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "diluir"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "peligro",
+     "params": {
+      "objeto": "nota",
+      "ancla_aviso": "deshidratan",
+      "escala": 2.2
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "convulsiones"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.4
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "mito",
+     "params": {
+      "numero": "0.5",
+      "texto": "G / KG",
+      "ancla_x": "kilo"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "CON AGUA",
+      "ancla_etiqueta": "agua",
+      "ancla_sonrisa": "agua"
+     }
+    }
+   ]
+  },
+  {
+   "id": "agua",
+   "titulo": "¿Qué pasa si bebes 6 litros de agua rápido?",
+   "meta_titulo": "¿6 litros de agua de golpe? 💧 Peligro oculto",
+   "desc": "El agua no puede hacer daño… hasta que puede. La hiponatremia por agua es real y acaba con atletas.",
+   "tags": [
+    "intoxicación por agua",
+    "hiponatremia",
+    "hidratación",
+    "qué pasa si",
+    "salud",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Almond & Shin, NEJM 2005: hiponatremia en maratonistas (13% de los corredores del Boston Marathon)",
+    "Mayo Clinic: intoxicación por agua (los riñones filtran ~0.8-1 L por hora)"
+   ],
+   "lineas": [
+    {
+     "texto": "Beberte seis litros de agua rápido puede matarte.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "¿El agua? Sí, y hay nombres reales en la lista.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tus riñones filtran como un litro por hora,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y si le echan más de esa cuenta,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "el agua queda en la sangre.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La sangre se diluye, y las células se hinchan.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Las neuronas primero: mareo, confusión,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "convulsiones en el peor caso.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "En el Boston Marathon del 2002,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "trece por ciento de los corredores llegó hidratado de más.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Bebe con sed, no con miedo.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "gota",
+      "brazo": "mouth",
+      "cara": "o",
+      "ojos": "wide",
+      "cejas": 0.5
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 2.6,
+      "etiqueta": "1 L / HORA",
+      "ancla_etiqueta": "hora"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "brazo": "hip",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "estomago",
+     "params": {
+      "objeto": "gota",
+      "acido": 0.2,
+      "escala": 2.6,
+      "etiqueta": "EN SANGRE",
+      "ancla_etiqueta": "sangre"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "hinchan"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "peligro",
+     "params": {
+      "objeto": "gota",
+      "ancla_aviso": "mareo",
+      "escala": 2.2
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "peligro",
+     "params": {
+      "objeto": "gota",
+      "ancla_aviso": "convulsiones"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "mito",
+     "params": {
+      "numero": "13",
+      "texto": "DE MÁS",
+      "ancla_x": "marathon"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "cara": "grin",
+      "ancla_sonrisa": "sed"
+     }
+    }
+   ]
+  },
+  {
+   "id": "cafe",
+   "titulo": "¿Qué pasa si bebes 10 cafés en un día?",
+   "meta_titulo": "¿10 cafés en un día? ☕ Esto hace tu corazón",
+   "desc": "400 mg de cafeína al día es el límite adulto seguro. Diez cafés son el doble… y tu cuerpo te avisa.",
+   "tags": [
+    "cafeína",
+    "café",
+    "taquicardia",
+    "qué pasa si",
+    "salud",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "FDA: 400 mg de cafeína al día es la dosis diaria segura para adultos sanos",
+    "Mayo Clinic: exceso de cafeína (taquicardia, ansiedad, temblores, insomnio)"
+   ],
+   "lineas": [
+    {
+     "texto": "Diez cafés en un día: esto pasa adentro.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Un café trae unos noventa miligramos de cafeína,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y diez cafés son novecientos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La dosis adulta segura es cuatrocientos.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "La cafeína engaña a tu cerebro,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "tapa los sensores de sueño,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y el cuerpo responde con adrenalina.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Corazón acelerado, manos temblando,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "ansiedad incluida.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y cuando la tapa se cae,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "el bajón, con el sueño acumulado de vuelta.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "gota",
+      "brazo": "mouth",
+      "cara": "smile",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 2.6,
+      "etiqueta": "90 MG",
+      "ancla_etiqueta": "miligramos"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "nota",
+      "escala": 2.6,
+      "etiqueta": "900 MG",
+      "ancla_etiqueta": "novecientos"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "mito",
+     "params": {
+      "numero": "400",
+      "texto": "MG / DÍA",
+      "ancla_x": "cuatrocientos"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "etiqueta": "ADENOSINA",
+      "ancla_etiqueta": "cerebro"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "tapa"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "organo",
+     "params": {
+      "organo": "corazon",
+      "ancla_levantar": "adrenalina"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "brazo": "wave",
+      "cejas": 0.5
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "cara": "grin",
+      "ancla_sonrisa": "bajón"
+     }
+    }
+   ]
+  },
+  {
+   "id": "corazon-dia",
+   "titulo": "¿Cuántas veces late tu corazón en un día?",
+   "meta_titulo": "Tu corazón late 100.000 veces al día ❤️ Los números",
+   "desc": "Un músculo del tamaño de tu puño bombea unos 7.000 litros de sangre al día sin descanso. Los números del corazón.",
+   "tags": [
+    "corazón",
+    "latidos",
+    "cuerpo humano",
+    "curiosidades",
+    "salud",
+    "qué pasa si"
+   ],
+   "fuentes": [
+    "Cleveland Clinic: el corazón late 60-100 veces por minuto; ~100.000 latidos al día",
+    "Fundación del corazón: ~7.500 litros de sangre bombeados al día"
+   ],
+   "lineas": [
+    {
+     "texto": "Tu corazón late cien mil veces al día.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Un músculo del tamaño de tu puño,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "que no para ni una vez en toda tu vida.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Cada latido empuja unos setenta mililitros,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "o sea, unos cinco litros cada minuto.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Y aquí viene lo loco,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "cuando corres, entrega el triple o el cuádruple.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El corazón tiene su propia red eléctrica,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "por eso late aunque el cerebro no le hable.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y de noche baja a cincuenta latidos,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "modo ahorro de energía.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "organo",
+     "params": {
+      "organo": "corazon",
+      "etiqueta": "100.000 / DÍA",
+      "ancla_etiqueta": "cien"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "organo",
+     "params": {
+      "organo": "corazon",
+      "ancla_levantar": "puño"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "organo",
+     "params": {
+      "organo": "corazon",
+      "ancla_levantar": "vida"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 2.6,
+      "etiqueta": "70 ML",
+      "ancla_etiqueta": "setenta"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "nota",
+      "escala": 2.6,
+      "etiqueta": "5 L / MIN",
+      "ancla_etiqueta": "litros"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.4
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "organo",
+     "params": {
+      "organo": "corazon",
+      "ancla_levantar": "corres"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "organo",
+     "params": {
+      "organo": "corazon",
+      "etiqueta": "RED ELÉCTRICA",
+      "ancla_etiqueta": "eléctrica"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "cerebro"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "organo",
+     "params": {
+      "organo": "corazon",
+      "ancla_levantar": "noche"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "MODO AHORRO",
+      "ancla_etiqueta": "ahorro",
+      "ancla_sonrisa": "ahorro"
+     }
+    }
+   ]
+  },
+  {
+   "id": "no-dormir",
+   "titulo": "¿Qué pasa si no duermes nada?",
+   "meta_titulo": "¿No dormir NADA? Esto pasa en tu cerebro 😴",
+   "desc": "El récord real es de once días despierto. Esto es lo que pasa a tu cerebro hora por hora sin sueño.",
+   "tags": [
+    "insomnio",
+    "no dormir",
+    "privación de sueño",
+    "cerebro",
+    "qué pasa si",
+    "salud",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Dement, Stanford 1965: Randy Gardner pasó 11 días despierto (caso documentado de privación extrema)",
+    "Dawson & Reid, Nature 1997: estar despierto 17-19 horas degrada la atención como 0.5-1.0 g/L de alcohol"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa si no duermes ni un segundo?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El primer día: cansancio, mal genio, y párpados pesados.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "A las diecisiete horas despierto,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "tu cerebro rinde como con medio litro de alcohol.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Está medido: la atención se derrumba igual.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Al segundo día, la memoria empieza a fallar,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y el cuerpo mete microsueños sin avisar.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "A los tres días, llegan las alucinaciones.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El récord real es de once días despierto,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y al final, el sueño te gana: el cerebro apaga todo.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "No hay truco: el sueño no se negocia.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "reloj",
+      "brazo": "mouth",
+      "cara": "smile",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "reloj",
+      "escala": 2.6,
+      "etiqueta": "17 H",
+      "ancla_etiqueta": "horas"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "etiqueta": "0.5 G / L",
+      "ancla_etiqueta": "alcohol"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "memoria"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "etiqueta": "MICROSUEÑOS",
+      "ancla_etiqueta": "microsueños"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "peligro",
+     "params": {
+      "objeto": "nota",
+      "ancla_aviso": "alucinaciones"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "crono",
+     "params": {
+      "objeto": "reloj",
+      "dias": [
+       "DÍA 3",
+       "DÍA 7",
+       "DÍA 11"
+      ],
+      "ancla_salida": "once"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "apaga"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "DORMIR",
+      "ancla_etiqueta": "sueño",
+      "ancla_sonrisa": "truco"
+     }
+    }
+   ]
+  },
+  {
+   "id": "estornudo",
+   "titulo": "¿Qué pasa cuando estornudas?",
+   "meta_titulo": "El estornudo es un MISIL 🤧 Los números reales",
+   "desc": "Cuarenta mil gotas a cien por hora: el estornudo es un misil. Y reprimirlo puede romper tu garganta.",
+   "tags": [
+    "estornudo",
+    "nariz",
+    "cuerpo humano",
+    "qué pasa si",
+    "salud",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "BMJ Case Reports 2018: reprimir un estornudo (nariz cerrada) rompió la faringe de un hombre por la presión",
+    "Estudios de aerodinámica del estornudo: decenas de miles de gotas por estornudo, ráfagas de más de 100 km/h"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa cuando estornudas? Es un misil.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Tu nariz detecta un irritante, y el cerebro lanza el reflejo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El aire sale en ráfagas de más de cien por hora,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y arrasa con todo lo que encuentra.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Un estornudo dispara hasta cuarenta mil gotas,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "que vuelan dos metros sin esfuerzo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Por eso, reprimirlo es una mala idea,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "el aire no tiene salida y busca grietas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Ha habido faringes rotas por aguantar un estornudo.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "La regla: estornuda hacia el codo,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "y deja que el misil salga.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "cara": "o",
+      "ojos": "wide",
+      "cejas": 0.5
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "cerebro"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 2.8,
+      "etiqueta": "100 KM / H",
+      "ancla_etiqueta": "cien"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 3.4,
+      "etiqueta": "40.000 GOTAS",
+      "ancla_etiqueta": "mil"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 2.4,
+      "etiqueta": "2 M",
+      "ancla_etiqueta": "metros"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "peligro",
+     "params": {
+      "objeto": "gota",
+      "ancla_aviso": "grietas"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "peligro",
+     "params": {
+      "objeto": "gota",
+      "ancla_aviso": "rotas"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "brazo": "point",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "ancla_sonrisa": "misil"
+     }
+    }
+   ]
+  },
+  {
+   "id": "eructos",
+   "titulo": "¿Por qué eructas?",
+   "meta_titulo": "¿Por qué eructas? 🫧 La física del aire que tragas",
+   "desc": "Tragas aire todo el día sin saberlo. Cuando aprieta, tu estómago abre una válvula. Aguantarlo no lo borra.",
+   "tags": [
+    "eructos",
+    "estómago",
+    "gases",
+    "digestión",
+    "qué pasa si",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Cleveland Clinic: el eructo expulsa el aire deglutido; eructar 20-30 veces al día es normal",
+    "Fisiología digestiva: el gas que no sale por arriba pasa al intestino y sale por abajo"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué eructas? Es un aire que pidió vuelta.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Cada vez que comes o hablas, tragas aire también.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Ese aire baja con la comida y llena el estómago.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cuando la presión aprieta, el cuerpo abre la válvula,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "el aire sube y sale con sonido.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "¿Y si lo aguantas? El gas no desaparece,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "o se reabsorbe en la sangre,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "o viaja al intestino y sale por el otro lado.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Eructar veinte veces al día es normal,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "así que no lo aguantes: es solo aire.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tu estómago te lo agradece.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "gota",
+      "brazo": "mouth",
+      "cara": "o",
+      "cejas": 0.4
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "smile",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "viaje",
+     "params": {
+      "objeto": "gota",
+      "ancla_llegada": "estómago"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "estomago",
+     "params": {
+      "objeto": "gota",
+      "acido": 0.4,
+      "etiqueta": "PRESIÓN",
+      "ancla_etiqueta": "presión"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "estomago",
+     "params": {
+      "objeto": "gota",
+      "acido": 0.3,
+      "ancla_acido": "sube"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "peligro",
+     "params": {
+      "objeto": "gota",
+      "ancla_aviso": "sangre"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "intestino",
+     "params": {
+      "objeto": "gota"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "SOLO AIRE",
+      "ancla_etiqueta": "aire",
+      "ancla_sonrisa": "aire"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "cara": "grin",
+      "ancla_sonrisa": "agradece"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sol",
+   "titulo": "¿Qué pasa si te la vives al sol?",
+   "meta_titulo": "¿Demasiado sol? Tu piel lleva la cuenta ☀️",
+   "desc": "El sol rompe tu ADN quemadura a quemadura, y la piel no olvida. La cuenta se cobra años después.",
+   "tags": [
+    "sol",
+    "quemadura",
+    "melanoma",
+    "piel",
+    "qué pasa si",
+    "salud",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "OMS / IARC: la radiación UV es carcinógeno del grupo 1 (causa cáncer de piel)",
+    "Academia Americana de Dermatología: una quemadura con ampollas antes de los 20 años casi duplica el riesgo de melanoma"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa si te la vives al sol? Tu piel lleva la cuenta.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Los rayos UV pegan directo en las células de la piel,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y rompen su ADN poquito a poquito.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La primera quemadura es una señal de alarma,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "la piel manda sangre al rescate y se pone roja.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada quemadura con ampollas suma al historial,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "una sola antes de los veinte casi duplica el riesgo de melanoma.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El bronceado, en realidad, es la piel defendiéndose,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "es tinta de emergencia contra más UV.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El daño se acumula para siempre: la piel no olvida.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Protector cada dos horas, sombra al mediodía.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "cara": "smile",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "texto": "UV!",
+      "ancla_texto": "uv",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "peligro",
+     "params": {
+      "objeto": "nota",
+      "ancla_aviso": "adn"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.4
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 2.8,
+      "etiqueta": "SANGRE",
+      "ancla_etiqueta": "sangre"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "peligro",
+     "params": {
+      "objeto": "nota",
+      "ancla_aviso": "ampollas"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "mito",
+     "params": {
+      "numero": "2",
+      "texto": "X RIESGO",
+      "ancla_x": "riesgo"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "peligro",
+     "params": {
+      "objeto": "nota",
+      "ancla_aviso": "olvida"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "SPF 30",
+      "ancla_etiqueta": "protector",
+      "ancla_sonrisa": "sombra"
+     }
+    }
+   ]
+  },
+  {
+   "id": "volumen",
+   "titulo": "¿Por qué todo suena apagado tras un concierto?",
+   "meta_titulo": "Tu oído pierde células PARA SIEMPRE 🎧 El límite",
+   "desc": "Las células del oído no crecen de nuevo. Cada zumbido de concierto es una fila perdida para siempre.",
+   "tags": [
+    "oído",
+    "decibeles",
+    "audición",
+    "conciertos",
+    "qué pasa si",
+    "salud",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "OMS: más de 1.000 millones de jóvenes en riesgo de pérdida auditiva por prácticas de escucha inseguras",
+    "NIDCD: más de 85 dB por 8 horas daña las células ciliadas del oído, que no se regeneran"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué todo suena apagado después de un concierto?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Porque tus oídos acaban de pelear una guerra.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Un concierto suena a más de cien decibeles,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y el límite seguro es de ochenta y cinco.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Dentro del oído, miles de células ciliadas,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "traducen el sonido a señales para el cerebro.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Con volumen alto, esas células se doblan y se rompen,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y no crecen de nuevo: son el único stock que tienes.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El zumbido de después es la señal de socorro.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada vez que vuelve a sonar bien, perdiste una fila.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Regla simple: si gritas para hablar, está demasiado alto.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "cara": "o",
+      "ojos": "wide",
+      "cejas": 0.5
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "nota",
+      "escala": 2.6,
+      "etiqueta": "100 DB",
+      "ancla_etiqueta": "cien"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "mito",
+     "params": {
+      "numero": "85",
+      "texto": "DB MÁX",
+      "ancla_x": "ochenta"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 2.6,
+      "etiqueta": "CÉLULAS CILIADAS",
+      "ancla_etiqueta": "ciliadas"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "cerebro"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "peligro",
+     "params": {
+      "objeto": "gota",
+      "ancla_aviso": "rompen"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "peligro",
+     "params": {
+      "objeto": "gota",
+      "ancla_aviso": "nuevo"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "cara": "o",
+      "cejas": 0.4
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "DEMASIADO ALTO",
+      "ancla_etiqueta": "alto",
+      "ancla_sonrisa": "gritas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "grunido",
+   "titulo": "¿Por qué tu estómago gruñe en plena clase?",
+   "meta_titulo": "El gruñido del estómago NO es hambre 🫃 Es limpieza",
+   "desc": "El famoso gruñido no pide comida: es una onda de limpieza que corre cada dos horas. Se llama borborigmo.",
+   "tags": [
+    "estómago",
+    "borborigmo",
+    "gruñido",
+    "digestión",
+    "qué pasa si",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Cleveland Clinic: los ruidos abdominales (borborigmos) son contracciones musculares que mueven aire y líquido",
+    "Fisiología digestiva: el complejo motor migratorio recorre el tubo cada 90-120 minutos en ayunas"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué tu estómago gruñe en plena clase?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "No es hambre de comida: es una limpieza.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tu intestino corre una onda de limpieza cada dos horas,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "empujando aire, líquido y restos de sobra.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cuando no hay comida adentro, la onda es más ruidosa,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "aire y pared muscular, como una aspiradora vacía.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Con comida, los ruidos se amortiguan y pasan desapercibidos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Por eso gruñe más el estómago vacío.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Se llama borborigmo, y es completamente normal.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Un gruñido es tu tubo haciendo su mantenimiento.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Come si quieres callarlo, pero no es una emergencia.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "cara": "o",
+      "cejas": 0.4
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "crono",
+     "params": {
+      "objeto": "gota",
+      "dias": [
+       "HORA 0",
+       "HORA 2",
+       "HORA 4"
+      ],
+      "ancla_salida": "horas"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "intestino",
+     "params": {
+      "objeto": "gota"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "peligro",
+     "params": {
+      "objeto": "gota",
+      "ancla_aviso": "ruidosa"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "nota",
+      "escala": 2.6,
+      "etiqueta": "BORBORIGMO",
+      "ancla_etiqueta": "borborigmo"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "cara": "smile"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "TRANQUILO",
+      "ancla_etiqueta": "quieres",
+      "ancla_sonrisa": "callarlo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "limon",
+   "titulo": "¿Qué pasa si exprimes limón en una herida?",
+   "meta_titulo": "¿Limón en una herida? 🍋 Fuego químico real",
+   "desc": "El limón es quinientas veces más ácido de lo que tu piel aguanta. Y tus dientes también pagan la factura.",
+   "tags": [
+    "limón",
+    "heridas",
+    "ácido",
+    "esmalte",
+    "qué pasa si",
+    "química",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "El jugo de limón tiene pH ≈ 2-2.3 (cientos de veces más ácido que el pH de la piel, ~4.7-5.5)",
+    "Fisiología dental: el esmalte empieza a disolverse con pH por debajo de 5.5 (punto crítico del esmalte)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa si exprimes limón en una herida? Fuego químico.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El jugo de limón tiene un pH de dos,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "quinientas veces más ácido de lo que tu piel aguanta.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "En la boca, la saliva neutraliza el golpe en segundos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Pero una herida no tiene escudo,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "los nervios expuestos disparan directo al cerebro.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y hay más: el limón también ataca los dientes.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El esmalte empieza a ceder con pH por debajo de cinco y medio.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Por eso el limón directo desgasta el esmalte poco a poco.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "En la herida: agua, no limón.",
+     "pausa": 0.25
+    },
+    {
+     "texto": "Y el limón, siempre por la pajita.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "nota",
+      "brazo": "mouth",
+      "cara": "o",
+      "ojos": "wide",
+      "cejas": 0.5
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 2.8,
+      "etiqueta": "PH 2",
+      "ancla_etiqueta": "dos"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "mito",
+     "params": {
+      "numero": "500",
+      "texto": "X MÁS",
+      "ancla_x": "más"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "peligro",
+     "params": {
+      "objeto": "gota",
+      "ancla_aviso": "escudo"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "cerebro"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "mito",
+     "params": {
+      "numero": "5.5",
+      "texto": "PH LÍMITE",
+      "ancla_x": "cinco"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "AGUA",
+      "ancla_etiqueta": "agua",
+      "ancla_sonrisa": "limón"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "cara": "grin",
+      "ancla_sonrisa": "pajita"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ronquera",
+   "titulo": "¿Por qué te pones ronco de gritar?",
+   "meta_titulo": "¿Ronco de gritar? 🗣️ Esto pasa en tu garganta",
+   "desc": "Dos pliegues del tamaño de una uña vibran mil veces por segundo. Gritar los golpea hasta hincharlos: esa es la voz de ronco.",
+   "tags": [
+    "ronquera",
+    "cuerdas vocales",
+    "voz",
+    "laringitis",
+    "qué pasa si",
+    "salud",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "NIDCD: la voz nace de pliegues vocales que vibran cientos de veces por segundo",
+    "Mayo Clinic: la laringitis es la inflamación de las cuerdas vocales; gritar la causa tanto como una infección"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué te pones ronco de gritar en el partido?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Tu voz nace en dos pliegues diminutos en la garganta,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "las cuerdas vocales, que vibran mil veces por segundo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cuando gritas, se golpean entre ellas sin parar.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada golpe es un microtrauma: hinchazón garantizada.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las cuerdas hinchadas ya no cierran bien,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y el aire se escapa por las rendijas,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "esa es la voz de ronco.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Una infección hace lo mismo, solo que con virus.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La cura es la misma para las dos,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "silencio total y agua. Las cuerdas descansan y sanan.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "smile",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "nota",
+      "escala": 2.6,
+      "etiqueta": "1.000 / SEG",
+      "ancla_etiqueta": "mil"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "peligro",
+     "params": {
+      "objeto": "nota",
+      "ancla_aviso": "golpean"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "peligro",
+     "params": {
+      "objeto": "nota",
+      "ancla_aviso": "hinchazón"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 2.4,
+      "etiqueta": "AIRE",
+      "ancla_etiqueta": "aire"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "peligro",
+     "params": {
+      "objeto": "bacteria",
+      "ancla_aviso": "virus"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "cara": "smile"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "SILENCIO",
+      "ancla_etiqueta": "silencio",
+      "ancla_sonrisa": "descansan"
+     }
+    }
+   ]
+  },
+  {
+   "id": "adn",
+   "titulo": "¿Cuánto ADN compartes con un plátano?",
+   "meta_titulo": "Compartes 60% de ADN con un plátano 🍌 Los números",
+   "desc": "El ADN es un manual antiguo que toda la vida reutiliza: 60% con un plátano, 98.8% con un chimpancé.",
+   "tags": [
+    "ADN",
+    "genética",
+    "plátano",
+    "chimpancé",
+    "evolución",
+    "curiosidades",
+    "ciencia"
+   ],
+   "fuentes": [
+    "Wellcome Sanger Institute: humanos y chimpancés comparten ~98.8% de ADN",
+    "El dato del ~60% con el plátano se refiere a genes con ancestro común (Proyecto Genoma)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Cuánto ADN compartes con un plátano? Más de lo que crees.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Unos sesenta por ciento de tus genes tienen primo en el plátano.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Con tu perro compartes ochenta y cinco,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "con el ratón, noventa y dos,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "y con el chimpancé, noventa y ocho coma ocho.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "¿Cómo es posible? El ADN es un manual antiguo,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "las instrucciones para hacer una célula son universales.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tu cuerpo usa las mismas piezas que una fruta,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "energía, copia, reparación. Solo cambian los ajustes.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tres mil millones de letras, y el humano es el remix.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La vida no reinventa: recicla.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "nota",
+      "brazo": "mouth",
+      "cara": "smile",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "mito",
+     "params": {
+      "numero": "60",
+      "texto": "% PLÁTANO",
+      "ancla_x": "sesenta"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "mito",
+     "params": {
+      "numero": "85",
+      "texto": "% PERRO",
+      "ancla_x": "ochenta"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "mito",
+     "params": {
+      "numero": "92",
+      "texto": "% RATÓN",
+      "ancla_x": "noventa"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "mito",
+     "params": {
+      "numero": "98.8",
+      "texto": "% CHIMPANCÉ",
+      "ancla_x": "ocho"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "bacteria",
+      "escala": 2.8,
+      "etiqueta": "CÉLULA",
+      "ancla_etiqueta": "célula"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "cara": "smile"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "RECICLAJE",
+      "ancla_etiqueta": "recicla",
+      "ancla_sonrisa": "vida"
+     }
+    }
+   ]
+  },
+  {
+   "id": "bostezo",
+   "titulo": "¿Por qué bostezas y por qué es contagioso?",
+   "meta_titulo": "El bostezo NO es sueño 🥱 Es aire acondicionado cerebral",
+   "desc": "Bostezas para enfriar el cerebro, y se te pega por neuronas espejo: hasta el 70% copia el bostezo ajeno.",
+   "tags": [
+    "bostezo",
+    "cerebro",
+    "neuronas espejo",
+    "empatía",
+    "qué pasa si",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Estudios de termorregulación (Gallup): el bostezo enfría el cerebro cuando sube la temperatura craneal",
+    "Estudios de contagio (Provine): entre el 50 y el 70% de las personas bostezan al ver bostezar a otro"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué bostezas, y por qué se te pega?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Un bostezo es un aire acondicionado para el cerebro,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "cuando el cráneo se calienta, el cuerpo abre la válvula.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La inhalación profunda trae aire fresco a la cabeza,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y la exhalación saca el calor de sobra.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "¿El contagio? Tu cerebro tiene neuronas espejo,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "copian gestos automáticamente, sin permiso.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Entre el cincuenta y el setenta por ciento bostezan al verlo,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y hasta los perros lo copian de sus humanos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "No bostezas de sueño: bostezas de calor de cráneo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Por eso el aburrimiento también te hace bostezar.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "cara": "o",
+      "ojos": "wide",
+      "cejas": 0.5
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "o",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "peligro",
+     "params": {
+      "objeto": "gota",
+      "ancla_aviso": "calienta"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 2.6,
+      "etiqueta": "AIRE FRESCO",
+      "ancla_etiqueta": "fresco"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "cerebro"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "mito",
+     "params": {
+      "numero": "70",
+      "texto": "% CONTAGIO",
+      "ancla_x": "cincuenta"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "cara": "smile"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "ABURRIDO",
+      "ancla_etiqueta": "aburrimiento",
+      "ancla_sonrisa": "bostezar"
+     }
+    }
+   ]
+  },
+  {
+   "id": "cosquillas",
+   "titulo": "¿Por qué no puedes hacerte cosquillas a ti mismo?",
+   "meta_titulo": "No puedes darte cosquillas 🤣 Tu cerebro te traiciona",
+   "desc": "Tu cerebelo predice tus propios toques y apaga la sorpresa. La risa de cosquillas es un reflejo de alarma.",
+   "tags": [
+    "cosquillas",
+    "cerebelo",
+    "cerebro",
+    "risa",
+    "qué pasa si",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Blakemore, Wolpert y Frith (UCL): el cerebelo predice el gesto propio y apaga la sensación de cosquillas",
+    "Darwin: estudió las cosquillas como reflejo defensivo ante lo inesperado"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué no puedes hacerte cosquillas a ti mismo?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Porque tu cerebro no le teme a tus propias manos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada gesto tuyo pasa por el cerebelo primero,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "que predice exactamente dónde y cuándo va a tocar.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La sorpresa muere antes de nacer, y con ella la risa.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cuando otro te toca, el radar no tiene plan,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "el cerebro entra en modo alarma y ríe.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Es el mismo truco de los sustos: lo inesperado gana.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Hasta Darwin anotó que las cosquillas son defensa,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "un entrenamiento de reflejos para zonas blandas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tu risa es el botón de pánico del cuerpo.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "smile"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "cerebelo"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "cara": "o",
+      "ojos": "wide",
+      "cejas": 0.6,
+      "choque": true,
+      "ancla_choque": "plan"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "PÁNICO",
+      "ancla_etiqueta": "pánico",
+      "ancla_sonrisa": "cuerpo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hambre",
+   "titulo": "¿Por qué vuelves a la nevera media hora después?",
+   "meta_titulo": "Volver a la nevera NO es hambre 🍔 Son hormonas",
+   "desc": "El hambre se mide en hormonas: la grelina sube con el insomnio, el cortisol pide azúcar y la saciedad llega tarde.",
+   "tags": [
+    "hambre",
+    "grelina",
+    "leptina",
+    "nevera",
+    "qué pasa si",
+    "salud",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Spiegel et al., Ann Intern Med 2004: dormir poco sube la grelina (~28%) y baja la leptina",
+    "El cortisol del estrés aumenta el antojo de comida energética; la señal de saciedad tarda ~20 minutos"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué vuelves a la nevera media hora después de comer?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El hambre no se mide en la nevera: se mide en hormonas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La grelina sube cuando el estómago queda vacío,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y avisa al cerebro: pide combustible.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Pero el sueño también la controla,",
+     "pausa": 0.25
+    },
+    {
+     "texto": "dormir poco la sube un veintiocho por ciento.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y el estrés añade cortisol, que pide azúcar rápido.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Así que no siempre es hambre: a veces es insomnio,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "a veces es estrés con disfraz de hambre.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La saciedad llega tarde: el cerebro tarda veinte minutos,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "en enterarse de que ya comiste. Espera antes de repetir.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "objeto": "nota",
+      "brazo": "mouth",
+      "cara": "smile",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "estomago",
+     "params": {
+      "objeto": "nota",
+      "acido": 0.2,
+      "etiqueta": "GRELINA",
+      "ancla_etiqueta": "grelina"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "organo",
+     "params": {
+      "organo": "cerebro",
+      "ancla_levantar": "cerebro"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "mito",
+     "params": {
+      "numero": "28",
+      "texto": "% MÁS",
+      "ancla_x": "veintiocho"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "peligro",
+     "params": {
+      "objeto": "nota",
+      "ancla_aviso": "cortisol"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "cara": "smirk"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "crono",
+     "params": {
+      "objeto": "reloj",
+      "dias": [
+       "MIN 0",
+       "MIN 10",
+       "MIN 20"
+      ],
+      "ancla_salida": "veinte"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "ESPERA",
+      "ancla_etiqueta": "espera",
+      "ancla_sonrisa": "repetir"
+     }
+    }
+   ]
+  },
+  {
+   "id": "embolia",
+   "titulo": "¿Qué pasa dentro de una embolia?",
+   "meta_titulo": "Una embolia apaga 2 MILLONES de neuronas POR MINUTO 🧠",
+   "desc": "Un coágulo tapa una arteria y el reloj corre: dos millones de neuronas mueren por minuto. Esto pasa dentro.",
+   "tags": [
+    "embolia",
+    "ACV",
+    "coágulo",
+    "cerebro",
+    "qué pasa si",
+    "salud",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Saver, Stroke 2006 ('Time is Brain'): cada minuto de isquemia destruye ~1.9 millones de neuronas",
+    "Tromboembolismo: coágulos formados en piernas paradas (vuelos largos) viajan al pulmón o al cerebro"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa dentro de una embolia? Un tapón que apaga todo.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Una arteria alimenta cada rincón de tu cerebro,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y un coágulo que viaja en la sangre puede atascarla.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Del otro lado del tapón, las neuronas se quedan sin oxígeno.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada minuto, casi dos millones de neuronas mueren.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Por eso cada segundo cuenta: el cerebro no tiene repuestos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Los coágulos nacen quietos: piernas paradas, vuelos largos,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "y viajan hasta donde la corriente los lleve.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Si es en el pulmón, falta el aire; si es el cerebro, la luz.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Moverse cada hora es el filtro barato,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "la sangre en movimiento no se cuaja.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "cara": "o",
+      "ojos": "wide",
+      "cejas": 0.5
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "corazon",
+      "escala": 2,
+      "etiqueta": "RUTA",
+      "ancla_etiqueta": "rincón"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "peligro",
+     "params": {
+      "objeto": "corazon",
+      "escala": 2,
+      "ancla_aviso": "atascarla"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "peligro",
+     "params": {
+      "objeto": "gota",
+      "ancla_aviso": "oxígeno"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "mito",
+     "params": {
+      "numero": "2",
+      "texto": "MILLONES",
+      "ancla_x": "millones"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.4
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "intestino",
+     "params": {
+      "objeto": "gota"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "peligro",
+     "params": {
+      "objeto": "corazon",
+      "escala": 2,
+      "ancla_aviso": "pulmón"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "cara": "smile",
+      "cejas": 0.2
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "EN MOVIMIENTO",
+      "ancla_etiqueta": "movimiento",
+      "ancla_sonrisa": "cuaja"
+     }
+    }
+   ]
+  },
+  {
+   "id": "acido",
+   "titulo": "¿Por qué tu estómago no se digiere a sí mismo?",
+   "meta_titulo": "Tu estómago NO se digiere 🧪 El escudo que renueva",
+   "desc": "Ácido a pH 1.5, capaz de disolver una hoja de afeitar en horas. Tu estómago sobrevive renovando un moco cada pocos días.",
+   "tags": [
+    "estómago",
+    "ácido",
+    "digestión",
+    "úlcera",
+    "qué pasa si",
+    "cuerpo humano",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "El pH del jugo gástrico llega a 1.5-2; en ensayos, una hoja de afeitar se disuelve en horas en jugo gástrico simulado",
+    "Fisiología gástrica: la pared se protege con una capa de moco y renueva su epitelio cada 3-5 días; sin ella, úlcera (Mayo Clinic)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué tu estómago no se digiere a sí mismo?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Porque fabrica su propio escudo: una capa de moco.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tu jugo gástrico baja a pH uno y medio,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "suficiente para disolver una hoja de afeitar en horas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Sin el moco, la pared sería el siguiente plato.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El estómago renueva ese moco cada pocos días,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "como pintar un puente que se cae a pedazos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Si el ácido gana la partida, aparece la úlcera,",
+     "pausa": 0.3
+    },
+    {
+     "texto": "un agujero con tu nombre en la pared.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El ibuprofeno en ayunas y el estrés ayudan a que gane.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tu estómago es una fábrica con riesgo de incendio, vigilada.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {
+      "cara": "o",
+      "ojos": "wide",
+      "cejas": 0.4
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "estomago",
+     "params": {
+      "objeto": "gota",
+      "acido": 1,
+      "etiqueta": "MOCO",
+      "ancla_etiqueta": "moco"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "gota",
+      "escala": 2.8,
+      "etiqueta": "PH 1.5",
+      "ancla_etiqueta": "uno"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "peligro",
+     "params": {
+      "objeto": "moneda",
+      "escala": 2.4,
+      "ancla_aviso": "afeitar"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "peligro",
+     "params": {
+      "objeto": "moneda",
+      "escala": 2.4,
+      "ancla_aviso": "plato"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "estomago",
+     "params": {
+      "objeto": "moneda",
+      "acido": 0.6,
+      "escala": 2.4,
+      "ancla_acido": "renueva"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "peligro",
+     "params": {
+      "objeto": "moneda",
+      "escala": 2.4,
+      "ancla_aviso": "úlcera"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dibujo",
+     "params": {
+      "objeto": "nota",
+      "escala": 2.4,
+      "etiqueta": "AGUJERO",
+      "ancla_etiqueta": "agujero"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "cara": "flat",
+      "cejas": 0.3
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "VIGILADA",
+      "ancla_etiqueta": "vigilada",
+      "ancla_sonrisa": "incendio"
+     }
+    }
+   ]
+  }
+ ]
+}

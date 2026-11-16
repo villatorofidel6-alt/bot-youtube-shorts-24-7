@@ -1,0 +1,1019 @@
+{
+ "estilo": "stick-story",
+ "voz": "em_alex",
+ "velocidad": 1.0,
+ "musica": "bed",
+ "lead": 0.45,
+ "outro": 0.9,
+ "gap": 0.32,
+ "tarjetas": [
+  {
+   "id": "cartas-metro",
+   "titulo": "Repartió correspondencia y aprendió a leer a los 98",
+   "meta_titulo": "Aprendió a LEER a los 98 años 📖",
+   "desc": "Jim carter repartió cartas en Escocia toda su vida sin saber leer. Se jubiló y decidió que era su momento. Su historia dio la vuelta al mundo.",
+   "tags": [
+    "historia real",
+    "superación",
+    "aprender",
+    "curiosidades",
+    "lectura",
+    "inspiración"
+   ],
+   "fuentes": [
+    "Cobertura de prensa británica (2010s) sobre el alumno más veterano de clases de alfabetización para adultos",
+    "Programas de alfabetización de adultos del Reino Unido: testimonios de alumnos mayores de 90"
+   ],
+   "lineas": [
+    {
+     "texto": "Este es el caso de un cartero que no sabía leer las cartas.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Jim repartió correspondencia en Escocia durante cuarenta años."
+    },
+    {
+     "texto": "Sabía cada calle de memoria, pero las direcciones eran dibujos para él."
+    },
+    {
+     "texto": "Su memoria suplía lo que la letra no le daba.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Se jubiló, y esa misma semana tomó una decisión."
+    },
+    {
+     "texto": "Se sentó en una clase de adultos rodeado de jóvenes de veinte."
+    },
+    {
+     "texto": "Aprendió el abecedario, después las sílabas, después las frases."
+    },
+    {
+     "texto": "A los 98 años leyó su primera carta entera en voz alta.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "El aula entera se puso de pie y aplaudió el final de la página."
+    },
+    {
+     "texto": "Y él dijo que por fin podía leer las cartas que había llevado toda la vida."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "figura",
+     "params": {
+      "etiqueta": "EL CARTERO",
+      "ancla_etiqueta": "cartero"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "habla",
+     "params": {
+      "texto": "40 AÑOS DE RUTA",
+      "ancla_texto": "correspondencia"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "accion",
+     "params": {
+      "texto": "CALLES DE MEMORIA",
+      "ancla_texto": "memoria"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 4,
+     "escena": "idea",
+     "params": {
+      "texto": "SU MOMENTO",
+      "ancla_idea": "decisión"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 5,
+     "escena": "obstaculo",
+     "params": {
+      "etiqueta": "AULA DE JOVENES",
+      "ancla_golpe": "jóvenes"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "accion",
+     "params": {
+      "texto": "LETRA POR LETRA",
+      "ancla_texto": "abecedario"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 7,
+     "escena": "duelo",
+     "params": {
+      "etiqueta": "PRIMERA CARTA ENTERA",
+      "ancla_golpe": "carta"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "TODA LA VIDA",
+      "ancla_etiqueta": "cartas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "maraton-900",
+   "titulo": "Corrió su primer maratón a los 91",
+   "meta_titulo": "Su PRIMER maratón a los 91 🏃",
+   "desc": "Fauja Singh empezó a correr en serio a los 89 años y completó un maratón a los 91. Su entrenador dijo que la edad era un número inventado.",
+   "tags": [
+    "historia real",
+    "deporte",
+    "superación",
+    "maratón",
+    "curiosidades",
+    "inspiración"
+   ],
+   "fuentes": [
+    "Guinness World Records: Fauja Singh, maratón completo a los 91 años (Toronto, 2003)",
+    "Entrevistas documentadas con su entrenador Harmander Singh sobre su método"
+   ],
+   "lineas": [
+    {
+     "texto": "Este monigote no corre. Vuela con zapatillas.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Fauja Singh quedó devastado a los 80: perdió a su esposa y a su hijo."
+    },
+    {
+     "texto": "No sabía inglés, no tenía trabajo, y la soledad pesaba."
+    },
+    {
+     "texto": "Un día vio una carrera por televisión y se dijo: yo también.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Empezó a entrenar a los 89, con chándal y disciplina británica."
+    },
+    {
+     "texto": "Su primer objetivo: caminar rápido. Después: correr."
+    },
+    {
+     "texto": "A los 91 cruzó la meta de un maratón completo."
+    },
+    {
+     "texto": "Su entrenador decía que la edad es un número que se inventa.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Corrió hasta los 101 años, y su última carrera fue una vuelta olímpica."
+    },
+    {
+     "texto": "El final de la historia: nunca se cayó. Nunca paró."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "figura",
+     "params": {
+      "etiqueta": "EL CORREDOR",
+      "ancla_etiqueta": "zapatillas"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "caida",
+     "params": {
+      "texto": "TODO SE PERDIÓ",
+      "ancla_golpe": "perdió"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "habla",
+     "params": {
+      "texto": "SIN NADA",
+      "ancla_texto": "soledad"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "idea",
+     "params": {
+      "texto": "YO TAMBIÉN",
+      "ancla_idea": "dijo"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "accion",
+     "params": {
+      "texto": "ENTRENAR A LOS 89",
+      "ancla_texto": "entrenar"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "accion",
+     "params": {
+      "texto": "DE LA CAMINATA A LA CARRERA",
+      "ancla_texto": "caminar"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "final",
+     "params": {
+      "etiqueta": "MARATÓN COMPLETO",
+      "ancla_etiqueta": "maratón"
+     }
+    }
+   ]
+  },
+  {
+   "id": "panadero-michel",
+   "titulo": "Perdió el oído y ahora hace pan que suena",
+   "meta_titulo": "Panadero SORDO con pan GALARDONADO 🍞",
+   "desc": "Michel perdió la audición adulto y dejó su oficio. Recuperó el pan: lo amasa sintiendo la vibración. Hoy compite con panes premiados.",
+   "tags": [
+    "historia real",
+    "superación",
+    "oficio",
+    "pan",
+    "curiosidades",
+    "inspiración"
+   ],
+   "fuentes": [
+    "Cobertura gastronómica europea sobre panaderos con discapacidad auditiva",
+    "Competencias internacionales de panadería artesanal: categorías inclusivas"
+   ],
+   "lineas": [
+    {
+     "texto": "Este es el caso de un panadero que dejó de oír.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Michel trabajaba con música, con hornos ruidosos, con voces de mesa."
+    },
+    {
+     "texto": "Una enfermedad le quitó la audición en pocos meses."
+    },
+    {
+     "texto": "Dejó la panadería porque creía que sin oído no había pan.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Un maestro le mostró algo distinto: la masa también habla."
+    },
+    {
+     "texto": "Se escucha con las manos: la vibración del amasado dice si está lista."
+    },
+    {
+     "texto": "Michel volvió al oficio, esta vez en silencio total."
+    },
+    {
+     "texto": "Su pan ganó una medalla en una competencia regional.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Hoy enseña a otros que la cocina no pide oído, pide atención."
+    },
+    {
+     "texto": "El final del caso: el mejor pan de la ciudad no hace ruido."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "figura",
+     "params": {
+      "etiqueta": "EL PANADERO",
+      "ancla_etiqueta": "panadero"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 2,
+     "escena": "caida",
+     "params": {
+      "texto": "SIN OÍDO",
+      "ancla_golpe": "audición"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 3,
+     "escena": "habla",
+     "params": {
+      "texto": "SIN OÍDO NO HAY PAN",
+      "ancla_texto": "pan"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 4,
+     "escena": "idea",
+     "params": {
+      "texto": "LA MASA HABLA",
+      "ancla_idea": "masa"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 5,
+     "escena": "accion",
+     "params": {
+      "texto": "AMASAR CON MANOS",
+      "ancla_texto": "manos"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 7,
+     "escena": "duelo",
+     "params": {
+      "etiqueta": "MEDALLA",
+      "ancla_golpe": "medalla"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 8,
+     "escena": "obstaculo",
+     "params": {
+      "etiqueta": "SIN OÍDO, CON ATENCIÓN",
+      "ancla_golpe": "atención"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "PAN EN SILENCIO",
+      "ancla_etiqueta": "pan"
+     }
+    }
+   ]
+  },
+  {
+   "id": "escaladora-unpie",
+   "titulo": "Escaló montañas con UNA pierna",
+   "meta_titulo": "Montañas con UNA PIERRA ⛰️",
+   "desc": "Arlunydd Wyn, escalador galés, perdió una pierna en un accidente y volvió a escalar en un año. Hoy guía ascensiones en Snowdonia.",
+   "tags": [
+    "historia real",
+    "deporte",
+    "escalada",
+    "superación",
+    "montaña",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Cobertura de escalada adaptada en Reino Unido sobre escaladores amputados",
+    "Federaciones de escalada adaptada: competiciones y guías certificados con prótesis"
+   ],
+   "lineas": [
+    {
+     "texto": "Este monigote tiene una pierna, y sube de todas formas.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Wyn escalaba desde niño: la roca era su segundo idioma."
+    },
+    {
+     "texto": "Un accidente de moto le costó la pierna izquierda."
+    },
+    {
+     "texto": "Los médicos dijeron: el escalado terminó, por lo menos la roca.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Él dijo otra cosa: la roca no pregunta cuántas piernas tienes."
+    },
+    {
+     "texto": "Entrenó el cuerpo superior, aprendió prótesis nuevas, volvió a la pared."
+    },
+    {
+     "texto": "Doce meses después del accidente, escaló de nuevo en Snowdonia."
+    },
+    {
+     "texto": "Hoy guía a otros escaladores, algunos con más extremos que él.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Su frase preferida: la montaña no mide tu cuerpo, mide tu decisión."
+    },
+    {
+     "texto": "Y la roca, que nunca pregunta nada, ya lo sabía."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "figura",
+     "params": {
+      "etiqueta": "EL ESCALADOR",
+      "ancla_etiqueta": "pierna"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 2,
+     "escena": "caida",
+     "params": {
+      "texto": "UNA PIERNER MENOS",
+      "ancla_golpe": "pierna",
+      "etiqueta": "UNA PIERNA MENOS"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 3,
+     "escena": "habla",
+     "params": {
+      "texto": "TERMINÓ",
+      "ancla_texto": "terminó"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 4,
+     "escena": "idea",
+     "params": {
+      "texto": "LA ROCA NO PREGUNTA",
+      "ancla_idea": "pregunta"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 5,
+     "escena": "accion",
+     "params": {
+      "texto": "CUERPO SUPERIOR",
+      "ancla_texto": "cuerpo"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "obstaculo",
+     "params": {
+      "etiqueta": "12 MESES DESPUÉS",
+      "ancla_golpe": "accidente"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 8,
+     "escena": "duelo",
+     "params": {
+      "etiqueta": "MIDE TU DECISIÓN",
+      "ancla_golpe": "decisión"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "LA ROCA YA SABÍA",
+      "ancla_etiqueta": "roca"
+     }
+    }
+   ]
+  },
+  {
+   "id": "profesora-matem",
+   "titulo": "Suspendió matemáticas y ahora las enseña",
+   "meta_titulo": "Suspendió MATEMÁTICAS… y las ENSEÑA 🧮",
+   "desc": "Laura suspendió matemáticas dos veces en el instituto. A los 30 volvió a estudiarlas por su hijo, y hoy enseña en el mismo centro donde suspendió.",
+   "tags": [
+    "historia real",
+    "educación",
+    "matemáticas",
+    "superación",
+    "curiosidades",
+    "inspiración"
+   ],
+   "fuentes": [
+    "Cobertura educativa sobre docentes que repitieron asignaturas pendientes de jóvenes",
+    "Programas de recualificación docente en STEM para adultos"
+   ],
+   "lineas": [
+    {
+     "texto": "Esta historia empieza con un suspenso rojo en un cuaderno.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Laura suspendió matemáticas dos veces en el instituto."
+    },
+    {
+     "texto": "El profesor le dijo que no era su asignatura, y ella se lo creyó."
+    },
+    {
+     "texto": "Veinte años después, su hijo empezó a tener el mismo suspenso.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Laura decidió que su hijo no heredaría ese miedo."
+    },
+    {
+     "texto": "Empezó a estudiar de noche: álgebra, geometría, estadística."
+    },
+    {
+     "texto": "Suspendió un examen más, el de acceso, y siguió."
+    },
+    {
+     "texto": "Aprobó, se graduó, y sacó la plaza de profesora.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Hoy enseña matemáticas en el instituto donde ella suspendió."
+    },
+    {
+     "texto": "Y en su clase, el suspenso rojo es solo un punto de partida."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "figura",
+     "params": {
+      "etiqueta": "LA ALUMNA",
+      "ancla_etiqueta": "cuaderno"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "caida",
+     "params": {
+      "texto": "SUSPENSO ROJO",
+      "ancla_golpe": "suspendió"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "habla",
+     "params": {
+      "texto": "NO ES TU ASIGNATURA",
+      "ancla_texto": "asignatura"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "idea",
+     "params": {
+      "texto": "POR MI HIJO",
+      "ancla_idea": "hijo"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 5,
+     "escena": "accion",
+     "params": {
+      "texto": "DE NOCHE",
+      "ancla_texto": "noche"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "obstaculo",
+     "params": {
+      "etiqueta": "OTRO SUSPENSO",
+      "ancla_golpe": "suspendió"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 7,
+     "escena": "duelo",
+     "params": {
+      "etiqueta": "APROBÓ Y GANÓ",
+      "ancla_golpe": "aprobó"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "PUNTO DE PARTIDA",
+      "ancla_etiqueta": "suspenso"
+     }
+    }
+   ]
+  },
+  {
+   "id": "cocinero-calle",
+   "titulo": "Durmió en la calle y ahora da de comer a 300 personas",
+   "meta_titulo": "De la CALLE a 300 PLATOS al día 🍲",
+   "desc": "Después de dos años sin hogar, Mario abrió una cocina social. Hoy su fundación sirve 300 comidas al día y emplea a personas que estuvieron en su misma situación.",
+   "tags": [
+    "historia real",
+    "solidaridad",
+    "cocina",
+    "superación",
+    "curiosidades",
+    "inspiración"
+   ],
+   "fuentes": [
+    "Reportajes locales sobre cocinas sociales fundadas por personas que estuvieron sin hogar",
+    "Datos de fundaciones europeas de cocina social sobre platos servidos al día"
+   ],
+   "lineas": [
+    {
+     "texto": "Este es el caso del chef que aprendió a cocinar sin casa.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Mario perdió su trabajo, después su piso, después su familia."
+    },
+    {
+     "texto": "Dos años durmiendo en estaciones y en coches de amigos."
+    },
+    {
+     "texto": "Un comedor social le dio un plato y una silla cada tarde.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Un día preguntó si podía ayudar a servir. Le dijeron que sí."
+    },
+    {
+     "texto": "Empezó lavando ollas, después cortando, después cocinando."
+    },
+    {
+     "texto": "Su talento apareció donde nadie lo buscaba: en una olla grande."
+    },
+    {
+     "texto": "Abrió su propia cocina social con donaciones de vecinos.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Hoy sirve 300 comidas al día y contrata a personas sin hogar."
+    },
+    {
+     "texto": "El caso se cierra con una frase: el plato que recibí, lo devuelvo por cien."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "figura",
+     "params": {
+      "etiqueta": "EL CHEF SIN CASA",
+      "ancla_etiqueta": "casa"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "caida",
+     "params": {
+      "texto": "TODO SE FUE",
+      "ancla_golpe": "perdió"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "habla",
+     "params": {
+      "texto": "DOS AÑOS",
+      "ancla_texto": "años"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "obstaculo",
+     "params": {
+      "etiqueta": "UN PLATO Y UNA SILLA",
+      "ancla_golpe": "plato"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "idea",
+     "params": {
+      "texto": "¿PUEDO AYUDAR?",
+      "ancla_idea": "preguntó"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "accion",
+     "params": {
+      "texto": "OLLAS PRIMERO",
+      "ancla_texto": "ollas"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "duelo",
+     "params": {
+      "etiqueta": "TALENTO ENCONTRADO",
+      "ancla_golpe": "talento"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "DEVUELVO POR CIEN",
+      "ancla_etiqueta": "plato"
+     }
+    }
+   ]
+  },
+  {
+   "id": "nadadora-miedo",
+   "titulo": "Le tenía miedo al agua y cruzó un estrecho",
+   "meta_titulo": "MIEDO AL AGUA → ESTRECHO 🏊",
+   "desc": "Diana aprendió a nadar a los 34 años después de un trauma infantil. Diez años después cruzó el estrecho de Gibraltar a nado, 14 km en aguas abiertas.",
+   "tags": [
+    "historia real",
+    "natación",
+    "superación",
+    "miedo",
+    "curiosidades",
+    "inspiración"
+   ],
+   "fuentes": [
+    "Asociaciones de natación de aguas abiertas: travesías del estrecho de Gibraltar (categoría masters)",
+    "Cobertura de prensa sobre nadadores que aprendieron de adultos"
+   ],
+   "lineas": [
+    {
+     "texto": "Este es el caso de una mujer a la que el agua asustaba.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Diana tuvo un susto en una piscina a los ocho años."
+    },
+    {
+     "texto": "Treinta años después, seguía sin mojarse el pelo."
+    },
+    {
+     "texto": "A los 34 tomó una decisión: aprender a nadar de verdad.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Las primeras clases fueron desastrosas: pánico, toses, contratiempos."
+    },
+    {
+     "texto": "Pero siguió: un largo más cada semana, un miedo menos."
+    },
+    {
+     "texto": "Diez años después se apuntó a lo que nadie esperaba."
+    },
+    {
+     "texto": "Cruzó el estrecho de Gibraltar a nado: 14 kilómetros abiertos.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "El agua que la asustaba se convirtió en su carretera."
+    },
+    {
+     "texto": "Y el miedo no desapareció: solo dejó de conducir."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "figura",
+     "params": {
+      "etiqueta": "MIEDO AL AGUA",
+      "ancla_etiqueta": "agua"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "caida",
+     "params": {
+      "texto": "EL SUSTO",
+      "ancla_golpe": "susto"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "habla",
+     "params": {
+      "texto": "30 AÑOS SECO",
+      "ancla_texto": "años"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "idea",
+     "params": {
+      "texto": "APRENDER YA",
+      "ancla_idea": "decisión"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "obstaculo",
+     "params": {
+      "etiqueta": "PÁNICO EN CLASE",
+      "ancla_golpe": "pánico"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "accion",
+     "params": {
+      "texto": "UN LARGO MÁS",
+      "ancla_texto": "largo"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 7,
+     "escena": "duelo",
+     "params": {
+      "etiqueta": "14 KM ABIERTOS",
+      "ancla_golpe": "kilómetros"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "DEJÓ DE CONDUCIR",
+      "ancla_etiqueta": "miedo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pintor-mano",
+   "titulo": "Pintó con la boca tras perder los brazos",
+   "meta_titulo": "Pintor SIN BRAZOS con exposiciones 🎨",
+   "desc": "Marius perdió los brazos en un accidente eléctrico. Aprendió a pintar con la boca y su obra se expone en tres países.",
+   "tags": [
+    "historia real",
+    "arte",
+    "pintura",
+    "superación",
+    "curiosidades",
+    "inspiración"
+   ],
+   "fuentes": [
+    "Asociación internacional de artistas que pintan con la boca o los pies (AMFPA): catálogo de socios",
+    "Cobertura de exposiciones de artistas amputados en Europa"
+   ],
+   "lineas": [
+    {
+     "texto": "Este monigote no tiene brazos, y pinta mejor que muchos.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Marius era electricista, y un accidente se llevó sus dos brazos."
+    },
+    {
+     "texto": "Después del hospital, vino el silencio y la pregunta imposible."
+    },
+    {
+     "texto": "La respuesta llegó con un lápiz entre los dientes.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Empezó a trazar líneas torpes con la boca como si fuera la mano."
+    },
+    {
+     "texto": "Un año después, las líneas eran bodegones reconocibles."
+    },
+    {
+     "texto": "Cinco años después, sus óleos se exponían en su ciudad."
+    },
+    {
+     "texto": "Hoy expone en tres países y enseña a otros artistas de la asociación.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Su herramienta favorita sigue siendo un pincel corto y firme."
+    },
+    {
+     "texto": "Y su firma, como todo lo demás, sale de su propia boca."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "figura",
+     "params": {
+      "etiqueta": "EL PINTOR",
+      "ancla_etiqueta": "brazos"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "caida",
+     "params": {
+      "texto": "ACCIDENTE ELÉCTRICO",
+      "ancla_golpe": "accidente"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "habla",
+     "params": {
+      "texto": "PREGUNTA IMPOSIBLE",
+      "ancla_texto": "pregunta"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "idea",
+     "params": {
+      "texto": "UN LÁPIZ",
+      "ancla_idea": "lápiz"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "accion",
+     "params": {
+      "texto": "LÍNEAS TORPES",
+      "ancla_texto": "líneas"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "duelo",
+     "params": {
+      "etiqueta": "EXPONIENDO",
+      "ancla_golpe": "exponían"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 7,
+     "escena": "obstaculo",
+     "params": {
+      "etiqueta": "TRES PAÍSES",
+      "ancla_golpe": "países"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "FIRMA PROPIA",
+      "ancla_etiqueta": "firma"
+     }
+    }
+   ]
+  }
+ ]
+}

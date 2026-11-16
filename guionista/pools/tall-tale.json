@@ -1,0 +1,1099 @@
+{
+ "estilo": "tall-tale",
+ "voz": "em_santa",
+ "velocidad": 1.0,
+ "musica": "bed",
+ "lead": 0.45,
+ "outro": 0.9,
+ "gap": 0.32,
+ "tarjetas": [
+  {
+   "id": "ballena-buceo",
+   "titulo": "La ballena que aguantó la respiración 3 horas",
+   "meta_titulo": "3 HORAS bajo el agua 🐋",
+   "desc": "El zifio de Cuvier es el campeón mundial de apnea: se sumerge más de 3 horas y 2.000 metros. Te cuento cómo lo logra su cuerpo.",
+   "tags": [
+    "animales",
+    "océano",
+    "récords",
+    "ballenas",
+    "curiosidades",
+    "naturaleza"
+   ],
+   "fuentes": [
+    "Sato et al., Biology Letters (2020): buceo de zifio de Cuvier de 3 h 42 min y 2.225 m",
+    "Duke University Marine Lab: etiquetas de registro de buceo en ballenas de pico"
+   ],
+   "lineas": [
+    {
+     "texto": "Este es el cuento de la ballena que se olvidó de respirar.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "El zifio de Cuvier vive en el océano profundo, y caza en la oscuridad."
+    },
+    {
+     "texto": "Cuando se sumerge, su corazón cae casi a la mitad de los latidos."
+    },
+    {
+     "texto": "Su sangre almacena oxígeno como una reserva de montaña.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Baja 2.000 metros en silencio, más que el imperio de la luz."
+    },
+    {
+     "texto": "Y ahí, en el abismo, caza calamares con un radar biológico."
+    },
+    {
+     "texto": "El récord medido: 3 horas y 42 minutos bajo el agua."
+    },
+    {
+     "texto": "Tú aguantas un minuto. Él, tres horas. Y ni se inmuta.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Al subir, recarga: 15 minutos de bocanadas y vuelve a bajar."
+    },
+    {
+     "texto": "El cuento termina con una verdad: el récord mundial no es humano."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mundo",
+     "params": {
+      "etiqueta": "EL ABISMO",
+      "ancla_etiqueta": "cuento"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "heroe",
+     "params": {
+      "texto": "EL ZIFIO DE CUVIER",
+      "ancla_texto": "zifio"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "CORAZÓN LENTO",
+      "ancla_etiqueta": "corazón"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "RESERVA DE OXÍGENO",
+      "ancla_etiqueta": "oxígeno"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "choque",
+     "params": {
+      "etiqueta": "2.000 M",
+      "ancla_x": "metros"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "bestia",
+     "params": {
+      "etiqueta": "RADAR BIOLÓGICO",
+      "ancla_etiqueta": "radar"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "giro",
+     "params": {
+      "etiqueta": "3H 42M",
+      "ancla_etiqueta": "horas"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "tormenta",
+     "params": {
+      "etiqueta": "ÉL, TRES HORAS",
+      "ancla_etiqueta": "horas"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "RÉCORD NO HUMANO",
+      "ancla_etiqueta": "cuento"
+     }
+    }
+   ]
+  },
+  {
+   "id": "godwit-vuelo",
+   "titulo": "El pájaro que voló 11 días sin parar",
+   "meta_titulo": "13.000 km sin aterrizar 🦅",
+   "desc": "La aguja colipinta cruza el Pacífico de Alaska a Nueva Zelanda en un solo vuelo de 11 días. Sin escala, sin agua, sin aterrizar.",
+   "tags": [
+    "animales",
+    "migración",
+    "récords",
+    "aves",
+    "curiosidades",
+    "naturaleza"
+   ],
+   "fuentes": [
+    "Gill et al., Ecology and Evolution (2020): vuelo de 13.000 km de Limosa lapponica sin escalas",
+    "Pukekohe / Global Flyway Network: seguimiento por satélite de la aguja colipinta"
+   ],
+   "lineas": [
+    {
+     "texto": "El cuento de hoy empieza en Alaska y termina en el otro lado del planeta.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "La aguja colipinta es un pájaro de playa con un secreto enorme."
+    },
+    {
+     "texto": "Antes de volar, engorda hasta el doble: su cuerpo se vuelve combustible."
+    },
+    {
+     "texto": "Y despega. Rumbo sur, sobre el Pacífico abierto.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "No hay islas. No hay escalas. Solo viento y la memoria del rumbo."
+    },
+    {
+     "texto": "Día tras día: duerme planeando, come de sus reservas, y sigue."
+    },
+    {
+     "texto": "El vuelo medido: 13.000 kilómetros en 11 días seguidos."
+    },
+    {
+     "texto": "Sin aterrizar una sola vez.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Aterriza en Nueva Zelanda, agotado, y la marea le da la bienvenida."
+    },
+    {
+     "texto": "Y la moraleja flota: nadie le enseñó el mapa. Lo llevaba de fábrica."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mundo",
+     "params": {
+      "etiqueta": "ALASKA → N. ZELANDA",
+      "ancla_etiqueta": "cuento"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "heroe",
+     "params": {
+      "texto": "AGUJA COLIPINTA",
+      "ancla_texto": "colipinta"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "COMBUSTIBLE AL DOBLE",
+      "ancla_etiqueta": "combustible"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "RUMBO SUR",
+      "ancla_etiqueta": "sur"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "tormenta",
+     "params": {
+      "etiqueta": "SOLO EL VIENTO",
+      "ancla_etiqueta": "viento"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "giro",
+     "params": {
+      "etiqueta": "DÍA TRAS DÍA",
+      "ancla_etiqueta": "reservas"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "choque",
+     "params": {
+      "etiqueta": "13.000 KM",
+      "ancla_x": "kilómetros"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 8,
+     "escena": "mundo",
+     "params": {
+      "etiqueta": "ATERRIZAJE",
+      "ancla_etiqueta": "Aterriza"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "MAPA DE FÁBRICA",
+      "ancla_etiqueta": "mapa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "mantis-golpe",
+   "titulo": "El golpe más rápido del reino animal",
+   "meta_titulo": "Un puñetazo a 80 km/h 🦐",
+   "desc": "La gamba mantis golpea con la aceleración de una bala. Su pata rompe cristales de acuario y hierve el agua alrededor del impacto.",
+   "tags": [
+    "animales",
+    "récords",
+    "océano",
+    "curiosidades",
+    "fuerza",
+    "naturaleza"
+   ],
+   "fuentes": [
+    "Patek et al., Nature (2004): aceleración de 10.000 g en el apéndice de la gamba mantis",
+    "Caldwell Lab / Berkeley: casos de cristales de acuario rotos por Odontodactylus scyllarus"
+   ],
+   "lineas": [
+    {
+     "texto": "En este cuento el héroe mide 15 centímetros y pega como una pistola.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "La gamba mantis esconde un resorte bajo el caparazón."
+    },
+    {
+     "texto": "Cuando ataca, libera el resorte en un solo latigazo."
+    },
+    {
+     "texto": "La aceleración del golpe: 10.000 veces la gravedad.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "En el agua, el impacto crea una burbuja que colapsa en un mini estallido."
+    },
+    {
+     "texto": "Hasta la burbuja hiere: el agua hierve a su alrededor por fricción."
+    },
+    {
+     "texto": "Rompía los cristales de acuarios tan gruesos que hubo que cambiarlos de material."
+    },
+    {
+     "texto": "Su pata de ataque es más dura que la de muchos materiales humanos.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Y lo raro: son casi ciegos. Pegan por el movimiento, no por la vista."
+    },
+    {
+     "texto": "El cuento cierra: el campeón más pequeño del ring ya estaba en el océano."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mundo",
+     "params": {
+      "etiqueta": "15 CM Y UN PUÑO",
+      "ancla_etiqueta": "héroe"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "heroe",
+     "params": {
+      "texto": "LA GAMBA MANTIS",
+      "ancla_texto": "mantis"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "EL RESORTE",
+      "ancla_etiqueta": "resorte"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "choque",
+     "params": {
+      "etiqueta": "10.000 G",
+      "ancla_x": "gravedad"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "bestia",
+     "params": {
+      "etiqueta": "LA BURBUJA",
+      "ancla_etiqueta": "burbuja"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "choque",
+     "params": {
+      "etiqueta": "ROMPE CRISTALES",
+      "ancla_x": "cristales"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 7,
+     "escena": "giro",
+     "params": {
+      "etiqueta": "DURA COMO EL ACERO",
+      "ancla_etiqueta": "materiales"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 8,
+     "escena": "tormenta",
+     "params": {
+      "etiqueta": "CASI CIEGA",
+      "ancla_etiqueta": "ciegos"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "CAMPEÓN DEL RING",
+      "ancla_etiqueta": "cuento"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tardigrado",
+   "titulo": "El animalito que sobrevivió al espacio vacío",
+   "meta_titulo": "Sobrevivió al espacio REAL 🐻",
+   "desc": "El tardígrado aguanta el vacío, la radiación y el cero absoluto. En 2007 los científicos lo mandaron al espacio abierto… y volvió vivo.",
+   "tags": [
+    "animales",
+    "espacio",
+    "récords",
+    "curiosidades",
+    "ciencia",
+    "tardígrados"
+   ],
+   "fuentes": [
+    "Jönsson et al., Current Biology (2008): supervivencia de tardígrados en órbita abierta (misión FOTON-M3)",
+    "European Space Agency: informe de la exposición orbital de tardígrados en 2007"
+   ],
+   "lineas": [
+    {
+     "texto": "El cuento más raro empieza con un animalito de medio milímetro.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "El tardígrado, que parece un osito de ocho patas, tiene un truco."
+    },
+    {
+     "texto": "Cuando el mundo se vuelve hostil, se seca y entra en pausa."
+    },
+    {
+     "texto": "Sin agua, sin latidos, sin gasto. Una cripta de cristal interna.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "En ese estado aguanta el vacío del espacio y la radiación solar directa."
+    },
+    {
+     "texto": "En 2007, la ESA los mandó a órbita baja, expuestos al exterior."
+    },
+    {
+     "texto": "Diez días flotando en el espacio abierto, con el sol de frente."
+    },
+    {
+     "texto": "Al regresar, muchos se rehidrataron y siguieron vivos como si nada.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Algunos hasta pusieron huevos con normalidad después del viaje."
+    },
+    {
+     "texto": "El cuento termina: el ser más duro del planeta mide medio milímetro."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mundo",
+     "params": {
+      "etiqueta": "MEDIO MILÍMETRO",
+      "ancla_etiqueta": "cuento"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "heroe",
+     "params": {
+      "texto": "EL TARDÍGRADO",
+      "ancla_texto": "tardígrado"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "MODO PAUSA",
+      "ancla_etiqueta": "pausa"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "CRÍPTA DE CRISTAL",
+      "ancla_etiqueta": "cripta"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "tormenta",
+     "params": {
+      "etiqueta": "VACÍO Y RADIACIÓN",
+      "ancla_etiqueta": "espacio"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "choque",
+     "params": {
+      "etiqueta": "ÓRBITA BAJA",
+      "ancla_x": "órbita"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "giro",
+     "params": {
+      "etiqueta": "10 DÍAS FLOTANDO",
+      "ancla_etiqueta": "días"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "bestia",
+     "params": {
+      "etiqueta": "VOLVIÓ VIVO",
+      "ancla_etiqueta": "vivos"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "EL MÁS DURO",
+      "ancla_etiqueta": "cuento"
+     }
+    }
+   ]
+  },
+  {
+   "id": "inky-pulpo",
+   "titulo": "El pulpo que escapó por una tubería al mar",
+   "meta_titulo": "Se escapó del acuario por una TUBERÍA 🐙",
+   "desc": "Inky el pulpo se salió de su tanque en Nueva Zelanda, cruzó el suelo, bajó una tubería de 50 metros y volvió al mar. El plan está documentado.",
+   "tags": [
+    "animales",
+    "pulpos",
+    "curiosidades",
+    "océano",
+    "escapes",
+    "naturaleza"
+   ],
+   "fuentes": [
+    "National Aquarium of New Zealand (2016): informe del escape de Inky, Dunedin",
+    "CNN/NYT (2016): cobertura del rastro físico del escape"
+   ],
+   "lineas": [
+    {
+     "texto": "Este cuento tiene héroe, fuga y final feliz: todos los ingredientes.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Inky era un pulpo del acuario de Nueva Zelanda, famoso por curioso."
+    },
+    {
+     "texto": "Una noche de 2016, la tapa de su tanque quedó mal cerrada."
+    },
+    {
+     "texto": "Inky se coló por el hueco, cayó al suelo y siguió avanzando.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "El rastro húmedo lo contó todo: cruzó el suelo del edificio."
+    },
+    {
+     "texto": "Encontró una tubería de drenaje de 50 metros y la recorrió entera."
+    },
+    {
+     "texto": "La tubería desembocaba en la bahía. El mar lo recibió de vuelta."
+    },
+    {
+     "texto": "El personal lo encontró ausente al amanecer y el rastro intacto.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "El informe oficial usa una palabra: un pulpo explorando oportunidades."
+    },
+    {
+     "texto": "Y la moraleja es limpia: si el mar te llama, halla la salida."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mundo",
+     "params": {
+      "etiqueta": "LA FUGA PERFECTA",
+      "ancla_etiqueta": "cuento"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "heroe",
+     "params": {
+      "texto": "INKY",
+      "ancla_texto": "pulpo"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "TAPA ABIERTA",
+      "ancla_etiqueta": "tapa"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "choque",
+     "params": {
+      "etiqueta": "SE CUELA",
+      "ancla_x": "hueco"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "RASTRO HÚMEDO",
+      "ancla_etiqueta": "húmedo"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "tormenta",
+     "params": {
+      "etiqueta": "50 M DE TUBERÍA",
+      "ancla_etiqueta": "tubería"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "bestia",
+     "params": {
+      "etiqueta": "EL MAR LO ESPERA",
+      "ancla_etiqueta": "bahía"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "giro",
+     "params": {
+      "etiqueta": "RASTRO INTACTO",
+      "ancla_etiqueta": "rastro"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "FINAL FELIZ",
+      "ancla_etiqueta": "salida"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rana-congelada",
+   "titulo": "La rana que se congela y revive en primavera",
+   "meta_titulo": "Se congela SÓLIDA… y revive 🧊",
+   "desc": "La rana de la madera pasa el invierno congelada: sin latidos, sin respiración, con hasta el 65% de su cuerpo en hielo. En primavera, se descongela y vive.",
+   "tags": [
+    "animales",
+    "curiosidades",
+    "hielo",
+    "ciencia",
+    "naturaleza",
+    "récords"
+   ],
+   "fuentes": [
+    "Storey & Storey: décadas de estudios sobre crioprotección en Rana sylvatica",
+    "Miami University Frog Lab: mediciones de hielo corporal hasta el 65%"
+   ],
+   "lineas": [
+    {
+     "texto": "El cuento de hoy ocurre bajo la nieve, y empieza con un congelamiento total.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "La rana de la madera se deja congelar a propósito cada invierno."
+    },
+    {
+     "texto": "Su corazón se detiene. Su sangre deja de circular. Todo, en pausa."
+    },
+    {
+     "texto": "Pero su cuerpo prepara el truco: hígado lleno de glucosa crioprotectora.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "La glucosa actúa como anticongelante dentro de sus células."
+    },
+    {
+     "texto": "Hasta el 65% de su cuerpo queda en hielo sólido durante semanas."
+    },
+    {
+     "texto": "En primavera, el deshielo arranca por el corazón: vuelve a latir."
+    },
+    {
+     "texto": "Luego la sangre, luego los músculos, y en horas está saltando.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "La ciencia la estudia para la conservación de órganos humanos."
+    },
+    {
+     "texto": "Y el cuento cierra: la primavera es, para ella, una resurrección técnica."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mundo",
+     "params": {
+      "etiqueta": "INVIERNO SÓLIDO",
+      "ancla_etiqueta": "cuento"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "heroe",
+     "params": {
+      "texto": "LA RANA DE LA MADERA",
+      "ancla_texto": "rana"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "TODO EN PAUSA",
+      "ancla_etiqueta": "pausa"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "GLUCOSA ANTICONGELANTE",
+      "ancla_etiqueta": "glucosa"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "choque",
+     "params": {
+      "etiqueta": "DENTRO DE LAS CÉLULAS",
+      "ancla_x": "anticongelante"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "giro",
+     "params": {
+      "etiqueta": "65% EN HIELO",
+      "ancla_etiqueta": "hielo"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "bestia",
+     "params": {
+      "etiqueta": "REINICIO",
+      "ancla_etiqueta": "latir"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 8,
+     "escena": "tormenta",
+     "params": {
+      "etiqueta": "CIENCIA HUMANA",
+      "ancla_etiqueta": "órganos"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "RESURRECCIÓN TÉCNICA",
+      "ancla_etiqueta": "cuento"
+     }
+    }
+   ]
+  },
+  {
+   "id": "halcon-veloz",
+   "titulo": "El halcón que cae a 389 km/h",
+   "meta_titulo": "El animal MÁS rápido del planeta 🦅",
+   "desc": "El halcón peregrino supera los 389 km/h en picada. Es más rápido que cualquier tren bala, y su cuerpo está diseñado para sobrevivir a esa velocidad.",
+   "tags": [
+    "animales",
+    "aves",
+    "récords",
+    "velocidad",
+    "curiosidades",
+    "naturaleza"
+   ],
+   "fuentes": [
+    "Tucker et al., Journal of Experimental Biology (2000): modelado de la picada del halcón peregrino",
+    "Guinness World Records: halcón peregrino como animal más rápido en picada"
+   ],
+   "lineas": [
+    {
+     "texto": "El cuento de hoy vuela más rápido que cualquier tren del mundo.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "El halcón peregrino es el animal más veloz del planeta."
+    },
+    {
+     "texto": "Cuando caza, sube alto, localiza su presa y se lanza en picada."
+    },
+    {
+     "texto": "En la caída, pliega las alas y se convierte en un dardo con plumas.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Los medidores de velocidad le atribuyen hasta 389 kilómetros por hora."
+    },
+    {
+     "texto": "A esa velocidad, el aire debería destrozar sus ojos y sus pulmones."
+    },
+    {
+     "texto": "Pero tiene trampas internas: membranas nictitantes y fosas nasales con conos."
+    },
+    {
+     "texto": "El cono nasal rompe la corriente de aire, como los motores a reacción.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Los diseñadores de aviones estudiaron su nariz para solucionar el mismo problema."
+    },
+    {
+     "texto": "El cuento final: la aeronave más avanzada copió una idea de este ave."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mundo",
+     "params": {
+      "etiqueta": "MÁS RÁPIDO QUE UN TREN",
+      "ancla_etiqueta": "cuento"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "heroe",
+     "params": {
+      "texto": "EL HALCÓN PEREGRINO",
+      "ancla_texto": "halcón"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "EN PICADA",
+      "ancla_etiqueta": "picada"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "choque",
+     "params": {
+      "etiqueta": "DARDO CON PLUMAS",
+      "ancla_x": "dardo"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "giro",
+     "params": {
+      "etiqueta": "389 KM/H",
+      "ancla_etiqueta": "kilómetros"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "tormenta",
+     "params": {
+      "etiqueta": "EL VIENTO MATA",
+      "ancla_etiqueta": "destrozar"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "bestia",
+     "params": {
+      "etiqueta": "TRAMPAS INTERNAS",
+      "ancla_etiqueta": "trampas"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 8,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "LA AVIACIÓN COPIÓ",
+      "ancla_etiqueta": "aviones"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "IDEA DE NARIZ",
+      "ancla_etiqueta": "cuento"
+     }
+    }
+   ]
+  },
+  {
+   "id": "delfin-nombres",
+   "titulo": "Los delfines se llaman por su NOMBRE propio",
+   "meta_titulo": "Cada delfín tiene NOMBRE PROPIO 🐬",
+   "desc": "Los delfines mulares inventan un silbido único de nacimiento: su nombre. Y lo usan para llamarse entre ellos, como etiquetas sociales reales.",
+   "tags": [
+    "animales",
+    "delfines",
+    "océano",
+    "curiosidades",
+    "lenguaje",
+    "ciencia"
+   ],
+   "fuentes": [
+    "King et al., PNAS (2013): copia del silbido distintivo entre delfines (llamadas por nombre)",
+    "Janik & Sayigh, Proceedings of the Royal Society B (2013): respuesta a su silbido exclusivo"
+   ],
+   "lineas": [
+    {
+     "texto": "Este cuento es de nombres: cada delfín nace con el suyo.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "El delfín mular inventa su silbido distintivo en los primeros meses."
+    },
+    {
+     "texto": "Ese silbido funciona como un nombre propio: nadie más lo usa igual."
+    },
+    {
+     "texto": "Y los otros delfines lo aprenden y lo repiten para llamarlo.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "En los experimentos, el delfín responde a SU silbido, ignorando los demás."
+    },
+    {
+     "texto": "No lo confunde con ecos: es una etiqueta social con dueño."
+    },
+    {
+     "texto": "Los amigos cercanos incluso se copian el nombre para dirigirse uno a otro."
+    },
+    {
+     "texto": "Como cuando humanos usan apodos cariñosos entre ellos.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "La ciencia lo confirmó con grabaciones filtradas: responden al nombre, no a la voz."
+    },
+    {
+     "texto": "El cuento cierra: la conversación más antigua del mar ya tenía nombres."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mundo",
+     "params": {
+      "etiqueta": "NOMBRES DEL MAR",
+      "ancla_etiqueta": "cuento"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "heroe",
+     "params": {
+      "texto": "EL DELFÍN MULAR",
+      "ancla_texto": "mular"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "SILBIDO ÚNICO",
+      "ancla_etiqueta": "silbido"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "camina",
+     "params": {
+      "etiqueta": "LO APRENDE Y LO REPITE",
+      "ancla_etiqueta": "aprenden"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "choque",
+     "params": {
+      "etiqueta": "RESPONDE AL SUYO",
+      "ancla_x": "silbido"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "bestia",
+     "params": {
+      "etiqueta": "ETIQUETA CON DUEÑO",
+      "ancla_etiqueta": "etiqueta"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "giro",
+     "params": {
+      "etiqueta": "COPIAN EL NOMBRE",
+      "ancla_etiqueta": "nombre"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 8,
+     "escena": "tormenta",
+     "params": {
+      "etiqueta": "CONFIRMADO",
+      "ancla_etiqueta": "grabaciones"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "CONVERSACIÓN ANTIGUA",
+      "ancla_etiqueta": "cuento"
+     }
+    }
+   ]
+  }
+ ]
+}

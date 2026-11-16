@@ -1,75 +1,65 @@
-# 🤖 Bot Autónomo de YouTube Shorts 24/7
+# 🤖 Bot Autónomo de YouTube Shorts 24/7 (GitHub Actions)
 
-Genera y publica Shorts de terror estilo *"reglas de pueblos de Roblox"* sin intervención humana: produce lotes de videos verticales 9:16 con voz IA, subtítulos dinámicos estilo Hormozi, y los sube a la API oficial de YouTube respetando una pausa estricta de 4-6 horas entre publicaciones.
+Produce y publica Shorts verticales 9:16 **sin intervención humana**, corriendo gratis en **GitHub Actions** — el PC puede estar apagado. 6 estilos en español rotan por prioridad: los videos se generan, se guardan en una cola (release de GitHub) y se suben a YouTube **1 cada 2 horas**, con latido y alertas en vivo en Discord.
 
-## 📁 Estructura creada por el bot
+## 🎬 Los 6 estilos
+
+| Estilo | Qué produce | Prioridad |
+|---|---|---|
+| **Deep Dive 3D** `deep-dive` | "¿Qué pasaría si…?" de cuerpo y ciencia, 3D tipo Zack D. Films | alta (siempre: 1 por ciclo) |
+| **Inside Out** `inside-out` | explicador 2D plano de rayos X | alta (siempre: 1 por ciclo) |
+| **Night File 3D** `night-file` | expedientes de misterio sin resolver, crimen real | media (rota por par/impar) |
+| **Paper Atlas** `paper-atlas` | historia en papel recortado con mapas | media (rota por par/impar) |
+| **Stick Story** `stick-story` | "¿qué harías si…?" con monigotes | media (rota por par/impar) |
+| **Tall Tale 3D** `tall-tale` | historias reales divertidas en 3D | media (rota por par/impar) |
+
+**Producción:** cron cada 6 h → 4 videos por ciclo (2 de prioridad + 2 rotativos por par/impar) ≈ **16/día generados**. **Consumo:** 1 subida cada 2 h = **12/día**. La cola se poda a 36 para no crecer sin límite.
+
+## 📁 Estructura del repo
 
 | Carpeta/Archivo | Descripción |
 |---|---|
-| `main.py` | Script completo del bot |
-| `requirements.txt` | Dependencias |
-| `client_secret.json` | Credenciales OAuth (las pones tú) |
-| `token.pickle` | Sesión guardada (auto) — no pedir login cada ciclo |
-| `bot_activity.log` | Log completo de actividad (auto) |
-| `estado_bot.json` | Pausas e intentos persistentes (auto) |
-| `cola_videos/` | Videos renderizados esperando subida |
-| `subidos/` | Archivo de videos ya publicados |
-| `errores/` | Videos que agotaron sus intentos |
-| `temp/` | Archivos temporales de producción |
+| `bot/` | Código del bot (Python): producir, publicar, latido, YouTube, Discord, estado |
+| `guionista/` | Generador de guiones + `pools/` con las tarjetas de cada estilo |
+| `skill/` | Motor de render de los 6 estilos (canvas + Chrome + ffmpeg + voz Kokoro) |
+| `.github/workflows/` | `producir.yml` · `publicar.yml` · `latido.yml` |
+| `estado_bot.json` | Estado persistente (auto): contadores, cola, dedupe de subidos |
 
-## 🚀 Puesta en marcha (primera vez, con ventana visible)
+## 🔁 Los 3 workflows
 
-```powershell
-cd C:\Users\Fidelito\Downloads\proyectos
-pip install -r requirements.txt
-python main.py
-```
+| Workflow | Cron | Qué hace |
+|---|---|---|
+| `producir.yml` | `0 */6 * * *` | Elige estilo por peso → guionista → render Chrome → `video.mp4` + `video.meta.json` a la release `cola` |
+| `publicar.yml` | `15 */2 * * *` | Toma el video más antiguo de la cola, sube a YouTube, borra los assets de la cola |
+| `latido.yml` | `*/5 * * * *` | Latido a Discord cada 5 min + alertas en tiempo real (inicio/fin de ciclo, video generado, subida con link, errores críticos) |
 
-1. La primera vez se abre el navegador → inicia sesión con la cuenta del canal → autoriza → cierra pestaña. Queda guardado en `token.pickle` y no se volverá a pedir.
-2. (Opcional) Genera un video de muestra sin subir nada: `python main.py --prueba`
-3. El bot arranca: si `cola_videos/` está vacía fabrica un lote de 5 videos (tarda: la 1.ª vez descarga el modelo Whisper y el ffmpeg automático), luego sube 1, espera 4-6 h, sube el siguiente…
+## 🔑 Secrets de GitHub (se ponen una vez)
 
-## 🌙 Dejarlo corriendo en segundo plano (2 días)
+| Secret | Qué es |
+|---|---|
+| `CLIENT_SECRET_B64` | `client_secret.json` de Google Cloud en base64 |
+| `TOKEN_PICKLE_B64` | `token.pickle` con el token de refresco de YouTube, en base64 |
+| `DISCORD_WEBHOOK_URL` | URL del webhook del canal de Discord |
+| `GH_TOKEN` | token del repo para leer/borrar la cola de la release |
 
-**Opción A — Doble clic:** ejecuta `iniciar_bot.bat` (ventana minimizada).
+## 🚀 Puesta en marcha (primera vez)
 
-**Opción B — PowerShell oculto:**
-```powershell
-Start-Process pythonw -ArgumentList "main.py" -WorkingDirectory "C:\Users\Fidelito\Downloads\proyectos" -WindowStyle Hidden
-```
+1. Añade los secrets arriba en **Settings → Secrets and variables → Actions**.
+2. Genera el token de YouTube en local: `python bot/yt.py --autorizar` (abre el navegador y, al terminar, imprime la línea `TOKEN_OK` con el `TOKEN_PICKLE_B64` ya codificado). No se vuelve a pedir.
+3. Activa los workflows (Actions → Enable). Todo arranca solo por cron.
 
-**Opción C — Programador de tareas (recomendada para 2 días):**
-```powershell
-schtasks /Create /TN "BotYT24" /TR "\"C:\Users\Fidelito\Downloads\proyectos\iniciar_bot.bat\"" /SC ONLOGON /F
-schtasks /Run /TN "BotYT24"
-```
+## 📡 Monitoreo
 
-**Requisitos físicos de los 2 días:** el PC encendido, sin suspensión:
-```powershell
-powercfg /change standby-timeout-ac 0
-```
+El canal de Discord recibe: latido cada 5 min, video generado (estilo + título), subida con link, y errores críticos con el log.
 
-## 📡 Monitoreo en vivo
+## ⚙️ Ajustes
 
-```powershell
-Get-Content .\bot_activity.log -Wait -Tail 20
-```
+- Pesos de rotación y `MAX_COLA=36` → `bot/publicar.py`
+- Crons → los `on.schedule` de cada workflow
+- Pool de temas → `guionista/pools/*.json` (8+ tarjetas por estilo; se amplían añadiendo tarjetas)
 
-## ⏹ Detener el bot
+## ⚠️ Notas
 
-- Si corre en consola: `Ctrl + C`
-- Si corre oculto: `taskkill /IM pythonw.exe /F`
-
-Al reiniciarse, el bot **respeta la pausa pendiente** (gracias a `estado_bot.json`), no re-sub videos ya publicados (se movieron a `subidos/`) y reintenta los fallidos hasta 5 veces.
-
-## ⚙️ Personalización (constantes al inicio de `main.py`)
-
-- `VIDEOS_POR_LOTE`, `N_REGLAS`, `VOZ`, `MODELO_WHISPER`
-- `ANCHO/ALTO` → `1080, 1920` si tu PC renderiza bien (más calidad, más lento)
-- Plantillas de historias, títulos, hashtags → bancos de texto editables
-
-## ⚠️ Notas de buen uso
-
-- Cuota diaria de la API: 10.000 unidades ≈ 6 subidas/día; con pausas de 4-6 h quedas dentro del límite.
-- La descripción ya declara que es ficción con voz de IA (recomendado por YouTube).
-- YouTube puede limitar la monetización de contenido repetitivo generado masivamente; publica con tu propio criterio.
+- Cuota diaria de la API de YouTube: ~6 subidas/día; si se corta, el bot reintenta en el siguiente hueco sin morir.
+- Las descripciones declaran contenido generado con voz de IA (recomendado por YouTube).
+- **Los videos personales del canal (2024) no se tocan jamás** — el bot solo sube, no borra nada de YouTube.

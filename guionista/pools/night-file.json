@@ -1,0 +1,1023 @@
+{
+ "estilo": "night-file",
+ "voz": "ef_dora",
+ "velocidad": 1.0,
+ "musica": "bed",
+ "lead": 0.45,
+ "outro": 0.9,
+ "gap": 0.32,
+ "tarjetas": [
+  {
+   "id": "yamaguchi",
+   "titulo": "El hombre que sobrevivió a DOS bombas atómicas",
+   "meta_titulo": "Sobrevivió a DOS bombas atómicas 😱",
+   "desc": "Tsutomu Yamaguchi estaba en Hiroshima el 6 de agosto de 1945… y tres días después llegó a Nagasaki. Este expediente cuenta cómo salió vivo de las dos.",
+   "tags": [
+    "historia real",
+    "expediente",
+    "supervivencia",
+    "datos",
+    "curiosidades",
+    "historia de Japón"
+   ],
+   "fuentes": [
+    "Registro oficial de Japón: Tsutomu Yamaguchi fue reconocido en 2009 como superviviente de Hiroshima y Nagasaki",
+    "BBC News: 'The man who survived two atomic bombs' (2009)"
+   ],
+   "lineas": [
+    {
+     "texto": "El expediente 165 tiene un nombre: Tsutomu Yamaguchi.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Agosto de 1945: viajaba por trabajo cuando la primera bomba cayó en Hiroshima."
+    },
+    {
+     "texto": "Quemado, sordo de un oído y en shock, tomó una decisión: volver a casa."
+    },
+    {
+     "texto": "Su casa estaba en otra ciudad. Se llamaba Nagasaki.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Tres días después, mientras explicaba a su jefe lo que había visto, cayó la segunda."
+    },
+    {
+     "texto": "De nuevo, luz de mil soles. De nuevo, el mismo infierno.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Sobrevivió a las dos. Se recuperó, tuvo hijos y vivió hasta los 93 años."
+    },
+    {
+     "texto": "El gobierno japonés lo reconoció oficialmente en 2009 como doble superviviente."
+    },
+    {
+     "texto": "Y su mensaje final fue sencillo: no ocurra nunca más.",
+     "pausa": 0.5
+    },
+    {
+     "texto": "Si te lo contara un guionista no te lo creerías, pero está en el archivo."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "caso",
+     "params": {
+      "etiqueta": "EXPEDIENTE 165",
+      "ancla_etiqueta": "expediente"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "documento",
+     "params": {
+      "lineas": 5,
+      "etiqueta": "HIROSHIMA",
+      "ancla_etiqueta": "Quemado"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "foto",
+     "params": {
+      "etiqueta": "SIN ESCAPARIA",
+      "ancla_etiqueta": "Nagasaki"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hilo",
+     "params": {
+      "etiqueta": "3 DÍAS DESPUÉS",
+      "ancla_etiqueta": "después"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "dato",
+     "params": {
+      "numero": "93",
+      "texto": "AÑOS VIVIÓ",
+      "ancla_x": "AÑOS"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 7,
+     "escena": "girar",
+     "params": {
+      "etiqueta": "2009: RECONOCIDO",
+      "ancla_etiqueta": "reconoció"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "sello": "CASO CERRADO",
+      "ancla_etiqueta": "archivo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "mary-celeste",
+   "titulo": "El barco que apareció sin NADIE a bordo",
+   "meta_titulo": "Un barco perfectamente intacto… y vacío 🚢",
+   "desc": "En 1872 la Mary Celeste fue encontrada navegando sola: comida intacta, carga a salvo, tripulación desaparecida. 150 años después sigue sin explicación cerrada.",
+   "tags": [
+    "misterio",
+    "expediente",
+    "mar",
+    "historia real",
+    "curiosidades",
+    "barcos"
+   ],
+   "fuentes": [
+    "Archivos de la corte marcial de Gibraltar (1872): investigación oficial del caso Mary Celeste",
+    "Smithsonian Magazine: 'The Ghost Ship Mary Celeste'"
+   ],
+   "lineas": [
+    {
+     "texto": "Este expediente huele a sal y a preguntas sin respuesta.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Diciembre de 1872: un barco británico divisa un velero a la deriva."
+    },
+    {
+     "texto": "Se llama Mary Celeste. Sale de la bodega: nadie a bordo."
+    },
+    {
+     "texto": "Ni la tripulación, ni el capitán, ni su hija de dos años.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Lo extraño: la comida estaba intacta y la carga también."
+    },
+    {
+     "texto": "El bote salvavidas faltaba, y las velas estaban medio sueltas."
+    },
+    {
+     "texto": "La investigación oficial no acusó a nadie: sin cuerpos, sin motivos, sin pruebas."
+    },
+    {
+     "texto": "150 años después, las teorías van del maremoto a los vapores de alcohol de la carga."
+    },
+    {
+     "texto": "Ninguna cierra el caso.",
+     "pausa": 0.5
+    },
+    {
+     "texto": "Por eso el expediente 9 sigue abierto, y seguirá abierto para siempre."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "caso",
+     "params": {
+      "etiqueta": "EXPEDIENTE 9",
+      "ancla_etiqueta": "expediente"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "documento",
+     "params": {
+      "lineas": 4,
+      "etiqueta": "1872",
+      "ancla_etiqueta": "Celeste"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "foto",
+     "params": {
+      "etiqueta": "NADIE A BORDO",
+      "ancla_etiqueta": "capitán"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 5,
+     "escena": "hilo",
+     "params": {
+      "etiqueta": "PISTAS CONFLICTIVAS",
+      "ancla_etiqueta": "velas"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 7,
+     "escena": "dato",
+     "params": {
+      "numero": "150",
+      "texto": "AÑOS SIN RESPUESTA",
+      "ancla_x": "AÑOS"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 8,
+     "escena": "apagon",
+     "params": {
+      "etiqueta": "SIN CULPABLE",
+      "ancla_apagon": "caso"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "sello": "CASO ABIERTO",
+      "ancla_etiqueta": "abierto"
+     }
+    }
+   ]
+  },
+  {
+   "id": "db-cooper",
+   "titulo": "El hombre que secuestró un avión y desapareció",
+   "meta_titulo": "Saltó con el dinero… y nunca lo encontraron 💰",
+   "desc": "En 1971, un pasajero llamado Dan Cooper extorsionó 200.000 dólares y saltó del avión. Es el único caso aéreo sin resolver del FBI.",
+   "tags": [
+    "expediente",
+    "misterio",
+    "historia real",
+    "FBI",
+    "curiosidades",
+    "caso abierto"
+   ],
+   "fuentes": [
+    "FBI: caso Norjak (Dan Cooper), archivado en 2016 como único caso aéreo sin resolver de EE.UU.",
+    "El billete n.º 284 del rescate apareció en 1980 a orillas del río Columbia"
+   ],
+   "lineas": [
+    {
+     "texto": "El expediente que abrió el FBI lleva 50 años sin cerrarse.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Noviembre de 1971: un hombre con traje compra un billete a Portland."
+    },
+    {
+     "texto": "Su nombre de pila es Dan Cooper. Su plan: un secuestro silencioso."
+    },
+    {
+     "texto": "En el aire, le pasa una nota a la azafata: tiene una bomba.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Exige 200.000 dólares en billetes y cuatro paracaídas."
+    },
+    {
+     "texto": "El avión aterriza, cobra, y despega de nuevo con órdenes de volar bajo."
+    },
+    {
+     "texto": "En pleno vuelo, abre la puerta trasera y salta. Nunca más se supo."
+    },
+    {
+     "texto": "Nueve años después aparecieron 5.800 dólares del rescate enterrados en un río."
+    },
+    {
+     "texto": "El resto del dinero, y Cooper, jamás aparecieron.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "El FBI cerró el expediente en 2016. Sin saber si vivió, ni si murió, ni quién era."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "caso",
+     "params": {
+      "etiqueta": "EXPEDIENTE NORJAK",
+      "ancla_etiqueta": "expediente"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T03",
+     "linea": 3,
+     "escena": "documento",
+     "params": {
+      "lineas": 4,
+      "etiqueta": "TIENE UNA BOMBA",
+      "ancla_etiqueta": "bomba"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "$200.000",
+      "texto": "EL RESCATE",
+      "ancla_x": "dólares"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 6,
+     "escena": "hilo",
+     "params": {
+      "etiqueta": "ÚLTIMA PISTA",
+      "ancla_etiqueta": "nunca"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 7,
+     "escena": "foto",
+     "params": {
+      "etiqueta": "1980: DINERO HALLADO",
+      "ancla_etiqueta": "dólares"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 8,
+     "escena": "girar",
+     "params": {
+      "etiqueta": "EL DINERO FALTA",
+      "ancla_etiqueta": "aparecieron"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "sello": "SIN RESOLVER",
+      "ancla_etiqueta": "expediente"
+     }
+    }
+   ]
+  },
+  {
+   "id": "alcatraz",
+   "titulo": "La fuga de Alcatraz que nadie ha cerrado",
+   "meta_titulo": "Escaparon de la cárcel imposible 🗿",
+   "desc": "En 1962, tres reclusos huyeron de Alcatraz con cucharas, abrigos y un bote de goma. ¿Nadarón? ¿Vivieron? El expediente sigue a medio cerrar.",
+   "tags": [
+    "expediente",
+    "fuga",
+    "historia real",
+    "misterio",
+    "curiosidades",
+    "cárcel"
+   ],
+   "fuentes": [
+    "Oficina de Alguaciles de EE.UU.: la fuga de 1962 sigue en estatus de fuga activa",
+    "Mythbusters (2003): una balsa de goma y resina es viable para cruzar la bahía"
+   ],
+   "lineas": [
+    {
+     "texto": "Alcatraz era la cárcel de la que no se salía. El expediente 62 dice otra cosa.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Junio de 1962: tres presos llevan meses excavando con cucharas de metal."
+    },
+    {
+     "texto": "Agrandan los conductos de ventilación piedra a piedra, noche tras noche."
+    },
+    {
+     "texto": "Se disfrazan con cabezas de papel pintadas con pelo real de la barbería.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Esa noche, sus camas parecen dormidas. Las cabezas son de yeso y jabón."
+    },
+    {
+     "texto": "Bajan, cruzan el patíbulo y suben a una balsa hecha con 50 abrigos de lluvia."
+    },
+    {
+     "texto": "La balsa sale a la bahía. La corriente la lleva… y desaparece."
+    },
+    {
+     "texto": "Ninguno volvió a ser visto con vida. Pero tampoco se hallaron cuerpos."
+    },
+    {
+     "texto": "Los alguaciles aún lo tienen abierto como fuga activa.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Si llegaron a la orilla, estarían hoy en los 90. La pregunta sigue viva."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "caso",
+     "params": {
+      "etiqueta": "EXPEDIENTE 62",
+      "ancla_etiqueta": "expediente"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "documento",
+     "params": {
+      "lineas": 6,
+      "etiqueta": "CUCHARAS DE METAL",
+      "ancla_etiqueta": "cucharas"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 3,
+     "escena": "foto",
+     "params": {
+      "etiqueta": "CABEZAS DE PAPEL",
+      "ancla_etiqueta": "papel"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T05",
+     "linea": 5,
+     "escena": "hilo",
+     "params": {
+      "etiqueta": "LA BALSA",
+      "ancla_etiqueta": "balsa"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "dato",
+     "params": {
+      "numero": "50",
+      "texto": "ABRIGOS DE LLUVIA",
+      "ancla_x": "balsa"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 8,
+     "escena": "girar",
+     "params": {
+      "etiqueta": "FUGA ACTIVA",
+      "ancla_etiqueta": "abierto"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "sello": "A MEDIO CERRAR",
+      "ancla_etiqueta": "pregunta"
+     }
+    }
+   ]
+  },
+  {
+   "id": "van-meegeren",
+   "titulo": "El pintor que engañó a TODOS los expertos",
+   "meta_titulo": "Falsificó a Vermeer… y lo pagó con un alias 👨‍🎨",
+   "desc": "Han van Meegeren pintó falsos Vermeers que burlaron a museos enteros. Se descubrió cuando lo acusaron de traición, y su defensa fue demostrar la falsificación.",
+   "tags": [
+    "arte",
+    "expediente",
+    "historia real",
+    "falsificación",
+    "curiosidades",
+    "museos"
+   ],
+   "fuentes": [
+    "Juicio a Han van Meegeren (1945-47, Ámsterdam): confesó pintar 'La Cena en Emaús' en 1937",
+    "Museo Boijmans Van Beuningen: conserva un falso Vermeer del proceso"
+   ],
+   "lineas": [
+    {
+     "texto": "El expediente 44 no es de un crimen. Es de un pincel.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "1937: aparece un Vermeer nuevo, y los expertos lo celebran como un milagro."
+    },
+    {
+     "texto": "Museos enteros lo compran. Ninguno sospecha que es reciente."
+    },
+    {
+     "texto": "El autor es Han van Meegeren, y lo hace con cal, pigmentos y paciencia.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Seis falsos Vermeers y un récord: más de 30 millones de dólares de hoy."
+    },
+    {
+     "texto": "Se destapa por accidente: en 1945 lo acusan de vender arte nacional al enemigo."
+    },
+    {
+     "texto": "Su defensa es grotesca: confiesa que son falsificaciones."
+    },
+    {
+     "texto": "Los expertos no lo creen, y lo obligan a pintar otro Vermeer bajo vigilancia."
+    },
+    {
+     "texto": "Lo pinta. En seis semanas. Y es idéntico en estilo.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "El cargo cambia a falsificación. El mito de los expertos, nunca se recompone."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "caso",
+     "params": {
+      "etiqueta": "EXPEDIENTE 44",
+      "ancla_etiqueta": "expediente"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "documento",
+     "params": {
+      "lineas": 4,
+      "etiqueta": "VERMEER 1937",
+      "ancla_etiqueta": "Vermeer"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "foto",
+     "params": {
+      "etiqueta": "LOS COMPRADORES",
+      "ancla_etiqueta": "Museos"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "$30M",
+      "texto": "EN FALSOS",
+      "ancla_x": "millones"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 5,
+     "escena": "hilo",
+     "params": {
+      "etiqueta": "PISTA DEL JUICIO",
+      "ancla_etiqueta": "acusan"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T07",
+     "linea": 7,
+     "escena": "girar",
+     "params": {
+      "etiqueta": "PRUEBA PÚBLICA",
+      "ancla_etiqueta": "vigilancia"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "sello": "FALSIFICADO",
+      "ancla_etiqueta": "expertos"
+     }
+    }
+   ]
+  },
+  {
+   "id": "bobbie",
+   "titulo": "El perro que cruzó 4.000 km para volver a casa",
+   "meta_titulo": "Perdió a su dueño… y caminó 4.000 km 🐕",
+   "desc": "En 1923, Bobbie el collie se perdió en Indiana y apareció seis meses después en Oregon. Su ruta cruzó ríos, desiertos y montañas.",
+   "tags": [
+    "animales",
+    "expediente",
+    "historia real",
+    "perros",
+    "curiosidades",
+    "resiliencia"
+   ],
+   "fuentes": [
+    "Ripley's Believe It or Not! (1924): verificación del caso Bobbie the Wonder Dog",
+    "Oregón Historical Society: archivo del dueño y del viaje de 1923-24"
+   ],
+   "lineas": [
+    {
+     "texto": "El expediente 27 tiene cuatro patas y un collar.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "1923: la familia Brazier pierde a su collie en un apeadero de Indiana."
+    },
+    {
+     "texto": "Bobbie se queda solo, a 4.000 kilómetros de su casa en Oregon."
+    },
+    {
+     "texto": "Seis meses después, un perro harapiento cruza la puerta de su casa.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Es él: las garras gastadas y las cicatrices de un viaje imposible."
+    },
+    {
+     "texto": "Había cruzado ríos helados, desiertos y montañas nevadas."
+    },
+    {
+     "texto": "La prensa reconstruyó su ruta con cartas de gente que lo había alimentado."
+    },
+    {
+     "texto": "El viaje medio fue de 14 kilómetros al día, cada día, sin mapa."
+    },
+    {
+     "texto": "La ruta final: 4.105 kilómetros en 192 días.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "El expediente se cierra con una lección: el instinto no lee mapas, los traza."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "caso",
+     "params": {
+      "etiqueta": "EXPEDIENTE 27",
+      "ancla_etiqueta": "expediente"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "documento",
+     "params": {
+      "lineas": 4,
+      "etiqueta": "4.000 KM",
+      "ancla_etiqueta": "kilómetros"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "foto",
+     "params": {
+      "etiqueta": "LA LLEGADA",
+      "ancla_etiqueta": "puerta"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 5,
+     "escena": "hilo",
+     "params": {
+      "etiqueta": "SU RUTA",
+      "ancla_etiqueta": "cruzado"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "girar",
+     "params": {
+      "etiqueta": "CARTAS VERIFICADAS",
+      "ancla_etiqueta": "reconstruyó"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "4.105",
+      "texto": "KM EN 192 DÍAS",
+      "ancla_x": "kilómetros"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "sello": "CASO CERRADO",
+      "ancla_etiqueta": "expediente"
+     }
+    }
+   ]
+  },
+  {
+   "id": "flight-19",
+   "titulo": "Los aviones que desaparecieron 37 minutos después",
+   "meta_titulo": "El escuadrón que se esfumó en plena misión ✈️",
+   "desc": "En 1945, cinco aviones de la Marina partieron en práctica de navegación y nunca volvieron. El equipo de rescate enviado detrás… también desapareció.",
+   "tags": [
+    "aviación",
+    "expediente",
+    "misterio",
+    "historia real",
+    "curiosidades",
+    "Bermuda"
+   ],
+   "fuentes": [
+    "Informe oficial de la Marina de EE.UU. (1945): pérdida del Vuelo 19, causa 'desconocida'",
+    "Marina de EE.UU. (revisión 1991): 'la explicación más probable es error de navegación combinado'"
+   ],
+   "lineas": [
+    {
+     "texto": "El expediente 19 es de los que no se pueden releer sin inquietarse.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "5 de diciembre de 1945: cinco aviones de la Marina despegan de Florida."
+    },
+    {
+     "texto": "La misión es una práctica de navegación. El rumbo, un triángulo simple."
+    },
+    {
+     "texto": "En la radio se oye al instructor: los compases dejan de funcionar.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Vuelan a ciegas, discuten el rumbo, y el combustible baja."
+    },
+    {
+     "texto": "A las 18:04 la señal se corta. Cinco aviones dejan de existir en el mapa."
+    },
+    {
+     "texto": "La Marina envía un hidroavión de rescate con 13 tripulantes."
+    },
+    {
+     "texto": "Veinte minutos después, también desaparece. Sin señal, sin restos, sin fuego."
+    },
+    {
+     "texto": "El informe oficial usa la palabra desconocida y archiva el caso.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "El Triángulo de las Bermudas nació ahí, y el expediente sigue sin resolución."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "caso",
+     "params": {
+      "etiqueta": "EXPEDIENTE 19",
+      "ancla_etiqueta": "expediente"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "documento",
+     "params": {
+      "lineas": 5,
+      "etiqueta": "RUMBO TRIANGULAR",
+      "ancla_etiqueta": "diciembre"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 3,
+     "escena": "foto",
+     "params": {
+      "etiqueta": "SIN COMPASES",
+      "ancla_etiqueta": "compases"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 5,
+     "escena": "apagon",
+     "params": {
+      "etiqueta": "18:04",
+      "ancla_apagon": "corta"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 6,
+     "escena": "hilo",
+     "params": {
+      "etiqueta": "EL RESCATE",
+      "ancla_etiqueta": "rescate"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 7,
+     "escena": "dato",
+     "params": {
+      "numero": "13",
+      "texto": "TRIPULANTES DEL RESCATE",
+      "ancla_x": "desaparece"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 8,
+     "escena": "girar",
+     "params": {
+      "etiqueta": "DESCONOCIDA",
+      "ancla_etiqueta": "desconocida"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "sello": "SIN RESOLVER",
+      "ancla_etiqueta": "resolución"
+     }
+    }
+   ]
+  },
+  {
+   "id": "suelo-sin-dinero",
+   "titulo": "El hombre que vivió 15 años sin un solo dólar",
+   "meta_titulo": "Renunció al dinero por completo 💸",
+   "desc": "Daniel Suelo dejó su cuenta bancaria en 2000 y vivió en cuevas y residencias ecológicas sin tocar dinero. Su caso lo estudiaron economistas y periodistas.",
+   "tags": [
+    "expediente",
+    "historia real",
+    "minimalismo",
+    "curiosidades",
+    "sociedad",
+    "libertad"
+   ],
+   "fuentes": [
+    "The Man Who Quit Money (Mark Sundeen, 2012): biografía documentada de Daniel Suelo",
+    "CNN y BBC: entrevistas y reportajes sobre su vida sin dinero (2009-2015)"
+   ],
+   "lineas": [
+    {
+     "texto": "El expediente 2000 abre con una cuenta bancaria vaciada a propósito.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Septiembre del 2000: Daniel Suelo deja sus ahorros en la puerta de un banco."
+    },
+    {
+     "texto": "No los dona, no los usa, no los mira. Decide vivir sin dinero."
+    },
+    {
+     "texto": "Su casa: cuevas del desierto de Utah y casas ecológicas compartidas.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Su despensa: frutos silvestres, cactus, y lo que la naturaleza ofrece."
+    },
+    {
+     "texto": "Cobijos de nieve, rescate de alimentos cerca de caducar, y mucha paciencia."
+    },
+    {
+     "texto": "Quince años sin tocar un billete, sin obra social y sin casa propia."
+    },
+    {
+     "texto": "Los periodistas lo buscan. La BBC y la CNN documentan su rutina."
+    },
+    {
+     "texto": "Él responde que la pobreza no era el objetivo: la libertad era el objetivo.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "El expediente se cierra con una pregunta incómoda: ¿quién era el dependiente?"
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "caso",
+     "params": {
+      "etiqueta": "EXPEDIENTE 2000",
+      "ancla_etiqueta": "expediente"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "documento",
+     "params": {
+      "lineas": 4,
+      "etiqueta": "CUENTA VACÍA",
+      "ancla_etiqueta": "ahorros"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 3,
+     "escena": "foto",
+     "params": {
+      "etiqueta": "UTAH",
+      "ancla_etiqueta": "Utah"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T05",
+     "linea": 6,
+     "escena": "dato",
+     "params": {
+      "numero": "15",
+      "texto": "AÑOS SIN DINERO",
+      "ancla_x": "años"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 7,
+     "escena": "hilo",
+     "params": {
+      "etiqueta": "LOS PERIODISTAS",
+      "ancla_etiqueta": "documentan"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 8,
+     "escena": "girar",
+     "params": {
+      "etiqueta": "LA PREGUNTA",
+      "ancla_etiqueta": "libertad"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "sello": "CASO CERRADO",
+      "ancla_etiqueta": "expediente"
+     }
+    }
+   ]
+  }
+ ]
+}

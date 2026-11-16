@@ -1,0 +1,33 @@
+name: publicar
+on:
+  schedule:
+    - cron: "15 */2 * * *"   # 1 subida cada 2 h (minuto 15 para no chocar con producir)
+  workflow_dispatch: {}
+permissions:
+  contents: write           # commit del estado_bot.json y borrado de assets consumidos
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencias de subida
+        run: pip install -r requirements.txt
+
+      - name: Subir 1 video de la cola
+        env:
+          CLIENT_SECRET_B64: ${{ secrets.CLIENT_SECRET_B64 }}
+          TOKEN_PICKLE_B64: ${{ secrets.TOKEN_PICKLE_B64 }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GH_TOKEN: ${{ github.token }}
+        run: python bot/publicar.py

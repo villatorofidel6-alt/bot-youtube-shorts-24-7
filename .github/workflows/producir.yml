@@ -1,0 +1,61 @@
+name: producir videos
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # 4 ciclos/día: la cola nunca se queda vacía (0, 6, 12, 18 UTC)
+  workflow_dispatch: {}     # lanzamiento manual desde la pestaña Actions
+permissions:
+  contents: write           # crea la release cola y sube los assets
+concurrency:
+  group: producir
+  cancel-in-progress: false
+
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Asegurar la release cola
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view cola || gh release create cola \
+            --title "Cola de videos del bot" \
+            --notes "Cola interna: publicar.py descarga cada asset, lo sube a YouTube y lo borra."
+
+  generar:
+    needs: preparar
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        grupo: [prio, otros]     # prio: inside-out + deep-dive · otros: 2 estilos rotando
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Caché del entorno de la skill (venv + Kokoro + Whisper)
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.faceless-shorts
+            ~/.cache/huggingface
+          key: faceless-venv-v1
+
+      - name: Preparar entorno (node/ffmpeg/chrome/venv/kokoro/whisper)
+        run: bash skill/scripts/setup.sh
+
+      - name: Producir videos del grupo ${{ matrix.grupo }}
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GH_TOKEN: ${{ github.token }}
+        run: ~/.faceless-shorts/venv/bin/python bot/producir.py --grupo ${{ matrix.grupo }}
+
+      - name: Artefactos de diagnóstico (3 días)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-${{ matrix.grupo }}
+          path: dist/
+          retention-days: 3
+          if-no-files-found: ignore

@@ -5,6 +5,8 @@ token.pickle
 # Trabajo local del PC (no persistente)
 temp/
 errores/
+dist/
+trabajo/
 __pycache__/
 *.pyc
 iniciar_bot.bat

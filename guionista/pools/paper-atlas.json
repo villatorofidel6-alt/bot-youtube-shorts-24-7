@@ -1,0 +1,1036 @@
+{
+ "estilo": "paper-atlas",
+ "voz": "ef_dora",
+ "velocidad": 1.0,
+ "musica": "bed",
+ "lead": 0.45,
+ "outro": 0.9,
+ "gap": 0.32,
+ "tarjetas": [
+  {
+   "id": "sahara-verde",
+   "titulo": "El Sahara fue VERDE hace 6.000 años",
+   "meta_titulo": "El Sahara tenía LAGOS y JIRAFAS 🦒",
+   "desc": "Hace unos 6.000 años el Sahara era una sabana verde con lagos, jirafas y pueblos pescadores. Las pinturas rupestres de Tassili lo documentan.",
+   "tags": [
+    "geografía",
+    "mapa",
+    "datos",
+    "historia del planeta",
+    "curiosidades",
+    "Sahara"
+   ],
+   "fuentes": [
+    "Pachur & Altmann, 'The Dahlem Desert Symposium': registros paleoecológicos de lagos en el Sahara verde",
+    "Arte rupestre de Tassili n'Ajjer, Argelia: Patrimonio de la Humanidad UNESCO, escenas de natación y ganado"
+   ],
+   "lineas": [
+    {
+     "texto": "El mapa más extraño del mundo es un mapa del pasado.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Hoy el Sahara ocupa un tercio de África y no tiene casi agua."
+    },
+    {
+     "texto": "Pero hace 6.000 años, este mapa era todo lo contrario."
+    },
+    {
+     "texto": "El monzón llegaba más al norte, y la lluvia llenaba lagos.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Había jirafas, hipopótamos y pueblos que pescaban en el desierto."
+    },
+    {
+     "texto": "Las rocas de Tassili guardan las pinturas: gente nadando en azul."
+    },
+    {
+     "texto": "Los lagos más grandes cubrían 350.000 kilómetros cuadrados."
+    },
+    {
+     "texto": "Y después, el monzón se retiró. El mapa cambió de color.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "El verde se volvió arena en unas pocas generaciones."
+    },
+    {
+     "texto": "El mapa de hoy no es el mapa de siempre. Es una foto sin fecha."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mapa",
+     "params": {
+      "etiqueta": "MAPA DEL PASADO",
+      "ancla_etiqueta": "mapa"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "ruta",
+     "params": {
+      "texto": "UN TERCIO DE ÁFRICA",
+      "ancla_texto": "África"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "pin",
+     "params": {
+      "etiqueta": "HACE 6.000 AÑOS",
+      "ancla_x": "mapa"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "zona",
+     "params": {
+      "etiqueta": "ZONA DEL MONZÓN",
+      "ancla_etiqueta": "monzón"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "brujula",
+     "params": {
+      "etiqueta": "LAGOS Y JIRAFAS",
+      "ancla_etiqueta": "jirafas"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "dato",
+     "params": {
+      "numero": "350.000",
+      "texto": "KM² DE LAGOS",
+      "ancla_x": "kilómetros"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 7,
+     "escena": "sello",
+     "params": {
+      "sello": "MAPA VIEJO",
+      "ancla_x": "mapa"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "SIN FECHA",
+      "ancla_etiqueta": "mapa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "mar-muerto",
+   "titulo": "El Mar Muerto se encoge 1 metro cada año",
+   "meta_titulo": "Un mar que se HUNDE 1m/año 🏺",
+   "desc": "El Mar Muerto baja cerca de un metro por año: el río Jordán casi no llega y las empresas bombean sus aguas. Sobreviven dolinas y pozos salinos.",
+   "tags": [
+    "geografía",
+    "mapa",
+    "datos",
+    "mar",
+    "curiosidades",
+    "Oriente Medio"
+   ],
+   "fuentes": [
+    "Israel Nature and Parks Authority: registro de descenso anual del nivel del Mar Muerto",
+    "Geological Survey of Israel: reportes sobre dolinas en la costa del Mar Muerto"
+   ],
+   "lineas": [
+    {
+     "texto": "Este punto del mapa se está borrando solo.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "El Mar Muerto es el punto más bajo de toda la superficie terrestre."
+    },
+    {
+     "texto": "Está a 430 metros bajo el nivel del mar, y sigue bajando."
+    },
+    {
+     "texto": "El río Jordán debería alimentarlo, pero solo le llega una fina cuenta.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Empresas e agricultores extraen casi todo su caudal antes de llegar."
+    },
+    {
+     "texto": "Resultado: el mar pierde cerca de un metro de agua cada año."
+    },
+    {
+     "texto": "Su orilla se retira y deja cuevas: las dolinas se abren de golpe."
+    },
+    {
+     "texto": "Carreteras, plantaciones y playas antiguas ya se hundieron en agujeros.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "La sal se cristaliza en zanjas blancas que parecen esculturas."
+    },
+    {
+     "texto": "El mapa fijo mentía: ningún punto está quieto."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mapa",
+     "params": {
+      "etiqueta": "PUNTO EN FUGA",
+      "ancla_etiqueta": "mapa"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "ruta",
+     "params": {
+      "texto": "EL MÁS BAJO",
+      "ancla_texto": "mar"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dato",
+     "params": {
+      "numero": "-430 m",
+      "texto": "BAJO EL MAR",
+      "ancla_x": "metros"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "zona",
+     "params": {
+      "etiqueta": "EL JORDÁN",
+      "ancla_etiqueta": "Jordán"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "pin",
+     "params": {
+      "etiqueta": "EL CAUDAL",
+      "ancla_x": "caudal"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "dato",
+     "params": {
+      "numero": "1 m",
+      "texto": "POR AÑO",
+      "ancla_x": "año"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "zona",
+     "params": {
+      "etiqueta": "DOLINAS",
+      "ancla_etiqueta": "dolinas"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "NINGUNO QUIETO",
+      "ancla_etiqueta": "mapa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "punto-inaccesible",
+   "titulo": "El punto más lejos de TODO del planeta",
+   "meta_titulo": "El lugar más REMOTO de la Tierra 🗺️",
+   "desc": "El Polo de Inaccesibilidad de Eurasia está a 2.645 km del mar más cercano. Nadie vive ahí de forma permanente, y su monumento soviético aún sigue.",
+   "tags": [
+    "geografía",
+    "mapa",
+    "datos",
+    "extremos",
+    "curiosidades",
+    "Asia"
+   ],
+   "fuentes": [
+    "Estudios clásicos de Poles of Inaccessibility: cálculo de distancias a costas en Eurasia",
+    "Reportajes de expediciones 2015-2021: monumento soviético del estatus de punto lejano"
+   ],
+   "lineas": [
+    {
+     "texto": "Este es el punto del mapa que no quiere visitarlo nadie.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Se llama el Polo de Inaccesibilidad de Eurasia, y está en China."
+    },
+    {
+     "texto": "En dirección al mar más cercano: 2.645 kilómetros en todas."
+    },
+    {
+     "texto": "Ningún océano, ningún gran puerto, ninguna ciudad marina.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Es tan lejos del agua que la estepa se olvida de ella."
+    },
+    {
+     "texto": "Los soviéticos dejaron ahí una estatua: era su punto exacto de orgullo."
+    },
+    {
+     "texto": "Hoy la visitan exploradores que quieren tocar el punto más duro."
+    },
+    {
+     "texto": "El viaje implica desierto, montañas y carreteras sin nombre.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Su monumento sigue de pie, oxidándose en el medio de nada."
+    },
+    {
+     "texto": "El mapa tiene huecos, y este es el más orgulloso."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mapa",
+     "params": {
+      "etiqueta": "PUNTO SOLO",
+      "ancla_etiqueta": "mapa"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "pin",
+     "params": {
+      "etiqueta": "POLO INACEPTIBLE",
+      "ancla_x": "Polo"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dato",
+     "params": {
+      "numero": "2.645",
+      "texto": "KM AL MAR",
+      "ancla_x": "kilómetros"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "zona",
+     "params": {
+      "etiqueta": "SIN COSTAS",
+      "ancla_etiqueta": "océano"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 5,
+     "escena": "brujula",
+     "params": {
+      "etiqueta": "LA ESTATUA SOVIÉTICA",
+      "ancla_etiqueta": "estatua"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "zona",
+     "params": {
+      "etiqueta": "LOS EXPLORADORES",
+      "ancla_etiqueta": "exploradores"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 7,
+     "escena": "ruta",
+     "params": {
+      "texto": "DESIERTO Y MONTAÑA",
+      "ancla_texto": "desierto"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "EL HUECO PROBLE",
+      "ancla_etiqueta": "mapa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rio-nube",
+   "titulo": "Un río que vuela: el Amazonas aéreo",
+   "meta_titulo": "El río INVISIBLE que vuela 🌳",
+   "desc": "Los árboles del Amazonas bombean tanta agua al aire que forman un río de vapor con más caudal que el propio río de verdad. 20.000 millones de toneladas al día.",
+   "tags": [
+    "geografía",
+    "mapa",
+    "datos",
+    "naturaleza",
+    "curiosidades",
+    "Amazonas"
+   ],
+   "fuentes": [
+    "Antonio Donato Nobre, INPE (Brasil): concepto del 'río volador' y estimaciones de transpiración",
+    "Science Daily / INPE: 20.000 millones de toneladas de vapor por día en la cuenca amazónica"
+   ],
+   "lineas": [
+    {
+     "texto": "El mapa del Amazonas está incompleto: le falta un río.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "El río de verdad lleva 17.000 millones de toneladas de agua al día al mar."
+    },
+    {
+     "texto": "Pero los árboles de la selva bombean otro río hacia el cielo."
+    },
+    {
+     "texto": "Se llama río volador, y su caudal es aún mayor.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Una sola copa grande suelta cientos de litros por día en vapor."
+    },
+    {
+     "texto": "Todo ese vapor se junta en corrientes aéreas del tamaño de países."
+    },
+    {
+     "texto": "Llueve sobre Brasil, sobre Argentina, y hasta sobre el sur."
+    },
+    {
+     "texto": "Sin ese río aéreo, granjas y ciudades lejanas se secarían.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Y todo nace de un solo movimiento: el agua sube por la raíz."
+    },
+    {
+     "texto": "El mapa nunca lo dibujó, porque su flecha apunta para arriba."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mapa",
+     "params": {
+      "etiqueta": "MAPA INCOMPLETO",
+      "ancla_etiqueta": "mapa"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "17.000M",
+      "texto": "TONELADAS AL DÍA",
+      "ancla_x": "toneladas"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "ruta",
+     "params": {
+      "texto": "EL SEGUNDO RÍO",
+      "ancla_texto": "cielo"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "pin",
+     "params": {
+      "etiqueta": "RÍO VOLADOR",
+      "ancla_x": "río"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "brujula",
+     "params": {
+      "etiqueta": "CIENTOS DE LITROS",
+      "ancla_etiqueta": "litros"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "zona",
+     "params": {
+      "etiqueta": "LLUVIA LEJOS",
+      "ancla_etiqueta": "Brasil"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 7,
+     "escena": "sello",
+     "params": {
+      "sello": "SIN AGUA NO",
+      "ancla_x": "secarían"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "FLECHA AL CIELO",
+      "ancla_etiqueta": "mapa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "islas-nuevas",
+   "titulo": "Nació una isla nueva en 8 horas",
+   "meta_titulo": "Una isla NACIÓ en 8 horas 🌋",
+   "desc": "En 2015, la erupción submarina de Hunga Tonga creó una isla nueva en pocas horas. Los mapas oficiales tardaron meses en dibujarla.",
+   "tags": [
+    "geografía",
+    "mapa",
+    "volcanes",
+    "curiosidades",
+    "datos",
+    "Pacífico"
+   ],
+   "fuentes": [
+    "NASA Earth Observatory (2015): formación de la isla Hunga Tonga-Hunga Ha'apai",
+    "Boletines del Smithsonian Global Volcanism Program sobre la erupción de 2015"
+   ],
+   "lineas": [
+    {
+     "texto": "Los mapas viejos contienen mentiras, y esta isla las desmintió.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Diciembre de 2014: el Pacífico del sur empieza a hervir."
+    },
+    {
+     "texto": "Un volcán submarino erupta, y el humo sube de un mar abierto."
+    },
+    {
+     "texto": "En horas, la ceniza rompe la superficie y crea una isla nueva.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Hunga Tonga-Hunga Ha'apai: un nombre que nadie sabía repetir."
+    },
+    {
+     "texto": "La isla mide casi 2 kilómetros y se une a dos islotes viejos."
+    },
+    {
+     "texto": "Los científicos pensaban que desaparecería en semanas."
+    },
+    {
+     "texto": "Sobrevivió años, como un accidente que quiso quedarse.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Los satélites la fotografiaron antes que los mapas la dibujaran."
+    },
+    {
+     "texto": "El mapa impreso llegó tarde: la Tierra no espera al papel."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mapa",
+     "params": {
+      "etiqueta": "MENTIRAS VIEJAS",
+      "ancla_etiqueta": "mapas"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "pin",
+     "params": {
+      "etiqueta": "PACÍFICO SUR",
+      "ancla_x": "Pacífico"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "ruta",
+     "params": {
+      "texto": "MAR HIRVIENDO",
+      "ancla_texto": "mar"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "8 h",
+      "texto": "PARA NACER",
+      "ancla_x": "horas"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 5,
+     "escena": "brujula",
+     "params": {
+      "etiqueta": "2 KM DE ISLA",
+      "ancla_etiqueta": "kilómetros"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "zona",
+     "params": {
+      "etiqueta": "PREDICIÓN FALLIDA",
+      "ancla_etiqueta": "semanas"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 8,
+     "escena": "sello",
+     "params": {
+      "sello": "SATÉLITE PRIMERO",
+      "ancla_x": "satélites"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "LA TIERRA NO ESPERA",
+      "ancla_etiqueta": "papel"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rio-contra-rio",
+   "titulo": "Un río que fluye al REVÉS",
+   "meta_titulo": "El río que fluye AL REVÉS 🔄",
+   "desc": "El río Mzougra en Gabón parece fluir cuesta arriba: es una ilusión de pendiente local. Los viajeros lo filmaron y rompió el mapa mental.",
+   "tags": [
+    "geografía",
+    "mapa",
+    "curiosidades",
+    "ríos",
+    "datos",
+    "África"
+   ],
+   "fuentes": [
+    "Documentación de viajeros sobre el río que aparenta subir (Gabón, 2010s)",
+    "Explicación física estándar: ilusión de pendiente con horizonte oculto"
+   ],
+   "lineas": [
+    {
+     "texto": "El mapa dice que el agua baja. Este río discute con el mapa.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "En Gabón, un tramo del Mzougra parece fluir cuesta arriba."
+    },
+    {
+     "texto": "El agua sube, visto desde la orilla, durante decenas de metros."
+    },
+    {
+     "texto": "Los turistas lo filman con las manos en la cabeza.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "La explicación es física: la pendiente real sigue bajando."
+    },
+    {
+     "texto": "Un horizonte local engaña al ojo, como en las cuestas falsas de rutas."
+    },
+    {
+     "texto": "El río respeta la gravedad. El mapa mental no respeta nada."
+    },
+    {
+     "texto": "Así nacen las leyendas: un error del ojo convertido en mito.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "La ciencia no borra el misterio: lo nombra."
+    },
+    {
+     "texto": "El mapa es una hipótesis. El río es un dato."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mapa",
+     "params": {
+      "etiqueta": "RÍO REBELDE",
+      "ancla_etiqueta": "mapa"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "pin",
+     "params": {
+      "etiqueta": "GABÓN",
+      "ancla_x": "Gabón"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "ruta",
+     "params": {
+      "texto": "SUBIENDO VISTO",
+      "ancla_texto": "sube"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "brujula",
+     "params": {
+      "etiqueta": "MANOS EN LA CABEZA",
+      "ancla_etiqueta": "turistas"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "0°",
+      "texto": "DE MENTIRA",
+      "ancla_x": "pendiente"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "zona",
+     "params": {
+      "etiqueta": "EL OJO ENGAÑA",
+      "ancla_etiqueta": "horizonte"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 7,
+     "escena": "sello",
+     "params": {
+      "sello": "ERROR DEL OJO",
+      "ancla_x": "leyendas"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "EL DATO MANDA",
+      "ancla_etiqueta": "mapa"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ciudad-nube",
+   "titulo": "Una ciudad con su PROPIO clima",
+   "meta_titulo": "La ciudad que INVENTÓ su clima 🏙️",
+   "desc": "Las grandes ciudades crean islas de calor: hasta 5-7 °C más calientes que sus alrededores. Los mapas de temperatura lo dibujan con precisión.",
+   "tags": [
+    "geografía",
+    "mapa",
+    "datos",
+    "ciudades",
+    "clima",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "EPA Heat Island Compendium: mediciones de islas de calor urbano",
+    "Estudios satelitales de temperatura de superficie en megaciudades (NASA MODIS)"
+   ],
+   "lineas": [
+    {
+     "texto": "Este mapa no mide el país: mide el asfalto.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "Las ciudades grandes crean su propio clima, con nombre técnico."
+    },
+    {
+     "texto": "Se llama isla de calor urbano, y es medible con satélites."
+    },
+    {
+     "texto": "El asfalto absorbe sol todo el día y lo suelta de noche.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "El resultado: 5, 6 y hasta 7 grados más que los alrededores."
+    },
+    {
+     "texto": "En verano, los hospitales registran más golpes de calor en el centro."
+    },
+    {
+     "texto": "Los árboles urbanos bajan hasta 3 grados con solo su sombra."
+    },
+    {
+     "texto": "Y los techos blancos reflejan energía que el negro acumulaba.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Ninguna ley lo escribió: es física, no política."
+    },
+    {
+     "texto": "El mapa del clima ya no mira el mar. Mira las aceras."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mapa",
+     "params": {
+      "etiqueta": "MAPA DE ASFALTO",
+      "ancla_etiqueta": "mapa"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "pin",
+     "params": {
+      "etiqueta": "CLIMA PROPIO",
+      "ancla_x": "clima"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "brujula",
+     "params": {
+      "etiqueta": "MEDIBLE POR SATÉLITE",
+      "ancla_etiqueta": "satélites"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "+7°C",
+      "texto": "EN EL CENTRO",
+      "ancla_x": "grados"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 5,
+     "escena": "zona",
+     "params": {
+      "etiqueta": "HOSPITALES LLENOS",
+      "ancla_etiqueta": "hospitales"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 6,
+     "escena": "ruta",
+     "params": {
+      "texto": "SOMBRA = -3°C",
+      "ancla_texto": "grados"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 8,
+     "escena": "sello",
+     "params": {
+      "sello": "FÍSICA PURA",
+      "ancla_x": "política"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "MIRA LAS ACERAS",
+      "ancla_etiqueta": "aceras"
+     }
+    }
+   ]
+  },
+  {
+   "id": "frontera-recta",
+   "titulo": "La frontera más recta del mundo",
+   "meta_titulo": "4.000 km de línea RECTA 📏",
+   "desc": "La frontera entre el oeste de Australia y el Territorio del Norte es un meridiano perfecto: 1.375 km sin un solo doblez. El mapa es literal.",
+   "tags": [
+    "geografía",
+    "mapa",
+    "datos",
+    "fronteras",
+    "curiosidades",
+    "Australia"
+   ],
+   "fuentes": [
+    "Geoscience Australia: definición de la frontera 129°E entre WA y NT",
+    "Registro histórico de la Línea de Hanson: acuerdos coloniales de 1885"
+   ],
+   "lineas": [
+    {
+     "texto": "El mapa a veces es literal. Aquí es literalmente una línea.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "En Australia, el oeste y el norte se separan con una regla."
+    },
+    {
+     "texto": "La frontera sigue el meridiano 129° Este, sin un solo doblez."
+    },
+    {
+     "texto": "Son 1.375 kilómetros de línea recta absoluta.",
+     "pausa": 0.4
+    },
+    {
+     "texto": "No respeta ríos, ni montañas, ni caminos históricos."
+    },
+    {
+     "texto": "Es tan recta que los aviones la usan como referencia de navegación."
+    },
+    {
+     "texto": "Fue dibujada en 1885 con calculadora, no con terreno."
+    },
+    {
+     "texto": "Los aborígenes no fueron consultados: el papel mandó.",
+     "pausa": 0.45
+    },
+    {
+     "texto": "Hoy los camioneros cruzan sin darse cuenta de que cambiaron de estado."
+    },
+    {
+     "texto": "El mapa no describe el mundo: a veces lo ordena."
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "mapa",
+     "params": {
+      "etiqueta": "LITERAL",
+      "ancla_etiqueta": "mapa"
+     }
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "pin",
+     "params": {
+      "etiqueta": "AUSTRALIA",
+      "ancla_x": "Australia"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "ruta",
+     "params": {
+      "texto": "MERIDIANO 129°E",
+      "ancla_texto": "meridiano"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "1.375",
+      "texto": "KM RECTOS",
+      "ancla_x": "kilómetros"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "zona",
+     "params": {
+      "etiqueta": "SIN NATURALEZA",
+      "ancla_etiqueta": "montañas"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "brujula",
+     "params": {
+      "etiqueta": "REFERENCIA AÉREA",
+      "ancla_etiqueta": "aviones"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 7,
+     "escena": "sello",
+     "params": {
+      "sello": "EL PAPEL MANDÓ",
+      "ancla_x": "papel"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 9,
+     "escena": "final",
+     "params": {
+      "etiqueta": "ORDENA MUNDO",
+      "ancla_etiqueta": "mapa"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4101 @@
+{
+ "estilo": "deep-dive",
+ "voz": "em_alex",
+ "velocidad": 1.0,
+ "musica": "bed",
+ "lead": 0.45,
+ "outro": 0.9,
+ "gap": 0.32,
+ "tarjetas": [
+  {
+   "id": "aguantar",
+   "titulo": "¿Qué pasa si aguantas la respiración?",
+   "meta_titulo": "¿Aguantar la RESPIRACIÓN? Esto pasa dentro 🫁",
+   "desc": "Aguantar el aire no es mala suerte: es dióxido de carbono ganando terreno. Esto pasa en tu cuerpo segundo a segundo.",
+   "tags": [
+    "apnea",
+    "respiración",
+    "pulmones",
+    "qué pasa si",
+    "cuerpo humano",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Récord mundial de apnea estática: Budimir Šobat, 24 min 37 s (2021), entrenado y con hiperventilación previa",
+    "Fisiología respiratoria: el impulso de respirar lo dispara el CO₂ acumulado, no la falta de O₂"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa dentro de tu cuerpo si aguantas la respiración?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Al principio, nada: tienes oxígeno de sobra.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tus pulmones están llenos y la sangre sigue oxigenada.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "A los treinta segundos, el bazo suelta glóbulos de reserva.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El dióxido de carbono empieza a acumularse en la sangre.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y tu cerebro lanza la primera alarma de desespero.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El diafragma empieza a temblar: son las contracciones.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada sacudida es tu cuerpo pidiendo aire a gritos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "A los dos minutos, la visión se estrecha y llega el mareo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y si sigues, el cerebro se apaga: es el desmayo.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El récord mundial son veinticuatro minutos: entrenado y en agua fría.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "respira",
+     "params": {
+      "prof": 1,
+      "etiqueta": "OXÍGENO ✓",
+      "ancla_etiqueta": "oxigenada"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "sangre",
+     "params": {
+      "co2": 0,
+      "dark": 0,
+      "etiqueta": "RESERVA",
+      "ancla_etiqueta": "reserva"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "sangre",
+     "params": {
+      "co2": 0.5,
+      "dark": 0.2,
+      "etiqueta": "CO₂ ↑",
+      "ancla_etiqueta": "carbono"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "CO₂ ALTO",
+      "ancla_etiqueta": "cerebro"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "golpe",
+     "params": {
+      "periodo": 0.5,
+      "etiqueta": "DIAFRAGMA",
+      "ancla_etiqueta": "diafragma"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "golpe",
+     "params": {
+      "periodo": 0.42,
+      "fuerza": 1.2
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "2 MIN",
+      "ancla_x": "minutos"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "apagon",
+     "params": {
+      "ancla_apagon": "apaga"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "24 MIN",
+      "ancla_etiqueta": "veinticuatro"
+     }
+    }
+   ]
+  },
+  {
+   "id": "corazon-litros",
+   "titulo": "¿Cuánta sangre mueve tu corazón cada día?",
+   "meta_titulo": "Tu corazón BOMBEA 7.500 L cada día ❤️ Los números",
+   "desc": "Doscientos gramos de músculo empujan siete mil quinientos litros de sangre al día. El motor más constante que existe.",
+   "tags": [
+    "corazón",
+    "sangre",
+    "corazón bombeo",
+    "cuerpo humano",
+    "qué pasa si",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Fisiología cardiaca: ~70 mL por latido a ~100.000 latidos/día ≈ 7.000-7.500 litros diarios",
+    "Cleveland Clinic: el corazón bombea sangre a una presión que podría elevarla más de un metro"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Cuánta sangre mueve tu corazón cada día?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Tu corazón late unas cien mil veces al día, sin descanso.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "En cada latido, manda setenta mililitros de sangre a la calle.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Eso suma siete mil quinientos litros diarios: una furgoneta entera.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y su presión podría lanzar sangre a un metro y medio de altura.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "En un año recorre kilómetros suficientes para dar la vuelta al mundo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El músculo trabaja sin parar: doscientos gramos, cero días libres.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Los latidos son electricidad: un circuito propio que no pide permiso.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y si se detiene, tienes solo segundos antes de perder el norte.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "En España, la insuficiencia cardiaca mata más que muchos cánceres.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cuida el motor: caminar media hora lo mantiene listo.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "corazon",
+     "params": {
+      "latido": 0.5,
+      "etiqueta": "100.000/DÍA",
+      "ancla_etiqueta": "cien"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "corazon",
+     "params": {
+      "latido": 0.62,
+      "etiqueta": "70 ML"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "7.500 L",
+      "ancla_x": "litros"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "sangre",
+     "params": {
+      "co2": 0,
+      "dark": 0,
+      "etiqueta": "1.5 M",
+      "ancla_etiqueta": "presión"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "dato",
+     "params": {
+      "numero": "120.000 KM",
+      "ancla_x": "año"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "corazon",
+     "params": {
+      "latido": 0.55,
+      "etiqueta": "200 G",
+      "ancla_etiqueta": "músculo"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "golpe",
+     "params": {
+      "periodo": 0.85,
+      "etiqueta": "RITMO",
+      "ancla_etiqueta": "electricidad"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "apagon",
+     "params": {
+      "ancla_apagon": "detiene"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "ALERTA",
+      "ancla_etiqueta": "cánceres"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "30 MIN",
+      "ancla_etiqueta": "motor"
+     }
+    }
+   ]
+  },
+  {
+   "id": "neuronas",
+   "titulo": "¿Cuántas neuronas usas cada día?",
+   "meta_titulo": "Tu cerebro: 86 MIL MILLONES de neuronas 🧠 Con 20 W",
+   "desc": "Ochenta y seis mil millones de neuronas hablan entre sí con la potencia de una bombilla. Así funciona tu CPU biológica.",
+   "tags": [
+    "cerebro",
+    "neuronas",
+    "sinapsis",
+    "plasticidad",
+    "curiosidades",
+    "ciencia"
+   ],
+   "fuentes": [
+    "Azevedo et al., J Comp Neurol 2009: el cerebro humano tiene ~86.000 millones de neuronas",
+    "Consumo energético cerebral: ~20 vatios (el 20% del gasto basal con el 2% del peso corporal)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Cuántas neuronas usas cada día?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Tu cerebro tiene ochenta y seis mil millones de neuronas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada una habla con miles de vecinas por cables eléctricos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Solo tu corteza encola dieciséis mil millones: la capa que piensa.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "En total, cien billones de conexiones: más que estrellas en la galaxia.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y funcionan con veinte vatios: menos que una bombilla vieja.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El cerebro pesa un tres por ciento del cuerpo, pero gasta el veinte.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cuando duermes, las neuronas limpian sus residuos a presión.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El Alzheimer rompe las conexiones: el cableado se deshace.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Aprender cosas nuevas crea caminos nuevos entre neuronas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tu cerebro se reescribe hoy: úsalo o pierde el circuito.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "86",
+      "texto": "MIL MILLONES",
+      "ancla_x": "ochenta"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "cerebro",
+     "params": {
+      "etiqueta": "SINAPSIS",
+      "ancla_etiqueta": "cables"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "16.000",
+      "texto": "MILLONES",
+      "ancla_x": "corteza"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "cerebro",
+     "params": {
+      "pulso": 1.4,
+      "etiqueta": "10¹⁴ CONEXIONES",
+      "ancla_etiqueta": "billones"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "dato",
+     "params": {
+      "numero": "20 W",
+      "ancla_x": "vatios"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "dato",
+     "params": {
+      "numero": "20 %",
+      "ancla_x": "gasta"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "cerebro",
+     "params": {
+      "pulso": 0.5,
+      "etiqueta": "LIMPIEZA",
+      "ancla_etiqueta": "duermes"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "DESHACE",
+      "ancla_etiqueta": "Alzheimer"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "cerebro",
+     "params": {
+      "pulso": 1,
+      "etiqueta": "PLASTICIDAD",
+      "ancla_etiqueta": "caminos"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "APRENDE",
+      "ancla_etiqueta": "reescribe"
+     }
+    }
+   ]
+  },
+  {
+   "id": "huesos",
+   "titulo": "¿Sabes cuántos huesos tienes ahora mismo?",
+   "meta_titulo": "Naces con 300 HUESOS y acabas con 206 🦴 El porqué",
+   "desc": "Tu esqueleto se funde a sí mismo mientras creces. Y el interior del hueso fabrica sangre sin parar.",
+   "tags": [
+    "huesos",
+    "esqueleto",
+    "médula",
+    "cuerpo humano",
+    "qué pasa si",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Anatomía estándar: el adulto tiene 206 huesos; el recién nacido, ~270-300 que se fusionan",
+    "Fisiología de la médula: produce ~2 millones de glóbulos rojos por segundo"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Sabes cuántos huesos tienes ahora mismo?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Un bebé nace con trescientos: tú ya tienes doscientos seis.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Se funden al crecer: el cráneo eran piezas que soldan.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El fémur aguanta treinta veces tu peso: más fuerte que el hormigón.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y su interior fabrica millones de glóbulos rojos cada segundo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "En el esqueleto entero: dos millones de glóbulos por segundo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El hueso está vivo: se renueva por completo cada diez años.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y si te rompes uno, el yeso solo sostiene: las células trabajan.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El más grande: el fémur. El más pequeño: el estribo, tres milímetros.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "A los cuarenta, la masa ósea empieza a bajar: guarda calcio.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Mueve el esqueleto: los huesos se fortalecen con carga.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "206",
+      "ancla_x": "doscientos"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "CRÁNEO",
+      "ancla_texto": "soldan"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "30 X",
+      "ancla_x": "fémur"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "sangre",
+     "params": {
+      "co2": 0,
+      "dark": 0,
+      "etiqueta": "MÉDULA",
+      "ancla_etiqueta": "interior"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "dato",
+     "params": {
+      "numero": "2",
+      "texto": "MILLONES/SEG",
+      "ancla_x": "glóbulos"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "texto": "SE RENOVA",
+      "ancla_texto": "renueva"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "texto": "CÉLULAS",
+      "ancla_texto": "células"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "3 MM",
+      "ancla_x": "estribo"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "CALCIO",
+      "ancla_etiqueta": "calcio"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "CARGA",
+      "ancla_etiqueta": "fortalecen"
+     }
+    }
+   ]
+  },
+  {
+   "id": "piel",
+   "titulo": "¿Cuánta piel cambias sin darte cuenta?",
+   "meta_titulo": "Cambias de PIEL cada mes 🧬 El polvo eres tú",
+   "desc": "Treinta mil células muertas por minuto: tu piel es una fábrica de reemplazo. Y el polvo de tu casa, en gran parte, eres tú.",
+   "tags": [
+    "piel",
+    "células",
+    "polvo",
+    "cuerpo humano",
+    "qué pasa si",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Dermatología: la epidermis se renueva por completo cada ~28 días; ~30.000 células se descaman por minuto",
+    "En una vida, una persona despide decenas de kilos de piel (estimaciones ~40 kg)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Cuánta piel cambias sin darte cuenta?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Sueltas treinta mil células muertas cada minuto.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada mes, una capa de piel entera se renueva.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "En tu vida, despedirás cuarenta kilos de piel: tu mejor reemplazo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El polvo de tu casa, en gran parte, eres tú.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Bajo la epidermis viven billones de bacterias: tu escudo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La piel pesa casi cuatro kilos: el órgano más grande del cuerpo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El sudor es el aire acondicionado que enciende tu termostato.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las arrugas son el historial: cada pliegue, una sonrisa contada.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Pero el sol quema el ADN: esa sí es la factura.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Protector solar: el mejor abrigo que puedes llevar.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "30.000",
+      "ancla_x": "células"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "RENOVACIÓN",
+      "ancla_texto": "renueva"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "40 KG",
+      "ancla_x": "kilos"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "texto": "POLVO",
+      "ancla_texto": "polvo"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "sangre",
+     "params": {
+      "co2": 0.15,
+      "dark": 0,
+      "etiqueta": "MICROBIOMA",
+      "ancla_etiqueta": "bacterias"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "dato",
+     "params": {
+      "numero": "4 KG",
+      "ancla_x": "órgano"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "texto": "SUDOR",
+      "ancla_texto": "termostato"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "texto": "HISTORIAL",
+      "ancla_texto": "arrugas"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "SOL",
+      "ancla_etiqueta": "sol"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "SPF 30",
+      "ancla_etiqueta": "abrigo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "cafeina",
+   "titulo": "¿Por qué el café te despierta y luego te tumba?",
+   "meta_titulo": "La cafeína NO da energía ☕ Bloquea el sueño",
+   "desc": "El café no enciende nada: solo tapa la señal de sueño. Y cinco horas después, la mitad sigue en tu sangre.",
+   "tags": [
+    "café",
+    "cafeína",
+    "sueño",
+    "adenosina",
+    "qué pasa si",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Farmacología de la cafeína: antagonista de receptores de adenosina; vida media plasmática ~5 horas",
+    "FDA: 400 mg/día es el límite diario recomendado para adultos sanos"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué el café te despierta y luego te tumba?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "La cafeína bloquea la adenosina: la llave del sueño.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Mientras esté pegada a sus receptores, no llega el cansancio.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Su vida media son cinco horas: la mitad sigue en la sangre.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y si bebes café a las cuatro, media taza sigue ahí a la noche.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El hígado la saca poco a poco: no hay atajo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cuando se va, la adenosina vuelve toda junta: el crash.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y el cuerpo añade receptores con el tiempo: más café, menos efecto.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cuatrocientos miligramos al día es el techo recomendado.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Más de eso: taquicardias, temblores y noches rotas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Café sí, pero antes de las tres de la tarde.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "cerebro",
+     "params": {
+      "etiqueta": "ADENOSINA",
+      "ancla_etiqueta": "adenosina"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "BLOQUEO",
+      "ancla_texto": "cansancio"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "5 H",
+      "ancla_x": "horas"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "texto": "MEDIA TAZA",
+      "ancla_texto": "noche"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "texto": "HÍGADO",
+      "ancla_texto": "atajo"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "CRASH",
+      "ancla_etiqueta": "crash"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "dato",
+     "params": {
+      "numero": "+ REC",
+      "ancla_x": "receptores"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "400 MG",
+      "ancla_x": "techo"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "TECHO",
+      "ancla_etiqueta": "taquicardias"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "ANTES DE LAS 3",
+      "ancla_etiqueta": "tarde"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rayo",
+   "titulo": "¿Qué pasa si te toca un rayo?",
+   "meta_titulo": "Te toca un RAYO ⚡ 30.000 grados y sobrevives",
+   "desc": "Un rayo calienta el aire a treinta mil grados y lleva cien millones de voltios. Solo uno de cada diez muere: así vive el resto.",
+   "tags": [
+    "rayo",
+    "tormenta",
+    "electricidad",
+    "qué pasa si",
+    "curiosidades",
+    "ciencia"
+   ],
+   "fuentes": [
+    "NOAA: un rayo calienta el aire a ~30.000 K (cinco veces la superficie del sol); corriente típica ~100-300 millones de voltios",
+    "Epidemiología de rayos: la tasa de letalidad es ~10%; los superviventes presentan cicatrices de Lichtenberg y secuelas neurológicas"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa si te toca un rayo?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "La descarga calienta el aire a treinta mil grados: cinco veces el sol.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El estruendo que oyes es ese aire explotando de golpe.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Un rayo típico lleva cien millones de voltios.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La corriente busca el camino más corto: por dentro, los nervios.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El corazón puede parar: la electricidad le manda caos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y el paro respiratorio llega si el pulso cruza el tronco.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Solo una de cada diez personas muere: la mayoría vive.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las marcas en la piel, en forma de helecho, son las cicatrices de Lichtenberg.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Los supervivientes quedan con daño neurológico y memoria rota.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Si suena trueno a treinta segundos, entra bajo techo ya.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "30.000 ºC",
+      "ancla_x": "grados"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "ESTRUENDO",
+      "ancla_texto": "aire"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "100 M V",
+      "ancla_x": "voltios"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "texto": "RUTA",
+      "ancla_texto": "nervios"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "corazon",
+     "params": {
+      "latido": 1.4,
+      "etiqueta": "CAOS",
+      "ancla_etiqueta": "corazón"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "PARO",
+      "ancla_etiqueta": "pulso"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "dato",
+     "params": {
+      "numero": "10 %",
+      "ancla_x": "diez"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "texto": "HELECHO",
+      "ancla_texto": "helecho"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "DAÑO",
+      "ancla_etiqueta": "memoria"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "30 SEG",
+      "ancla_etiqueta": "trueno"
+     }
+    }
+   ]
+  },
+  {
+   "id": "atomo",
+   "titulo": "¿De qué están hechos tus átomos?",
+   "meta_titulo": "Eres polvo de ESTRELLA ⭐ Tus átomos tienen 10⁹ años",
+   "desc": "Siete mil billones de billones de átomos, la mayoría nacidos en estrellas. Tu cuerpo es ceniza reciclada de supernovas.",
+   "tags": [
+    "átomos",
+    "estrellas",
+    "supernova",
+    "ciencia",
+    "curiosidades",
+    "universo"
+   ],
+   "fuentes": [
+    "Química del cuerpo humano: ~7×10²⁷ átomos; ~99% en masa es H, C, O y N",
+    "Nucleosíntesis: el calcio y el hierro del cuerpo se formaron en estrellas (Cruz et al., 2007 — 'How Far Can We Go?')"
+   ],
+   "lineas": [
+    {
+     "texto": "¿De qué están hechos tus átomos?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Tu cuerpo son siete mil billones de billones de átomos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El noventa y nueve por ciento es hidrógeno, carbono, oxígeno y nitrógeno.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y la mayoría tiene miles de millones de años: nacieron en estrellas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El calcio de tus huesos se forjó en una supernova.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El hierro de tu sangre también: es ceniza de estrella.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Entre átomos hay vacío: si los apretaras, cabrías en un grano.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada segundo, miles de tus átomos entran y salen: eres un flujo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "En años, casi todos tus átomos cambian: eres material reciclado.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El mismo carbono que respiras hoy estuvo en un dinosaurio.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tú no eres una cosa: eres un proceso que se renueva.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "7·10²⁷",
+      "ancla_x": "billones"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dato",
+     "params": {
+      "numero": "99 %",
+      "ancla_x": "hidrógeno"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "10⁹ AÑOS",
+      "ancla_x": "estrellas"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "texto": "SUPERNOVA",
+      "ancla_texto": "supernova"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "sangre",
+     "params": {
+      "co2": 0,
+      "dark": 0,
+      "etiqueta": "HIERRO",
+      "ancla_etiqueta": "hierro"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "texto": "VACÍO",
+      "ancla_texto": "grano"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "dato",
+     "params": {
+      "numero": "10⁶/SEG",
+      "ancla_x": "flujo"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "texto": "RECICLAJE",
+      "ancla_texto": "reciclado"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "texto": "CARBONO",
+      "ancla_texto": "dinosaurio"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "PROCESO",
+      "ancla_etiqueta": "renueva"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ojo",
+   "titulo": "¿Qué cámara llevas pegada a la cara?",
+   "meta_titulo": "Tu OJO: 576 megapíxeles 👁️ Y funciona al revés",
+   "desc": "Tu ojo es una cámara de quinientos setenta y seis megapíxeles sin obturador, que manda la imagen invertida y el cerebro la gira.",
+   "tags": [
+    "ojo",
+    "visión",
+    "megapíxeles",
+    "sacádicos",
+    "curiosidades",
+    "cuerpo humano"
+   ],
+   "fuentes": [
+    "Estimación de resolución del ojo humano: ~576 megapíxeles equivalente (R. C. Clark, 1991)",
+    "Fisiología ocular: sacádicos ~3 movimientos/s; rango dinámico ~10⁹:1; la retina invierte la imagen y la corteza la corrige"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué cámara llevas pegada a la cara?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Tu ojo capta unos quinientos setenta y seis megapíxeles.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y no tiene obturador: enfoca con músculos que cambian la lente.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Se mueve tres veces por segundo sin que lo notes: son los sacádicos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El ojo ve en diez condiciones de luz: del sol a la luna.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y de noche, el fondo cambia a blanco y negro: se apagan los conos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Los millones de conos y bastones mandan la imagen invertida.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Es el cerebro el que la gira y la pinta con color.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Un ojo seco o cansado baja la nitidez: la cámara pide lágrima.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Mirar pantallas de noche: los sacádicos fallan y la vista se cansa.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Regla 20-20-20: cada veinte minutos, mira algo lejos.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "576 MP",
+      "ancla_x": "megapíxeles"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "ENFOQUE",
+      "ancla_texto": "lente"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "3/SEG",
+      "ancla_x": "sacádicos"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "10⁹:1",
+      "ancla_x": "luz"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "texto": "B / N",
+      "ancla_texto": "conos"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "texto": "INVERTIDA",
+      "ancla_texto": "invertida"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "cerebro",
+     "params": {
+      "pulso": 1,
+      "etiqueta": "CORTEZA",
+      "ancla_etiqueta": "cerebro"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "texto": "LÁGRIMAS",
+      "ancla_texto": "lágrima"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "CANSANCIO",
+      "ancla_etiqueta": "pantallas"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "20-20-20",
+      "ancla_etiqueta": "lejos"
+     }
+    }
+   ]
+  },
+  {
+   "id": "saliva",
+   "titulo": "¿Para qué sirve tu saliva, aparte de mojar?",
+   "meta_titulo": "Tu SALIVA llena una bañera al año 💧 Y digiere sola",
+   "desc": "Entre uno y dos litros de saliva al día: digestión, antiséptico y reparador del esmalte. La digestión empieza en la boca.",
+   "tags": [
+    "saliva",
+    "digestión",
+    "esmalte",
+    "boca",
+    "cuerpo humano",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Fisiología salival: 1-1.5 L/día; la amilasa salival inicia la digestión del almidón en la boca",
+    "La lisozima de la saliva rompe paredes celulares bacterianas; la saliva remineraliza el esmalte con Ca²⁺/PO₄³⁻"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Para qué sirve tu saliva, aparte de mojar?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Tu boca fabrica entre uno y dos litros al día.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La saliva tiene enzimas que parten el almidón antes de tragar.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La digestión empieza en la boca: no en el estómago.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Es antiséptico: lleva lisozima que rompe paredes de bacterias.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y repara el esmalte: devuelve calcio y fósforo entre comidas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Sin saliva, el esmalte se carcome: por eso la boca seca es daño.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tienes miles de glándulas repartidas, no tres.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "De noche la fábrica baja: por eso la mañana huele a boca dormida.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Al año, llena una bañera entera: unos seiscientos litros.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Mastica despacio: la primera digestión no es la del estómago.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "1.5 L",
+      "ancla_x": "litros"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "AMILASA",
+      "ancla_texto": "enzimas"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "texto": "PASO 1",
+      "ancla_texto": "boca"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "sangre",
+     "params": {
+      "co2": 0.15,
+      "dark": 0.1,
+      "etiqueta": "LISOZIMA",
+      "ancla_etiqueta": "lisozima"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "dato",
+     "params": {
+      "numero": "PH 7",
+      "ancla_x": "esmalte"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "BOCA SECA",
+      "ancla_etiqueta": "seca"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "texto": "GLÁNDULAS",
+      "ancla_texto": "glándulas"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "texto": "NOCHE",
+      "ancla_texto": "mañana"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "dato",
+     "params": {
+      "numero": "600 L",
+      "ancla_x": "bañera"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "DESPACIO",
+      "ancla_etiqueta": "despacio"
+     }
+    }
+   ]
+  },
+  {
+   "id": "volcan",
+   "titulo": "¿Qué pasa si te cae encima un volcán?",
+   "meta_titulo": "Te cae un VOLCÁN encima 🌋 700 ºC y 100 km/h",
+   "desc": "La ola piroclástica corre a cien por hora con roca a setecientos grados. Pompeya murió en minutos: así funciona una erupción.",
+   "tags": [
+    "volcán",
+    "erupción",
+    "piroclastos",
+    "Pompeya",
+    "qué pasa si",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Vulcanología: olas piroclásticas a 100-700 km/h con temperaturas de 200-700 ºC (caso Pompeya, 79 d.C.)",
+    "El Tambora (1815) enfrió el planeta ~0.5 ºC: 1816 fue 'el año sin verano'"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa si te cae encima un volcán?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El piroclasto sale a cien metros por segundo, a setecientos grados.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Es ceniza y roca al rojo: la ola de densidad arrasa bosques.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Pompeya murió así: la ola golpeó la ciudad en minutos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La ceniza fina colapsa los pulmones: eso es la silicosis.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El ácido sulfúrico llega al cielo y enfría el planeta entero.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "En 1816, el Tambora enfrió el verano: llegó el año sin verano.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La lava es lenta: lo rápido es la ola piroclástica.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y los piroclastos viajan cien kilómetros por hora cuesta abajo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "En erupción activa: tres kilómetros de radio ya es peligro.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Si suena un volcán cerca, no corras: busca altura y escudo.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "700 ºC",
+      "ancla_x": "grados"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "OLA",
+      "ancla_texto": "bosques"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "texto": "POMPEYA",
+      "ancla_texto": "minutos"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "SILICOSIS",
+      "ancla_etiqueta": "pulmones"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "dato",
+     "params": {
+      "numero": "-0.5 ºC",
+      "ancla_x": "planeta"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "texto": "1816",
+      "ancla_texto": "verano"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "texto": "OLEADA",
+      "ancla_texto": "piroclástica"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "100 KM/H",
+      "ancla_x": "hora"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "3 KM",
+      "ancla_etiqueta": "peligro"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "ALTURA",
+      "ancla_etiqueta": "altura"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hormigas",
+   "titulo": "¿Cuánto levanta una hormiga de verdad?",
+   "meta_titulo": "La hormiga levanta 50 VECES su peso 🐜 Y sin jefe",
+   "desc": "Cincuenta veces su peso sin gimnasio ni jefe: la hormiga es la obrera más eficiente del planeta. Así lo consigue.",
+   "tags": [
+    "hormigas",
+    "fuerza",
+    "colonia",
+    "insectos",
+    "curiosidades",
+    "ciencia"
+   ],
+   "fuentes": [
+    "Biomecánica de hormigas: cargas documentadas de decenas de veces su peso corporal",
+    "Ecología del suelo: las hormigas mueven cantidades enormes de tierra y dispersan semillas a escala global"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Cuánto levanta una hormiga de verdad?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Una hormiga carga hasta cincuenta veces su peso.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Si tú hicieras lo mismo, cargarías una camioneta entera.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y su masa muscular no funciona igual: es su esqueleto por fuera.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Un hormiguero de una colonia mueve treinta toneladas de tierra al año.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Trabajan sin jefe: la reina no manda, solo pone huevos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Hablan por feromonas: un rastro que se sigue en fila.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Su cerebro de cuarto de milímetro guarda el mapa de la colonia.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada año, las hormigas mueven el veinte por ciento de la tierra suelta.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Sin hormigas, el suelo muere: son las que airean y reparten semilla.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Respeta el hormiguero: el ingeniero más viejo del planeta.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "50 X",
+      "ancla_x": "peso"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "CARGA",
+      "ancla_texto": "camioneta"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "texto": "EXOESQUELETO",
+      "ancla_texto": "esqueleto"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "30 T",
+      "ancla_x": "toneladas"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "texto": "SIN JEFE",
+      "ancla_texto": "huevos"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "texto": "FEROMONAS",
+      "ancla_texto": "fila"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "cerebro",
+     "params": {
+      "pulso": 1,
+      "etiqueta": "MAPA",
+      "ancla_etiqueta": "mapa"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "20 %",
+      "ancla_x": "tierra"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "SUELO",
+      "ancla_etiqueta": "suelo"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "ANTIGUA",
+      "ancla_etiqueta": "hormiguero"
+     }
+    }
+   ]
+  },
+  {
+   "id": "luz",
+   "titulo": "¿Por qué la luz te pone límites?",
+   "meta_titulo": "La LUZ es el techo del universo 💡 300.000 km/s",
+   "desc": "Trescientos mil kilómetros por segundo: la ley que nadie rompe. Y al mirar el cielo, siempre ves el pasado.",
+   "tags": [
+    "luz",
+    "velocidad de la luz",
+    "física",
+    "universo",
+    "curiosidades",
+    "ciencia"
+   ],
+   "fuentes": [
+    "Constante c = 299.792 km/s: límite universal de velocidad (relatividad especial, Einstein 1905)",
+    "Luz solar tarda ~8 min 20 s en llegar a la Tierra; la estrella más cercana (Proxima Centauri) a 4.2 años luz"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué la luz te pone límites?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "La luz viaja a trescientos mil kilómetros por segundo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La Tierra cabe en el haz siete veces y media por segundo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y es el techo del universo: nada lo supera.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El Sol tarda ocho minutos en llegar: ves el pasado.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La estrella más cercana manda su luz de hace cuatro años.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Mirar el cielo es mirar hacia atrás en el tiempo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y si una nave viajara a esa velocidad, el tiempo se ralentiza para ella.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La luz también es masa en potencia: E igual m por c cuadrado.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Los agujeros negros son gravedad tan fuerte que ni la luz escapa.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La velocidad de la luz es la ley del juego.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "300.000 KM/S",
+      "ancla_x": "kilómetros"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dato",
+     "params": {
+      "numero": "7.5 X",
+      "ancla_x": "Tierra"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "texto": "TECHO",
+      "ancla_texto": "universo"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "8 MIN",
+      "ancla_x": "pasado"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "dato",
+     "params": {
+      "numero": "4 AÑOS",
+      "ancla_x": "cuatro"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "texto": "HISTORIA",
+      "ancla_texto": "tiempo"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "texto": "TIEMPO",
+      "ancla_texto": "ralentiza"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "texto": "E = MC²",
+      "ancla_texto": "cuadrado"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "SIN SALIDA",
+      "ancla_etiqueta": "escapa"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "C",
+      "ancla_etiqueta": "ley"
+     }
+    }
+   ]
+  },
+  {
+   "id": "agua-tierra",
+   "titulo": "¿Cuánta agua hay de verdad en el planeta?",
+   "meta_titulo": "El 97% del AGUA es salada 💧 Solo 1% corre en ríos",
+   "desc": "Del agua del planeta, solo un uno por ciento está en ríos y lagos. Y el agua que bebes hoy ya pasó por dinosaurios.",
+   "tags": [
+    "agua",
+    "planeta",
+    "recursos",
+    "acuíferos",
+    "curiosidades",
+    "ciencia"
+   ],
+   "fuentes": [
+    "USGS: ~97% del agua es salada; del agua dulce, ~68% congelada en glaciares y polos, ~30% subterránea, ~1% en ríos y lagos",
+    "UNESCO/OMS: ~2.000 millones de personas consumen agua contaminada; el cuerpo humano es ~60% agua"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Cuánta agua hay de verdad en el planeta?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El noventa y siete por ciento es salada y no sirve para beber.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "De la dulce, el sesenta y ocho por ciento está congelada en polos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y casi todo el resto está bajo tierra: solo el uno corre por ríos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tu cuerpo también lleva agua: el sesenta por ciento de tu peso.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El cerebro es setenta y cinco por ciento agua: por eso el mareo pide trago.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y en la Tierra, el agua es finita: la misma circula desde siempre.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El agua que bebes hoy pasó por dinosaurios y glaciares.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Dos mil millones de personas beben agua contaminada.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y cada año, el acuífero baja: extraemos más de lo que entra.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El agua no se fabrica: se cuida.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "97 %",
+      "ancla_x": "salada"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dato",
+     "params": {
+      "numero": "68 %",
+      "ancla_x": "congelada"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "1 %",
+      "ancla_x": "ríos"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "60 %",
+      "ancla_x": "peso"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "cerebro",
+     "params": {
+      "pulso": 1,
+      "etiqueta": "75 % AGUA",
+      "ancla_etiqueta": "cerebro"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "texto": "CIRCULA",
+      "ancla_texto": "siempre"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "texto": "GLACIARES",
+      "ancla_texto": "dinosaurios"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "2 MM",
+      "ancla_x": "personas"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "ACUÍFERO",
+      "ancla_etiqueta": "acuífero"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "CUIDADO",
+      "ancla_etiqueta": "cuida"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pulmones",
+   "titulo": "¿Cuánta superficie cabe en tus pulmones?",
+   "meta_titulo": "Tus pulmones: una PISTA DE TENIS 🎾 dentro del pecho",
+   "desc": "Cuatrocientos millones de alvéolos cubren una pista de tenis doblada dentro del pecho. Así respira un ser humano.",
+   "tags": [
+    "pulmones",
+    "alvéolos",
+    "respiración",
+    "cuerpo humano",
+    "fumar",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Fisiología pulmonar: ~300-500 millones de alvéolos, superficie de intercambio ~70 m² (una pista de tenis)",
+    "~22.000 respiraciones/día moviendo ~11.000 L de aire; la pared alveolar mide ~0.5 µm"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Cuánta superficie cabe en tus pulmones?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Doblados, tus alvéolos cubren una pista de tenis.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Son cuatrocientos millones de bolsitas de aire.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada día, respiras veintidós mil veces sin pensar.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y mueven once mil litros de aire diarios.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El intercambio pasa por paredes de medio micrómetro: finísimo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El oxígeno entra a la sangre y el CO₂ sale en el mismo paso.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Fumar pega alquitrán en esa pista: el rug se apaga.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Fumar destruye alvéolos: no crecen de nuevo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El aire urbano también deja hollín en la pista.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Deporte y aire limpio: los pulmones agradecen el uso.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "respira",
+     "params": {
+      "prof": 1,
+      "etiqueta": "70 M²",
+      "ancla_etiqueta": "tenis"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dato",
+     "params": {
+      "numero": "400 M",
+      "ancla_x": "bolsitas"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "22.000",
+      "ancla_x": "veintidós"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "11.000 L",
+      "ancla_x": "litros"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "texto": "FINÍSIMO",
+      "ancla_texto": "finísimo"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "sangre",
+     "params": {
+      "co2": 0.3,
+      "dark": 0,
+      "etiqueta": "INTERCAMBIO",
+      "ancla_etiqueta": "oxígeno"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "ALQUITRÁN",
+      "ancla_etiqueta": "alquitrán"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "-25 %",
+      "ancla_x": "alvéolos"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "texto": "HOLLÍN",
+      "ancla_texto": "hollín"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "USO",
+      "ancla_etiqueta": "agradecen"
+     }
+    }
+   ]
+  },
+  {
+   "id": "suenos",
+   "titulo": "¿Por qué sueñas, si nadie te lo pidió?",
+   "meta_titulo": "¿Por qué SUEÑAS? 🌙 El archivo nocturno del cerebro",
+   "desc": "Sueñas cuatro veces por noche y borras el noventa y cinco por ciento al despertar. Los sueños son el archivo que ordena tu día.",
+   "tags": [
+    "sueños",
+    "REM",
+    "cerebro",
+    "pesadillas",
+    "parálisis del sueño",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Neurociencia del sueño: 4-6 fases REM por noche; ~95% del contenido onírico se olvida al despertar (Hobson)",
+    "Durante REM, la atonía muscular bloquea el motor (ponte, 1962); la corteza olfativa reduce su actividad"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué sueñas, si nadie te lo pidió?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Durante el sueño REM, tu cerebro se enciende casi igual que despierto.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Los sueños son el archivo que ordena lo que viviste.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y sueñas unas cuatro veces por noche, aunque no recuerdes ninguna.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El noventa y cinco por ciento de los sueños se borra al despertar.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El cerebro apaga el motor durante REM: por eso no sales corriendo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las pesadillas son el simulador de emergencias en marcha.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La parálisis del sueño: el motor apagado pero tú ya despierto.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El olor no entra en los sueños: la corteza del olfato duerme.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y soñar ayuda a las emociones: es terapia nocturna gratuita.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Si quieres recordar: déjate despertar despacio y anota.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "cerebro",
+     "params": {
+      "pulso": 1.3,
+      "etiqueta": "REM",
+      "ancla_etiqueta": "enciende"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "cerebro",
+     "params": {
+      "pulso": 1,
+      "etiqueta": "ARCHIVO",
+      "ancla_etiqueta": "ordena"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "4/NOCHE",
+      "ancla_x": "cuatro"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "95 %",
+      "ancla_x": "borra"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "texto": "MOTOR OFF",
+      "ancla_texto": "corriendo"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "SIMULADOR",
+      "ancla_etiqueta": "emergencias"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "apagon",
+     "params": {
+      "ancla_apagon": "apagado"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "texto": "SIN OLFATO",
+      "ancla_texto": "olfato"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "cerebro",
+     "params": {
+      "pulso": 0.8,
+      "etiqueta": "TERAPIA",
+      "ancla_etiqueta": "emociones"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "ANOTA",
+      "ancla_etiqueta": "anota"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hibernan",
+   "titulo": "¿Qué pasa dentro de un oso que hiberna?",
+   "meta_titulo": "El oso HIBERNA: 4 latidos por minuto 🐻 Modo ahorro",
+   "desc": "El corazón baja a cuatro latidos por minuto y el cuerpo vive de grasa meses enteros. Así funciona la hibernación real.",
+   "tags": [
+    "hibernación",
+    "oso",
+    "animales",
+    "biología",
+    "curiosidades",
+    "ciencia"
+   ],
+   "fuentes": [
+    "Fisiología de la hibernación: la frecuencia cardiaca baja de ~50 a 4 latidos/min; el metabolismo cae ~75%",
+    "El oso recicla urea en proteína, pierde ~25% de masa muscular y no forma coágulos por cambios en la sangre"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa dentro de un oso que hiberna?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Su corazón baja de cincuenta latidos a cuatro por minuto.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La temperatura cae unos grados: entra en modo ahorro.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y el cuerpo vive de grasa: quema cuatro kilos al mes.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El riñón recicla urea: no hay que despertarse para orinar.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las madres dan a luz durmiendo: las crías amamantan dormidas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y pierde un veinticinco por ciento de masa muscular: mínimo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Su sangre acumula anticoagulantes para no formar coágulos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El cerebro mantiene alarmas: despierta si el nido se enfría.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Al despertar, tarda semanas en volver al ritmo completo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El oso hiberna sin perder músculo casi: el sueño que todos queremos.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "corazon",
+     "params": {
+      "latido": 4,
+      "etiqueta": "4 BPM",
+      "ancla_etiqueta": "latidos"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "AHORRO",
+      "ancla_texto": "ahorro"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "4 KG",
+      "ancla_x": "grasa"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "texto": "RECICLA",
+      "ancla_texto": "urea"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "texto": "CRÍAS",
+      "ancla_texto": "dormidas"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "dato",
+     "params": {
+      "numero": "-25 %",
+      "ancla_x": "masa"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "sangre",
+     "params": {
+      "co2": 0.1,
+      "dark": 0.3,
+      "etiqueta": "ANTI-COÁGULOS",
+      "ancla_etiqueta": "coágulos"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "cerebro",
+     "params": {
+      "pulso": 1,
+      "etiqueta": "ALARMAS",
+      "ancla_etiqueta": "nido"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "texto": "ARRANQUE",
+      "ancla_texto": "ritmo"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "HIBERNAR",
+      "ancla_etiqueta": "sueño"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pelo",
+   "titulo": "¿Cuánto crece tu pelo en un año?",
+   "meta_titulo": "Tu pelo: 15 CM al año y aguanta 2 ELEFANTES 💇",
+   "desc": "Un centímetro y medio al mes, cien folículos que caen al día, y una cabellera que aguanta el peso de dos elefantes. El pelo es ingeniería.",
+   "tags": [
+    "pelo",
+    "cabello",
+    "canas",
+    "melanina",
+    "cuerpo humano",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Tricología: el cuero cabelludo crece ~1.25 cm/mes; la pérdida de ~100 cabellos/día es normal",
+    "Una cabellera completa (~100.000-150.000 cabellos) soportaría teóricamente ~12 toneladas; la melanina da el color"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Cuánto crece tu pelo en un año?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El pelo crece un centímetro y medio cada mes.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Son quince centímetros al año si no lo cortas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cada folículo corre su propio ciclo: cien caen al día, normales.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La cabellera entera aguanta el peso de dos elefantes.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y el color lo da la melanina: la misma tinta de la piel.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las canas son la fábrica de tinta que se queda sin tinta.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El pelo muerto ya no duele: la raíz es lo que siente.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El vello corporal era abrigo: hoy es vestigio.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El estrés sí apaga folículos: se recuperan con el tiempo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Pelo sano: agua, proteína y no arrancarlo.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "1.5 CM",
+      "ancla_x": "centímetro"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dato",
+     "params": {
+      "numero": "15 CM",
+      "ancla_x": "año"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "100/DÍA",
+      "ancla_x": "folículo"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "12 T",
+      "ancla_x": "elefantes"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "texto": "MELANINA",
+      "ancla_texto": "melanina"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "texto": "CANAS",
+      "ancla_texto": "tinta"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "texto": "RAÍZ",
+      "ancla_texto": "raíz"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "texto": "VESTIGIO",
+      "ancla_texto": "vestigio"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "ESTRÉS",
+      "ancla_etiqueta": "folículos"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "PROTEÍNA",
+      "ancla_etiqueta": "proteína"
+     }
+    }
+   ]
+  },
+  {
+   "id": "venas",
+   "titulo": "¿Cuánto mide tu tubería interior?",
+   "meta_titulo": "Tus vasos: 100.000 KM de tubería 🩸 Dos vueltas al mundo",
+   "desc": "Si alinearas tus vasos sanguíneos, darían dos vueltas al mundo. Y las válvulas de tus piernas pelean contra la gravedad cada paso.",
+   "tags": [
+    "vasos sanguíneos",
+    "venas",
+    "arterias",
+    "capilares",
+    "cuerpo humano",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Anatomía: la red vascular suma ~100.000 km; las capilares miden ~5-10 µm de diámetro",
+    "Las venas de las piernas usan válvulas antirretorno; su fallo produce varices (estasis venosa)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Cuánto mide tu tubería interior?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Si pusieras tus vasos sanguíneos en fila, darían dos vueltas al mundo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Cien mil kilómetros: autopistas de seis carriles dentro de ti.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las venas de las piernas usan válvulas para subir contra la gravedad.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Por eso no te sientas ocho horas: la válvula se cansa.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las arterias llevan el oxígeno a presión: son las mangueras.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las capilares son tan finas que los glóbulos pasan en fila india.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La aorta, la mayor, tiene tres centímetros de diámetro.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y las capilares miden cinco micrómetros: diez veces más finas que el pelo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las varices son válvulas rotas: la sangre se queda estancada.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Muévete: la bomba de las piernas es tu propio andar.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "100.000 KM",
+      "ancla_x": "fila"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "AUTOPISTAS",
+      "ancla_texto": "autopistas"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "texto": "VÁLVULAS",
+      "ancla_texto": "gravedad"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "PIERNAS",
+      "ancla_etiqueta": "válvula"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "sangre",
+     "params": {
+      "co2": 0,
+      "dark": 0,
+      "etiqueta": "OXÍGENO",
+      "ancla_etiqueta": "oxígeno"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "sangre",
+     "params": {
+      "co2": 0.2,
+      "dark": 0.1,
+      "etiqueta": "FILA INDIA",
+      "ancla_etiqueta": "capilares"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "dato",
+     "params": {
+      "numero": "3 CM",
+      "ancla_x": "aorta"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "5 µM",
+      "ancla_x": "pelo"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "VARICES",
+      "ancla_etiqueta": "estancada"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "ANDA",
+      "ancla_etiqueta": "piernas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "oro",
+   "titulo": "¿De dónde salió el oro de tu anillo?",
+   "meta_titulo": "Tu anillo de ORO nació en una explosión 💍✨",
+   "desc": "El oro se forja solo cuando dos estrellas de neutrones chocan, y llegó a la Tierra en meteoritos. Todo el extraído cabe en una piscina.",
+   "tags": [
+    "oro",
+    "estrellas",
+    "universo",
+    "química",
+    "curiosidades",
+    "ciencia"
+   ],
+   "fuentes": [
+    "Nucleosíntesis: oro y platino se forman en colisiones de estrellas de neutrones (evento GW170817, 2017)",
+    "Todo el oro extraído en la historia (~200.000 toneladas) cabe en ~21 m³ (una piscina olímpica)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿De dónde salió el oro de tu anillo?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El oro no nació en la Tierra: llegó del espacio.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Se forja solo cuando dos estrellas de neutrones chocan.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La onda del choque forja toneladas de oro en un segundo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El oro llegó en meteoritos cuando la Tierra era joven.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Por eso el oro es raro: la Tierra se lo tragó al centro.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Todo el oro extraído en la historia cabe en una piscina olímpica.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Su brillo no se oxida: el oro es noble químicamente.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y el oro de tu anillo tiene cuatro mil millones de años.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La minería del oro deja toneladas de residuo por gramo: el precio oculto.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Reciclar oro: el anillo nuevo puede ser el viejo.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "texto": "ESPACIO",
+      "ancla_texto": "espacio"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "CHOCAN",
+      "ancla_texto": "neutrones"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "1 SEG",
+      "ancla_x": "segundo"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "texto": "METEORITOS",
+      "ancla_texto": "meteoritos"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "texto": "CENTRO",
+      "ancla_texto": "centro"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "dato",
+     "params": {
+      "numero": "21 M³",
+      "ancla_x": "piscina"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "texto": "NOBLE",
+      "ancla_texto": "oxida"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "4",
+      "texto": "MIL M AÑOS",
+      "ancla_x": "cuatro"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "RESIDUO",
+      "ancla_etiqueta": "residuo"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "RECICLAR",
+      "ancla_etiqueta": "reciclar"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hielo",
+   "titulo": "¿Por qué el hielo flota si es sólido?",
+   "meta_titulo": "El hielo FLOTA por una anomalía 🧊 Y salva los lagos",
+   "desc": "El agua se expande al congelarse: la anomalía que hace flotar el hielo y mantiene vivos los lagos cada invierno.",
+   "tags": [
+    "hielo",
+    "agua",
+    "física",
+    "anomalía",
+    "curiosidades",
+    "ciencia"
+   ],
+   "fuentes": [
+    "Física del agua: el hielo es ~9% menos denso que el agua líquida (anomalía de densidad del agua)",
+    "Los glaciares concentran ~80% del agua dulce del planeta; su deshielo ronda miles de gigatoneladas al año (IMBIE)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué el hielo flota si es sólido?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Al congelarse, el agua se expande un nueve por ciento.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Es la anomalía del agua: sólido menos denso que el líquido.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Por eso el hielo flota: nueve por ciento fuera del agua.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y por eso los lagos se congelan arriba: el fondo sigue vivo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Si el hielo se hundiera, los peces morirían cada invierno.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El hielo es un mineral: cristales de seis puntas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La nieve no es blanca: es luz partida en millones de aristas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El hielo glacial guarda el ochenta por ciento del agua dulce.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y se derrite a ritmo de mil gigatoneladas al año.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El hielo es memoria: guarda el aire de hace cien mil años.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "+9 %",
+      "ancla_x": "expande"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "ANOMALÍA",
+      "ancla_texto": "líquido"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "dato",
+     "params": {
+      "numero": "9 %",
+      "ancla_x": "flota"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "texto": "FONDO",
+      "ancla_texto": "vivo"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "PELIGRO",
+      "ancla_etiqueta": "peces"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "texto": "CRISTAL",
+      "ancla_texto": "cristales"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "texto": "ARISTAS",
+      "ancla_texto": "aristas"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "80 %",
+      "ancla_x": "dulce"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "dato",
+     "params": {
+      "numero": "1.000 GT",
+      "ancla_x": "gigatoneladas"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "MEMORIA",
+      "ancla_etiqueta": "memoria"
+     }
+    }
+   ]
+  },
+  {
+   "id": "glucosa",
+   "titulo": "¿Cuánta azúcar gasta tu cerebro cada día?",
+   "meta_titulo": "Tu cerebro QUEMA 600 g de azúcar al día 🍬 Pensar cuesta",
+   "desc": "Seiscientos gramos de glucosa al día: pensar tiene precio. Y el azúcar pico y caída es la montaña rusa de tu foco.",
+   "tags": [
+    "azúcar",
+    "glucosa",
+    "cerebro",
+    "energía",
+    "qué pasa si",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Neurobiología energética: el cerebro consume ~120 g de glucosa/día (~20% del gasto basal, ~20 W)",
+    "La glucemia en picos y caídas se asocia a fatiga y antojos (homeostasis glucémica)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Cuánta azúcar gasta tu cerebro cada día?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El cerebro quema unos veinticinco gramos de glucosa por hora.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Son seiscientos gramos diarios: tu pensamiento tiene precio.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y es su único combustible: no quema grasa.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Por eso saltarte el desayuno te apaga las ideas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La glucosa baja dispara el antojo de dulce instantáneo.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Pero el exceso también castiga: el azúcar de pico y caída.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El exceso crónico desgasta el sistema: es la resistencia a la insulina.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Tu cerebro usa veinte vatios: la mitad es hacer glucosa útil.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El mejor combustible no es el azúcar: es la comida lenta.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Avena, legumbre y huevo: energía que no se apaga en media hora.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "25 G/H",
+      "ancla_x": "glucosa"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dato",
+     "params": {
+      "numero": "600 G",
+      "ancla_x": "precio"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "texto": "GLUCOSA",
+      "ancla_texto": "combustible"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "texto": "APAGÓN",
+      "ancla_texto": "desayuno"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "ANTOJO",
+      "ancla_etiqueta": "antojo"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "dato",
+     "params": {
+      "numero": "±20 %",
+      "ancla_x": "pico"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "INSULINA",
+      "ancla_etiqueta": "insulina"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "20 W",
+      "ancla_x": "vatios"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "texto": "LENTO",
+      "ancla_texto": "lenta"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "LENTA",
+      "ancla_etiqueta": "media"
+     }
+    }
+   ]
+  },
+  {
+   "id": "luna",
+   "titulo": "¿Qué pasa si la Luna desaparece esta noche?",
+   "meta_titulo": "¿Y si la LUNA desaparece? 🌕 El caos empieza ahí",
+   "desc": "Sin Luna, la marea muere, el eje de la Tierra tambalea y el clima se va al caos. Nuestro satélite es mucho más que decoración.",
+   "tags": [
+    "luna",
+    "mareas",
+    "tierra",
+    "espacio",
+    "curiosidades",
+    "ciencia"
+   ],
+   "fuentes": [
+    "Mecánica celeste: la Luna estabiliza la oblicuidad terrestre; su retirada induce caos climático a largo plazo (Laskar et al., Nature 1993)",
+    "La Luna se aleja ~3.8 cm/año (láser lunar retroreflector); frena la rotación terrestre: el día pasó de ~6 h a 24 h"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Qué pasa si la Luna desaparece esta noche?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "La marea se apaga: el océano queda plano como una mesa.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El eje de la Tierra empieza a tambalear sin su contrapeso.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El tambaleo manda el clima al caos: inviernos al azar.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Los animales que navegan por mareas se pierden.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La Luna ya frenó la Tierra: el día pasó de seis a veinticuatro horas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Sin su gravedad, la rotación dejaría de frenarse.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y la noche a oscuras: los depredadores ganan la partida.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Las tortugas y aves pierden su brújula de navegación.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La Luna se aleja cuatro centímetros al año: el alquiler sube.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "La Luna no es decoración: es la primera casa de la Tierra.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "hablando",
+     "params": {
+      "texto": "MAREA",
+      "ancla_texto": "plano"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "hablando",
+     "params": {
+      "texto": "TAMBALEO",
+      "ancla_texto": "contrapeso"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "CLIMA",
+      "ancla_etiqueta": "caos"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "hablando",
+     "params": {
+      "texto": "SIN RUTA",
+      "ancla_texto": "mareas"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "dato",
+     "params": {
+      "numero": "24 H",
+      "ancla_x": "seis"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "hablando",
+     "params": {
+      "texto": "SIN FRENO",
+      "ancla_texto": "frenarse"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "OSCURIDAD",
+      "ancla_etiqueta": "partida"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "texto": "BRÚJULA",
+      "ancla_texto": "brújula"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "dato",
+     "params": {
+      "numero": "3.8 CM",
+      "ancla_x": "centímetros"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "CASA",
+      "ancla_etiqueta": "decoración"
+     }
+    }
+   ]
+  },
+  {
+   "id": "espalda",
+   "titulo": "¿Por qué tu espalda se queja a los veinte?",
+   "meta_titulo": "Mirar el MÓvil carga 27 KG en tu cuello 📱 Espalda",
+   "desc": "La cabeza pesa cinco kilos, y mirar el móvil inclinado multiplica la carga. Los discos de tu columna son el precio.",
+   "tags": [
+    "espalda",
+    "columna",
+    "dolor de espalda",
+    "móvil",
+    "postura",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Hansraj, Surg Technol Int 2014: con 60° de flexión cervical, la carga efectiva llega a ~27 kg (cabeza ~5 kg)",
+    "Estadística clínica: el dolor de espalda es uno de los motivos de consulta más frecuentes; el reposo prolongado empeora"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué tu espalda se queja a los veinte?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Tu columna carga el peso de una cabeza que pesa cinco kilos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y si miras el móvil hacia abajo, son veintisiete kilos de carga.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Los discos son amortiguadores con núcleo gelatinoso.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "De noche, los discos se rehidratan: por eso mides más al despertar.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Sentarse es la peor postura: el disco carga cuarenta por ciento más.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El dolor de espalda es el segundo motivo de visita médica.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El reposo total empeora: el disco pide movimiento.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El núcleo abdominal es el cinturón que la columna pide.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y la almohada alta rompe el cuello: que quede alineado.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Moverse cada hora y caminar: la espalda lo agradece.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "5 KG",
+      "ancla_x": "cabeza"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "dato",
+     "params": {
+      "numero": "27 KG",
+      "ancla_x": "veintisiete"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "hablando",
+     "params": {
+      "texto": "AMORTIGUADOR",
+      "ancla_texto": "amortiguadores"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "+2 CM",
+      "ancla_x": "mides"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "dato",
+     "params": {
+      "numero": "+40 %",
+      "ancla_x": "sentarse"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "dato",
+     "params": {
+      "numero": "Nº 2",
+      "ancla_x": "motivo"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "REPOSO",
+      "ancla_etiqueta": "reposo"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "hablando",
+     "params": {
+      "texto": "NÚCLEO",
+      "ancla_texto": "cinturón"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "hablando",
+     "params": {
+      "texto": "ALINEADO",
+      "ancla_texto": "cuello"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "MUEVETE",
+      "ancla_etiqueta": "hora"
+     }
+    }
+   ]
+  },
+  {
+   "id": "mosquitos",
+   "titulo": "¿Por qué pica la picadura de mosquito?",
+   "meta_titulo": "El mosquito te PINCHA con 6 agujas 🦟 Y solo la hembra",
+   "desc": "Seis agujas, saliva anticoagulante y una histamina que pica. El mosquito es el animal que más humanos mata: un millón al año.",
+   "tags": [
+    "mosquitos",
+    "picadura",
+    "histamina",
+    "verano",
+    "qué pasa si",
+    "curiosidades"
+   ],
+   "fuentes": [
+    "Entomología del Aedes/Culex: el proboscis incluye 6 agujas (estiletes); la saliva anticoagulante provoca la reacción de histamina",
+    "OMS: los mosquitos vectoriales causan >700.000 muertes/año (estimaciones de hasta ~1 millón contando malaria)"
+   ],
+   "lineas": [
+    {
+     "texto": "¿Por qué pica la picadura de mosquito?",
+     "pausa": 0.35
+    },
+    {
+     "texto": "El mosquito no te muerde: te pincha con seis agujas.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Inyecta saliva con anticoagulante para chupar sin tapón.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Tu cuerpo la detecta y suelta histamina: eso es el picor.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Rascarlo reparte la saliva: el picor se duplica.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Solo las hembras pican: necesitan sangre para los huevos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Encuentran por CO₂: detectan tu aliento a treinta metros.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "Y por calor: las zonas calientes de la piel brillan para ellos.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El grupo sanguíneo importa: tipo O pica el doble.",
+     "pausa": 0.3
+    },
+    {
+     "texto": "El mosquito es el animal que más humanos mata: un millón al año.",
+     "pausa": 0.35
+    },
+    {
+     "texto": "Repelente con DEET y ropa clara: la defensa honesta.",
+     "pausa": 0.25
+    }
+   ],
+   "tomas": [
+    {
+     "id": "T01",
+     "linea": 0,
+     "escena": "hablando",
+     "params": {}
+    },
+    {
+     "id": "T02",
+     "linea": 1,
+     "escena": "dato",
+     "params": {
+      "numero": "6 AGUJAS",
+      "ancla_x": "agujas"
+     }
+    },
+    {
+     "id": "T03",
+     "linea": 2,
+     "escena": "sangre",
+     "params": {
+      "co2": 0.3,
+      "dark": 0.2,
+      "etiqueta": "ANTICOAGULANTE",
+      "ancla_etiqueta": "saliva"
+     }
+    },
+    {
+     "id": "T04",
+     "linea": 3,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "HISTAMINA",
+      "ancla_etiqueta": "picor"
+     }
+    },
+    {
+     "id": "T05",
+     "linea": 4,
+     "escena": "dato",
+     "params": {
+      "numero": "X2",
+      "ancla_x": "duplica"
+     }
+    },
+    {
+     "id": "T06",
+     "linea": 5,
+     "escena": "hablando",
+     "params": {
+      "texto": "HEMBRAS",
+      "ancla_texto": "huevos"
+     }
+    },
+    {
+     "id": "T07",
+     "linea": 6,
+     "escena": "dato",
+     "params": {
+      "numero": "30 M",
+      "ancla_x": "aliento"
+     }
+    },
+    {
+     "id": "T08",
+     "linea": 7,
+     "escena": "hablando",
+     "params": {
+      "texto": "CALOR",
+      "ancla_texto": "brillan"
+     }
+    },
+    {
+     "id": "T09",
+     "linea": 8,
+     "escena": "dato",
+     "params": {
+      "numero": "2 X",
+      "ancla_x": "sanguíneo"
+     }
+    },
+    {
+     "id": "T10",
+     "linea": 9,
+     "escena": "alarma",
+     "params": {
+      "etiqueta": "1 MM/AÑO",
+      "ancla_etiqueta": "millón"
+     }
+    },
+    {
+     "id": "T11",
+     "linea": 10,
+     "escena": "final",
+     "params": {
+      "etiqueta": "DEET",
+      "ancla_etiqueta": "honesta"
+     }
+    }
+   ]
+  }
+ ]
+}
