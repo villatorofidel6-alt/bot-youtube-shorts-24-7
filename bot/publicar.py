@@ -21,8 +21,9 @@ import discord
 import estado
 import yt
 
-PESOS = {"inside-out": 5, "deep-dive": 5, "night-file": 2,
-         "paper-atlas": 2, "stick-story": 2, "tall-tale": 2}
+# Rotación igualitaria: todos los estilos valen lo mismo; sale primero el que menos lleva
+PESOS = {"inside-out": 1, "deep-dive": 1, "night-file": 1,
+         "paper-atlas": 1, "stick-story": 1, "tall-tale": 1}
 GAP_SEG = 2 * 3600          # 1 subida cada 2 h exactas
 MAX_COLA = 36               # poda: si la cola crece demasiado, se descartan los más viejos
 RAIZ = Path(__file__).resolve().parent.parent

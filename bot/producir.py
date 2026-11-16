@@ -32,6 +32,15 @@ GRUPOS = {
     "otros_b": [("stick-story", 1), ("tall-tale", 1)],
 }
 
+# Rotación igualitaria: todos los estilos rotan en rondas de 4.
+# run 1 → [inside-out, deep-dive, night-file, paper-atlas] · run 2 → [stick-story, tall-tale, inside-out, deep-dive] ...
+ORDEN = ["inside-out", "deep-dive", "night-file", "paper-atlas", "stick-story", "tall-tale"]
+
+
+def rotacion(run, cantidad=4):
+    i = ((run - 1) * cantidad) % len(ORDEN)
+    return [ORDEN[(i + k) % len(ORDEN)] for k in range(cantidad)]
+
 
 def _gh(args, timeout=900):
     return subprocess.run(["gh", *args], capture_output=True, text=True,
@@ -86,14 +95,14 @@ def main():
     if a.estilo:
         estilos = [(a.estilo, max(1, a.cantidad))]
         grupo = f"manual:{a.estilo}"
-    elif a.grupo == "prio":
-        estilos = GRUPOS["prio"]
-        grupo = "prio"
-    elif a.grupo == "otros":
-        estilos = GRUPOS["otros_a"] if run % 2 == 0 else GRUPOS["otros_b"]
-        grupo = "otros"
+    elif a.grupo in ("prio", "otros"):
+        # rotación igualitaria: el ciclo toca 4 estilos round-robin y el matrix
+        # los reparte en dos mitades (prio = primera, otros = segunda)
+        cuatro = rotacion(run)
+        estilos = [(s, 1) for s in (cuatro[:2] if a.grupo == "prio" else cuatro[2:])]
+        grupo = f"ciclo{run}:{'+'.join(s for s, _ in estilos)}"
     else:
-        estilos = GRUPOS["prio"] + (GRUPOS["otros_a"] if run % 2 == 0 else GRUPOS["otros_b"])
+        estilos = [(s, 1) for s in rotacion(run)]
         grupo = "todo"
 
     t_inicio = time.time()
