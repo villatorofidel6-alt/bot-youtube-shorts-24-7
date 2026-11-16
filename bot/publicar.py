@@ -112,10 +112,18 @@ def main():
     objetivo = elegir_video(videos, e.get("subidos_por_estilo", {}), e.get("subidos_ids", {}))
     meta_nombre = objetivo[:-4] + ".meta.json"
     d = Path(tempfile.mkdtemp(prefix="publicar_"))
-    _gh(["release", "download", "cola", objetivo, "-D", str(d)], timeout=900)
     ruta = d / objetivo
-    if not ruta.exists():
-        raise RuntimeError(f"la descarga del asset {objetivo} falló")
+    ultimo = ""
+    for intento in range(4):
+        # los assets recién subidos tardan ~1 min en ser descargables (consistencia de GitHub)
+        r = _gh(["release", "download", "cola", objetivo, "-D", str(d)], timeout=900)
+        if ruta.exists() and ruta.stat().st_size > 0:
+            break
+        ultimo = (r.stderr or r.stdout or "(sin salida)").strip()[-300:]
+        print(f"[publicar] descarga intento {intento + 1} falló: {ultimo}", flush=True)
+        time.sleep(25)
+    else:
+        raise RuntimeError(f"la descarga del asset {objetivo} falló: {ultimo}")
     meta = {}
     if meta_nombre in nombres:
         _gh(["release", "download", "cola", meta_nombre, "-D", str(d)], timeout=300)
