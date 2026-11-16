@@ -1,19 +1,24 @@
 {
-  "ultimo_upload_ts": 1794850917.7495232,
-  "proximo_upload_ts": 1794858117.7495232,
-  "subidos_total": 2,
-  "generados_total": 3,
+  "ultimo_upload_ts": 1794858489.5482855,
+  "proximo_upload_ts": 1794865689.5482855,
+  "subidos_total": 3,
+  "generados_total": 7,
   "subidos_por_estilo": {
-    "inside-out": 1
+    "inside-out": 1,
+    "deep-dive": 1
   },
   "cola": [
-    "inside-out_20261116_173331_pila.mp4"
+    "deep-dive_20261116_174911_corazon-litros.mp4",
+    "deep-dive_20261116_191959_pesas1000.mp4",
+    "night-file_20261116_180047_mary-celeste.mp4",
+    "paper-atlas_20261116_180324_mar-muerto.mp4"
   ],
   "subidos_ids": {
     "corto_20261115_115738_nueva-harbor.mp4": "kY51Uq9RGss",
-    "inside-out_20261116_173331_pila.mp4": "LkKe7xuWnMw"
+    "inside-out_20261116_173331_pila.mp4": "LkKe7xuWnMw",
+    "deep-dive_20261116_174911_corazon-litros.mp4": "3R3RHZnCXTo"
   },
-  "ultimo_evento": "Subido: ¿Te tragas una pila de botón? ⚠️ URGENTE",
-  "actualizado_ts": 1794850925.2961528,
+  "ultimo_evento": "Subido: Tu corazón BOMBEA 7.500 L cada día ❤️ Los números",
+  "actualizado_ts": 1794858495.4829628,
   "intentos": {}
 }
