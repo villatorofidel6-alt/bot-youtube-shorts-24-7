@@ -5,13 +5,14 @@ La cola es la release de GitHub `cola`: cada video se sube como asset de esa
 release, y publicar.py lo consume (lo descarga, lo sube a YouTube y lo borra).
 Este módulo NO toca estado_bot.json (publicar es el único escritor).
 
-  ~/.faceless-shorts/venv/bin/python bot/producir.py --grupo prio
-  ... --grupo otros        # rota dos pares de estilos según el nº de run (par/impar)
+  ~/.faceless-shorts/venv/bin/python bot/producir.py --grupo prio     # mitad A del turno
+  ... --grupo otros        # mitad B del turno
   ... --estilo night-file --cantidad 2    # manual
 
-Grupos (1 video por estilo y ciclo):
-  prio    → inside-out + deep-dive   (los dos estilos principales, 5/5 de peso)
-  otros   → par: night-file + paper-atlas · impar: stick-story + tall-tale
+Rotación igualitaria (1 video por estilo y ciclo, 4 estilos por ciclo, 7 estilos):
+  ORDEN = inside-out · deep-dive · night-file · paper-atlas · stick-story · tall-tale · caricatura
+  el nº de run elige la ventana de 4; el matrix de producir.yml parte el turno:
+  prio → 2 primeros · otros → 2 siguientes. Sin --grupo, produce los 4.
 """
 import argparse
 import json
@@ -29,12 +30,13 @@ import pipeline
 GRUPOS = {
     "prio": [("inside-out", 1), ("deep-dive", 1)],
     "otros_a": [("night-file", 1), ("paper-atlas", 1)],
-    "otros_b": [("stick-story", 1), ("tall-tale", 1)],
+    "otros_b": [("stick-story", 1), ("tall-tale", 1), ("caricatura", 1)],
 }
 
-# Rotación igualitaria: todos los estilos rotan en rondas de 4.
-# run 1 → [inside-out, deep-dive, night-file, paper-atlas] · run 2 → [stick-story, tall-tale, inside-out, deep-dive] ...
-ORDEN = ["inside-out", "deep-dive", "night-file", "paper-atlas", "stick-story", "tall-tale"]
+# Rotación igualitaria: todos los estilos rotan en rondas de 4 (7 estilos: cada
+# uno sale 1 vez cada 7 runs; la ventana completa se repite cada 7 runs).
+# run 1 → [inside-out, deep-dive, night-file, paper-atlas] · run 2 → [stick-story, tall-tale, caricatura, inside-out] ...
+ORDEN = ["inside-out", "deep-dive", "night-file", "paper-atlas", "stick-story", "tall-tale", "caricatura"]
 
 
 def rotacion(run, cantidad=4):

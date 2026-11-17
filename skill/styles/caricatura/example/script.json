@@ -1,0 +1,66 @@
+{
+ "title": "¿Cercar a los que te están cercando? El sitio doble de Alesia",
+ "voice": "em_alex",
+ "speed": 1.0,
+ "lead": 0.45,
+ "outro": 0.9,
+ "gap": 0.32,
+ "music": "tension",
+ "sources": [
+  "Julio César, Comentarios a la Guerra de las Galias, VII (las murallas dobles de Alesia)",
+  "Estimaciones de las fuentes: ~250.000 refuerzos galos contra ~70.000 romanos",
+  "World History Encyclopedia: Battle of Alesia"
+ ],
+ "lines": [
+  {
+   "text": "¿Cómo se combate en dos frentes al mismo tiempo?",
+   "gap": 0.35,
+   "caps": "¿CÓMO SE *COMBATE | EN DOS *FRENTES | AL MISMO *TIEMPO?"
+  },
+  {
+   "text": "En Alesia, Julio César rodeó con murallas dobles a Vercingétorix.",
+   "gap": 0.3,
+   "caps": "EN *ALESIA, JULIO | *CÉSAR RODEÓ CON | *MURALLAS DOBLES | A *VERCINGÉTORIX."
+  },
+  {
+   "text": "Por dentro, la ciudad esperaba refuerzos; por fuera, un ejército galo entero.",
+   "gap": 0.3,
+   "caps": "POR *DENTRO, LA | CIUDAD ESPERABA *REFUERZOS; | POR *FUERA, UN | *EJÉRCITO GALO ENTERO."
+  },
+  {
+   "text": "César cavó dos muros: uno para que nadie saliera, otro para que nadie entrara.",
+   "gap": 0.3,
+   "caps": "*CÉSAR CAVÓ DOS | *MUROS: UNO PARA | QUE NADIE *SALIERA, | *OTRO PARA QUE | NADIE *ENTRARA."
+  },
+  {
+   "text": "Doscientos cincuenta mil galos cargaron contra las trincheras romanas.",
+   "gap": 0.3,
+   "caps": "*DOSCIENTOS CINCUENTA MIL | GALOS *CARGARON CONTRA | LAS *TRINCHERAS ROMANAS."
+  },
+  {
+   "text": "Los romanos aguantaron con flechas, fosos y torres de madera.",
+   "gap": 0.3,
+   "caps": "LOS ROMANOS *AGUANTARON | CON *FLECHAS, FOSOS | Y *TORRES | DE *MADERA."
+  },
+  {
+   "text": "La caballería germana de César giró y golpeó la retaguardia gala.",
+   "gap": 0.3,
+   "caps": "LA *CABALLERÍA GERMANA | DE *CÉSAR GIRÓ | Y *GOLPEÓ LA | *RETAGUARDIA GALA."
+  },
+  {
+   "text": "Vercingétorix abrió las puertas y se rindió a caballo, armado y orgulloso.",
+   "gap": 0.3,
+   "caps": "*VERCINGÉTORIX ABRIÓ LAS | *PUERTAS Y SE | RINDIÓ A *CABALLO, | ARMADO Y *ORGULLOSO."
+  },
+  {
+   "text": "El mismo día, Roma venció por dentro y por fuera del anillo.",
+   "gap": 0.3,
+   "caps": "EL *MISMO DÍA, | ROMA *VENCIÓ POR | *DENTRO Y POR | FUERA DEL *ANILLO."
+  },
+  {
+   "text": "Un general que construye muros puede vencer dos guerras a la vez.",
+   "gap": 0.3,
+   "caps": "UN *GENERAL QUE | *CONSTRUYE MUROS PUEDE | VENCER DOS *GUERRAS | A LA *VEZ."
+  }
+ ]
+}

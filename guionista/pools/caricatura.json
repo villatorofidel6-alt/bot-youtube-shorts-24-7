@@ -1,0 +1,291 @@
+{
+ "estilo": "caricatura",
+ "voz": "em_alex",
+ "velocidad": 1.0,
+ "musica": "tension",
+ "lead": 0.45,
+ "outro": 0.9,
+ "gap": 0.32,
+ "tarjetas": [
+  {
+   "id": "gaugamela",
+   "titulo": "¿47.000 hombres contra 100.000? La carga que Alejandro ganó en una tarde",
+   "meta_titulo": "¿47.000 vs 100.000? La carga LOCA de Alejandro en Gaugamela ⚔️",
+   "desc": "Gaugamela, 331 a. C.: Alejandro Magno movió su línea en diagonal, abrió la brecha del centro persa y cargó directo hacia el rey Darío III. Una sola tarde cambió el imperio.",
+   "tags": ["alejandro magno", "gaugamela", "batallas", "historia", "persia", "curiosidades", "batalla", "caricatura", "historia antigua"],
+   "fuentes": [
+    "Arriano, Anábasis de Alejandro, libro III (orden oblicuo y carga al centro en Gaugamela)",
+    "Cifras modernas: ~47.000 macedonios frente a ~100.000 persas (estimaciones historiográficas)",
+    "World History Encyclopedia: Battle of Gaugamela (carros hocados y 15 elefantes persas)"
+   ],
+   "lineas": [
+    { "texto": "¿Qué se siente al cargar contra cien mil hombres?", "pausa": 0.35 },
+    { "texto": "En Gaugamela, Alejandro Magno trajo solo cuarenta y siete mil soldados.", "pausa": 0.3 },
+    { "texto": "Enfrente, el rey persa Darío desplegaba alrededor de cien mil.", "pausa": 0.3 },
+    { "texto": "Entre ellos: carros con hoces en las ruedas y quince elefantes de guerra.", "pausa": 0.3 },
+    { "texto": "El plan de Alejandro era loco: moverse en diagonal y estirar la línea persa.", "pausa": 0.3 },
+    { "texto": "Cuando se abrió la brecha en el centro, no lo dudó ni un segundo.", "pausa": 0.3 },
+    { "texto": "La cuña de compañeros cargó directo hacia el rey Darío.", "pausa": 0.3 },
+    { "texto": "Y el rey persa se giró y huyó, y su ejército entero lo siguió.", "pausa": 0.3 },
+    { "texto": "Cuarenta y siete mil derrotaron a cien mil en una sola tarde.", "pausa": 0.3 },
+    { "texto": "A veces el número no gana: gana la diagonal y el valor.", "pausa": 0.3 }
+   ],
+   "tomas": [
+    { "id": "S01", "linea": 0, "escena": "hablando", "params": { "objeto": "rey", "texto": "47.000 VS 100.000", "ancla_texto": "cargar" } },
+    { "id": "S02", "linea": 1, "escena": "rey", "params": { "etiqueta": "GAUGAMELA" } },
+    { "id": "S03", "linea": 2, "escena": "ejercito", "params": {} },
+    { "id": "S04", "linea": 3, "escena": "dato", "params": { "numero": "15", "texto": "ELEFANTES", "ancla_x": "elefantes" } },
+    { "id": "S05", "linea": 4, "escena": "personaje", "params": { "accion": "camina" } },
+    { "id": "S06", "linea": 5, "escena": "duelo", "params": { "etiqueta": "LA BRECHA" } },
+    { "id": "S07", "linea": 6, "escena": "carga", "params": { "etiqueta": "A DARÍO" } },
+    { "id": "S08", "linea": 8, "escena": "dato", "params": { "numero": "100.000", "texto": "EN RUTA", "ancla_x": "tarde" } },
+    { "id": "S09", "linea": 9, "escena": "final", "params": { "etiqueta": "EL VALOR GANA" } }
+   ]
+  },
+  {
+   "id": "termopilas",
+   "titulo": "¿300 contra un imperio? El desfiladero que paró a Jerjes dos días",
+   "meta_titulo": "¿300 espartanos vs un IMPERIO? El desfiladero de las Termópilas 🛡️",
+   "desc": "Termópilas, 480 a. C.: Leónidas y trescientos espartiatas cerraron un paso costero contra el ejército de Jerjes. Dos días de muralla de escudos, un sendero traicionero y una leyenda eterna.",
+   "tags": ["termopilas", "espartanos", "300", "leonidas", "jerjes", "historia", "batallas", "curiosidades", "grecia antigua"],
+   "fuentes": [
+    "Heródoto, Historias, libros VII-VIII (las Termópilas y el sendero de los anopéos)",
+    "Estimaciones modernas del ejército persa: entre 150.000 y 300.000 (debate historiográfico)",
+    "World History Encyclopedia: Battle of Thermopylae"
+   ],
+   "lineas": [
+    { "texto": "¿Puede un desfiladero detener a un imperio entero?", "pausa": 0.35 },
+    { "texto": "En las Termópilas, trescientos espartanos cerraron el paso junto a sus aliados.", "pausa": 0.3 },
+    { "texto": "El rey persa Jerjes les pidió entregar las armas.", "pausa": 0.3 },
+    { "texto": "La respuesta de Leónidas fue legendaria: ven y tómalas.", "pausa": 0.35 },
+    { "texto": "Dos días, la muralla de escudos aguantó oleada tras oleada.", "pausa": 0.3 },
+    { "texto": "Pero un traidor mostró al ejército persa un sendero por la montaña.", "pausa": 0.3 },
+    { "texto": "Rodeados por la espalda, los espartanos pelearon hasta la última lanza.", "pausa": 0.3 },
+    { "texto": "Allí cayó Leónidas, y su guardia murió cubriendo su cuerpo.", "pausa": 0.3 },
+    { "texto": "El desfiladero cayó, pero la leyenda ya era eterna.", "pausa": 0.3 },
+    { "texto": "Un pasaje estrecho vale más que mil soldados.", "pausa": 0.3 }
+   ],
+   "tomas": [
+    { "id": "S01", "linea": 0, "escena": "hablando", "params": { "objeto": "soldado", "texto": "300 ESPARTANOS", "ancla_texto": "imperio" } },
+    { "id": "S02", "linea": 1, "escena": "ejercito", "params": {} },
+    { "id": "S03", "linea": 2, "escena": "hablando", "params": { "objeto": "rey", "texto": "ENTREGA LAS ARMAS", "ancla_texto": "armas" } },
+    { "id": "S04", "linea": 3, "escena": "rey", "params": { "etiqueta": "LEÓNIDAS" } },
+    { "id": "S05", "linea": 4, "escena": "dato", "params": { "numero": "2", "texto": "DÍAS", "ancla_x": "días" } },
+    { "id": "S06", "linea": 5, "escena": "personaje", "params": { "accion": "camina", "etiqueta": "EL SENDERO" } },
+    { "id": "S07", "linea": 6, "escena": "carga", "params": { "etiqueta": "RODEADOS" } },
+    { "id": "S08", "linea": 7, "escena": "caida", "params": { "etiqueta": "CAE LEÓNIDAS" } },
+    { "id": "S09", "linea": 9, "escena": "final", "params": { "etiqueta": "EL TERRENO MANDA" } }
+   ]
+  },
+  {
+   "id": "canas",
+   "titulo": "¿50.000 romanos atrapados en una tarde? La bolsa mortal de Cannas",
+   "meta_titulo": "¿50.000 ROManos atrapados en HORAS? La bolsa de Cannas 🎯",
+   "desc": "Cannas, 216 a. C.: Aníbal alineó su centro en media luna, lo dejó ceder a propósito y cerró la bolsa con la caballería. La derrota más sangrienta de Roma en una sola tarde.",
+   "tags": ["canas", "anibal", "roma", "punicas", "batallas", "historia", "curiosidades", "estrategia", "caricatura"],
+   "fuentes": [
+    "Polibio, Historias, libro III (la media luna de Cannas)",
+    "Tito Livio, Ab Urbe Condita, XXII (bajas romanas ~48.000-70.000 según fuentes)",
+    "World History Encyclopedia: Battle of Cannae"
+   ],
+   "lineas": [
+    { "texto": "¿Cómo se destruye un ejército del doble de tamaño en una tarde?", "pausa": 0.35 },
+    { "texto": "En Cannas, Aníbal alineó a sus galos en media luna que curvaba hacia Roma.", "pausa": 0.3 },
+    { "texto": "La infantería romana empujó el centro cartaginés hacia atrás.", "pausa": 0.3 },
+    { "texto": "El centro cedía a propósito: era una trampa con forma de bolsa.", "pausa": 0.3 },
+    { "texto": "La caballería númida cerró la puerta por la espalda.", "pausa": 0.3 },
+    { "texto": "Cincuenta mil romanos quedaron apretados en una bolsa sin aire.", "pausa": 0.3 },
+    { "texto": "Los escudos no servían: los soldados ni siquiera podían levantar el brazo.", "pausa": 0.3 },
+    { "texto": "Horas después, Roma había perdido a sus dos cónsules y su ejército.", "pausa": 0.3 },
+    { "texto": "Fue la derrota más sangrienta de la historia romana.", "pausa": 0.3 },
+    { "texto": "Ceder el centro puede ser la jugada más letal del tablero.", "pausa": 0.3 }
+   ],
+   "tomas": [
+    { "id": "S01", "linea": 0, "escena": "hablando", "params": { "objeto": "capitan", "texto": "LA TRAMPA", "ancla_texto": "tarde" } },
+    { "id": "S02", "linea": 1, "escena": "rey", "params": { "etiqueta": "CANAS" } },
+    { "id": "S03", "linea": 2, "escena": "ejercito", "params": {} },
+    { "id": "S04", "linea": 3, "escena": "hablando", "params": { "objeto": "capitan", "texto": "CEDER Y ENVOLVER", "ancla_texto": "trampa" } },
+    { "id": "S05", "linea": 4, "escena": "carga", "params": { "etiqueta": "LA PUERTA" } },
+    { "id": "S06", "linea": 5, "escena": "dato", "params": { "numero": "50.000", "texto": "ATRAPADOS", "ancla_x": "bolsa" } },
+    { "id": "S07", "linea": 6, "escena": "ejercito", "params": { "etiqueta": "SIN ESCAPE" } },
+    { "id": "S08", "linea": 7, "escena": "caida", "params": { "etiqueta": "ROMA CAE" } },
+    { "id": "S09", "linea": 9, "escena": "final", "params": { "etiqueta": "LA PACIENCIA GANA" } }
+   ]
+  },
+  {
+   "id": "hidaspes",
+   "titulo": "¿Cómo cruzar un río defendido por 200 elefantes? El engaño de Alejandro",
+   "meta_titulo": "¿Un río con 200 ELEFANTES? El cruce imposible de Alejandro 🐘",
+   "desc": "Hidaspes, 326 a. C.: Poro esperaba en la orilla con sus elefantes. Alejandro fingió maniobras durante días, cruzó bajo una tormenta y devolvió el reino al rey que luchó hasta el final.",
+   "tags": ["hidaspes", "alejandro magno", "poro", "elefantes", "india", "historia", "batallas", "curiosidades"],
+   "fuentes": [
+    "Arriano, Anábasis de Alejandro, libro V (el cruce del Hidaspes y los elefantes de Poro)",
+    "World History Encyclopedia: Battle of the Hydaspes River",
+    "Poro conservó su reino como sátrapa aliada tras la batalla"
+   ],
+   "lineas": [
+    { "texto": "¿Cómo cruzar un río defendido por doscientos elefantes?", "pausa": 0.35 },
+    { "texto": "En el río Hidaspes, el rey Poro esperaba en la orilla con sus elefantes.", "pausa": 0.3 },
+    { "texto": "Alejandro no se quedó quieto: dividió su ejército y fingió maniobras.", "pausa": 0.3 },
+    { "texto": "Cada noche movía tropas, hasta que Poro dejó de seguirle.", "pausa": 0.3 },
+    { "texto": "Una tormenta de verano cubrió el ruido del cruce real.", "pausa": 0.3 },
+    { "texto": "Al amanecer, la vanguardia macedonia ya estaba en la otra orilla.", "pausa": 0.3 },
+    { "texto": "Los elefantes aterraban a los caballos: la primera línea casi se rompe.", "pausa": 0.3 },
+    { "texto": "Pero las sarisas largas picaban a los elefantes desde lejos.", "pausa": 0.3 },
+    { "texto": "Poro luchó hasta el final, y Alejandro le devolvió su reino.", "pausa": 0.3 },
+    { "texto": "Ganar el cruce es ganar la mitad de la batalla.", "pausa": 0.3 }
+   ],
+   "tomas": [
+    { "id": "S01", "linea": 0, "escena": "hablando", "params": { "objeto": "rey", "texto": "200 ELEFANTES", "ancla_texto": "elefantes" } },
+    { "id": "S02", "linea": 1, "escena": "ejercito", "params": {} },
+    { "id": "S03", "linea": 2, "escena": "hablando", "params": { "objeto": "capitan", "texto": "FINGIR MANIOBRAS", "ancla_texto": "quieto" } },
+    { "id": "S04", "linea": 3, "escena": "personaje", "params": { "accion": "camina" } },
+    { "id": "S05", "linea": 4, "escena": "dato", "params": { "numero": "1", "texto": "TORMENTA", "ancla_x": "tormenta" } },
+    { "id": "S06", "linea": 5, "escena": "carga", "params": { "etiqueta": "AL OTRO LADO" } },
+    { "id": "S07", "linea": 6, "escena": "duelo", "params": { "etiqueta": "CAOS" } },
+    { "id": "S08", "linea": 7, "escena": "dato", "params": { "numero": "6", "texto": "M DE LANZA", "ancla_x": "sarisas" } },
+    { "id": "S09", "linea": 8, "escena": "final", "params": { "etiqueta": "REY CONTRA REY" } }
+   ]
+  },
+  {
+   "id": "alpes",
+   "titulo": "¿Llevar 37 elefantes por los Alpes? La locura de Aníbal",
+   "meta_titulo": "¿37 ELEFANTES por los ALPES? La locura de Aníbal 🏔️",
+   "desc": "218 a. C.: Aníbal cruzó los Alpes con elefantes, perdió media hueste en el hielo y aun así aplastó a tres ejércitos romanos en dos años. Lo imposible es solo un camino con más pendiente.",
+   "tags": ["anibal", "alpes", "elefantes", "roma", "cartago", "historia", "curiosidades", "expedicion"],
+   "fuentes": [
+    "Polibio, Historias, libro III (el cruce de los Alpes, 37 elefantes según Livio XXI)",
+    "Tito Livio, Ab Urbe Condita, XXI (emboscadas de montaña y despeñaderos)",
+    "Tres derrotas romanas seguidas: Ticino, Trebia y el lago Trasimeno"
+   ],
+   "lineas": [
+    { "texto": "¿Se puede llevar un elefante por los Alpes?", "pausa": 0.35 },
+    { "texto": "En el invierno del 218 antes de Cristo, Aníbal lo intentó con treinta y siete.", "pausa": 0.3 },
+    { "texto": "Su ejército escaló pasos de montaña helados sobre los bosques de la Galia.", "pausa": 0.3 },
+    { "texto": "Las tribus locales los atacaban desde las laderas con piedras y flechas.", "pausa": 0.3 },
+    { "texto": "Muchos hombres y elefantes cayeron al vacío por los despeñaderos.", "pausa": 0.3 },
+    { "texto": "Tras quince días de hielo, el ejército descendió exhausto a Italia.", "pausa": 0.3 },
+    { "texto": "Había cruzado la muralla natural que nadie consideraba invadible.", "pausa": 0.3 },
+    { "texto": "Media hueste no lo logró: la montaña cobra su precio.", "pausa": 0.3 },
+    { "texto": "Y aún así, en dos años aplastó a tres ejércitos romanos seguidos.", "pausa": 0.3 },
+    { "texto": "Lo imposible es solo un camino con más pendiente.", "pausa": 0.3 }
+   ],
+   "tomas": [
+    { "id": "S01", "linea": 0, "escena": "hablando", "params": { "objeto": "nino", "texto": "¿UN ELEFANTE?", "ancla_texto": "elefante" } },
+    { "id": "S02", "linea": 1, "escena": "dato", "params": { "numero": "37", "texto": "ELEFANTES", "ancla_x": "siete" } },
+    { "id": "S03", "linea": 2, "escena": "personaje", "params": { "accion": "camina" } },
+    { "id": "S04", "linea": 3, "escena": "caida", "params": { "etiqueta": "EMBOSCADA" } },
+    { "id": "S05", "linea": 4, "escena": "hablando", "params": { "objeto": "soldado", "texto": "AL VACÍO", "ancla_texto": "vacío" } },
+    { "id": "S06", "linea": 5, "escena": "ejercito", "params": {} },
+    { "id": "S07", "linea": 6, "escena": "rey", "params": { "etiqueta": "LA MURALLA" } },
+    { "id": "S08", "linea": 7, "escena": "dato", "params": { "numero": "50", "texto": "PERDIDO", "ancla_x": "precio" } },
+    { "id": "S09", "linea": 9, "escena": "final", "params": { "etiqueta": "LO IMPOSIBLE" } }
+   ]
+  },
+  {
+   "id": "falange",
+   "titulo": "¿Qué es un muro de lanzas de 6 metros que camina? La falange macedonia",
+   "meta_titulo": "¿Un MURO de lanzas que CAMINA? La falange macedonia 🗡️",
+   "desc": "Dieciséis filas, sarisas de seis metros y un muro que avanza al paso: así peleaba la falange macedonia. El yunque de Alejandro durante dos siglos de victorias.",
+   "tags": ["falange", "macedonia", "sarissa", "alejandro magno", "historia", "militar", "curiosidades", "grecia"],
+   "fuentes": [
+    "Arriano y Polibio sobre la sarissa y la profundidad de 16 filas de la falange",
+    "Polibio, Historias, XVIII (la falange contra la legión romana)",
+    "World History Encyclopedia: Macedonian Phalanx"
+   ],
+   "lineas": [
+    { "texto": "¿Cómo se ve un muro de lanzas que camina?", "pausa": 0.35 },
+    { "texto": "La falange macedonia marchaba en bloques de dieciséis filas.", "pausa": 0.3 },
+    { "texto": "Las cinco primeras filas de sarisas sobresalen por delante del frente.", "pausa": 0.3 },
+    { "texto": "A seis metros de longitud, la lanza golpea antes de que el enemigo llegue.", "pausa": 0.3 },
+    { "texto": "Los escudos pequeños cuelgan del hombro: las dos manos sostienen la pica.", "pausa": 0.3 },
+    { "texto": "El muro avanza al paso, empujando todo lo que encuentra.", "pausa": 0.3 },
+    { "texto": "Contra él, cargar de frente era lanzarse a un erizo de puntas.", "pausa": 0.3 },
+    { "texto": "Su flanco era su debilidad: si giraban, todo se desordenaba.", "pausa": 0.3 },
+    { "texto": "Alejandro la usó como yunque y la caballería como martillo.", "pausa": 0.3 },
+    { "texto": "Un muro de lanzas y un martillo de caballo: dos siglos de victorias.", "pausa": 0.3 }
+   ],
+   "tomas": [
+    { "id": "S01", "linea": 0, "escena": "hablando", "params": { "objeto": "soldado", "texto": "EL MURO", "ancla_texto": "lanzas" } },
+    { "id": "S02", "linea": 1, "escena": "ejercito", "params": {} },
+    { "id": "S03", "linea": 2, "escena": "dato", "params": { "numero": "5", "texto": "FILAS", "ancla_x": "filas" } },
+    { "id": "S04", "linea": 3, "escena": "hablando", "params": { "objeto": "soldado", "texto": "6 METROS", "ancla_texto": "longitud" } },
+    { "id": "S05", "linea": 4, "escena": "personaje", "params": { "accion": "quieto", "etiqueta": "DOS MANOS" } },
+    { "id": "S06", "linea": 5, "escena": "ejercito", "params": { "etiqueta": "AL PASO" } },
+    { "id": "S07", "linea": 6, "escena": "carga", "params": { "etiqueta": "ERIZO DE PUNTAS" } },
+    { "id": "S08", "linea": 7, "escena": "duelo", "params": { "etiqueta": "EL FLANCO" } },
+    { "id": "S09", "linea": 9, "escena": "final", "params": { "etiqueta": "YUNQUE Y MARTILLO" } }
+   ]
+  },
+  {
+   "id": "espartaco",
+   "titulo": "¿70 gladiadores contra la república más poderosa? La revuelta de Espartaco",
+   "meta_titulo": "¿70 GLADIADORES vs ROMA? La revuelta de Espartaco ⛓️",
+   "desc": "Capua, 73 a. C.: setenta gladiadores se escaparon con cuchillos de cocina y terminaron derrotando a dos ejércitos consulares. La muralla de Craso y la vía Apia cerraron la historia.",
+   "tags": ["espartaco", "roma", "gladiadores", "revuelta", "historia", "esclavitud", "curiosidades", "craso"],
+   "fuentes": [
+    "Plutarco, Vidas paralelas: Craso (la revuelta de Espartaco y la muralla del pico de la vela)",
+    "Apiano, Guerras civiles, I (cerca de 70.000 seguidores en el apogeo)",
+    "Appiano y Plutarco: ~6.000 crucificados a lo largo de la vía Apia"
+   ],
+   "lineas": [
+    { "texto": "¿Puede un puñado de gladiadores aterrorizar a una república?", "pausa": 0.35 },
+    { "texto": "En Capua, setenta gladiadores se escaparon con cuchillos de cocina.", "pausa": 0.3 },
+    { "texto": "Su líder, Espartaco, derrotó a dos ejércitos consulares seguidos.", "pausa": 0.3 },
+    { "texto": "Miles de esclavos y pastores se unieron a su hueste fugitiva.", "pausa": 0.3 },
+    { "texto": "Los rebeldes acamparon en el cráter del Vesubio, casi inexpugnable.", "pausa": 0.3 },
+    { "texto": "Roma respondió con diez legiones al mando de Craso.", "pausa": 0.3 },
+    { "texto": "Craso levantó una muralla de cuarenta kilómetros para cercarlos.", "pausa": 0.3 },
+    { "texto": "La hueste rebelde rompió el cerco una noche, pero quedó partida en dos.", "pausa": 0.3 },
+    { "texto": "En el 71 antes de Cristo, la batalla final acabó con la revuelta.", "pausa": 0.3 },
+    { "texto": "Seis mil rebeldes fueron crucificados a lo largo de la vía Apia.", "pausa": 0.3 }
+   ],
+   "tomas": [
+    { "id": "S01", "linea": 0, "escena": "hablando", "params": { "objeto": "aldeano", "texto": "70 GLADIADORES", "ancla_texto": "gladiadores" } },
+    { "id": "S02", "linea": 1, "escena": "personaje", "params": { "accion": "camina", "etiqueta": "LA FUGA" } },
+    { "id": "S03", "linea": 2, "escena": "duelo", "params": { "etiqueta": "2 CÓNSULES" } },
+    { "id": "S04", "linea": 3, "escena": "ejercito", "params": {} },
+    { "id": "S05", "linea": 4, "escena": "rey", "params": { "etiqueta": "EL CRÁTER" } },
+    { "id": "S06", "linea": 5, "escena": "dato", "params": { "numero": "10", "texto": "LEGIONES", "ancla_x": "legiones" } },
+    { "id": "S07", "linea": 6, "escena": "hablando", "params": { "objeto": "capitan", "texto": "40 KM DE MURO", "ancla_texto": "muralla" } },
+    { "id": "S08", "linea": 7, "escena": "carga", "params": { "etiqueta": "ROMPIERON EL CERCO" } },
+    { "id": "S09", "linea": 9, "escena": "final", "params": { "etiqueta": "LA VÍA APIA" } }
+   ]
+  },
+  {
+   "id": "alesia",
+   "titulo": "¿Cercar a los que te están cercando? El sitio doble de Alesia",
+   "meta_titulo": "¿MUROS dentro de MUROS? El sitio imposible de Alesia 🏰",
+   "desc": "Alesia, 52 a. C.: Julio César levantó murallas dobles para sitiar a Vercingétorix mientras un ejército galo entero atacaba por detrás. Dos guerras a la vez, una sola tarde para ganarlas.",
+   "tags": ["alesia", "julio césar", "vercingetorix", "galia", "roma", "asedio", "historia", "curiosidades"],
+   "fuentes": [
+    "Julio César, Comentarios a la Guerra de las Galias, VII (las murallas dobles de Alesia)",
+    "Estimaciones de las fuentes: ~250.000 refuerzos galos contra ~70.000 romanos",
+    "World History Encyclopedia: Battle of Alesia"
+   ],
+   "lineas": [
+    { "texto": "¿Cómo se combate en dos frentes al mismo tiempo?", "pausa": 0.35 },
+    { "texto": "En Alesia, Julio César rodeó con murallas dobles a Vercingétorix.", "pausa": 0.3 },
+    { "texto": "Por dentro, la ciudad esperaba refuerzos; por fuera, un ejército galo entero.", "pausa": 0.3 },
+    { "texto": "César cavó dos muros: uno para que nadie saliera, otro para que nadie entrara.", "pausa": 0.3 },
+    { "texto": "Doscientos cincuenta mil galos cargaron contra las trincheras romanas.", "pausa": 0.3 },
+    { "texto": "Los romanos aguantaron con flechas, fosos y torres de madera.", "pausa": 0.3 },
+    { "texto": "La caballería germana de César giró y golpeó la retaguardia gala.", "pausa": 0.3 },
+    { "texto": "Vercingétorix abrió las puertas y se rindió a caballo, armado y orgulloso.", "pausa": 0.3 },
+    { "texto": "El mismo día, Roma venció por dentro y por fuera del anillo.", "pausa": 0.3 },
+    { "texto": "Un general que construye muros puede vencer dos guerras a la vez.", "pausa": 0.3 }
+   ],
+   "tomas": [
+    { "id": "S01", "linea": 0, "escena": "hablando", "params": { "objeto": "capitan", "texto": "SITIO DOBLE", "ancla_texto": "frentes" } },
+    { "id": "S02", "linea": 1, "escena": "rey", "params": { "etiqueta": "CÉSAR" } },
+    { "id": "S03", "linea": 2, "escena": "duelo", "params": { "etiqueta": "DOS FRENTE" } },
+    { "id": "S04", "linea": 3, "escena": "personaje", "params": { "accion": "camina", "etiqueta": "DOS MUROS" } },
+    { "id": "S05", "linea": 4, "escena": "carga", "params": { "etiqueta": "250.000 GALOS" } },
+    { "id": "S06", "linea": 5, "escena": "dato", "params": { "numero": "2", "texto": "MUROS", "ancla_x": "torres" } },
+    { "id": "S07", "linea": 6, "escena": "hablando", "params": { "objeto": "capitan", "texto": "GOLPE POR LA ESPALDA", "ancla_texto": "retaguardia" } },
+    { "id": "S08", "linea": 7, "escena": "caida", "params": { "etiqueta": "SE RINDE" } },
+    { "id": "S09", "linea": 9, "escena": "final", "params": { "etiqueta": "DOS GUERRAS A LA VEZ" } }
+   ]
+  }
+ ]
+}

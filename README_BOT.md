@@ -1,19 +1,20 @@
 # 🤖 Bot Autónomo de YouTube Shorts 24/7 (GitHub Actions)
 
-Produce y publica Shorts verticales 9:16 **sin intervención humana**, corriendo gratis en **GitHub Actions** — el PC puede estar apagado. 6 estilos en español rotan por prioridad: los videos se generan, se guardan en una cola (release de GitHub) y se suben a YouTube **1 cada 2 horas**, con latido y alertas en vivo en Discord.
+Produce y publica Shorts verticales 9:16 **sin intervención humana**, corriendo gratis en **GitHub Actions** — el PC puede estar apagado. 7 estilos en español rotan en turnos igualitarios: los videos se generan, se guardan en una cola (release de GitHub) y se suben a YouTube **1 cada 2 horas**, con latido y alertas en vivo en Discord.
 
-## 🎬 Los 6 estilos
+## 🎬 Los 7 estilos
 
-| Estilo | Qué produce | Prioridad |
+| Estilo | Qué produce | Turno |
 |---|---|---|
-| **Deep Dive 3D** `deep-dive` | "¿Qué pasaría si…?" de cuerpo y ciencia, 3D tipo Zack D. Films | alta (siempre: 1 por ciclo) |
-| **Inside Out** `inside-out` | explicador 2D plano de rayos X | alta (siempre: 1 por ciclo) |
-| **Night File 3D** `night-file` | expedientes de misterio sin resolver, crimen real | media (rota por par/impar) |
-| **Paper Atlas** `paper-atlas` | historia en papel recortado con mapas | media (rota por par/impar) |
-| **Stick Story** `stick-story` | "¿qué harías si…?" con monigotes | media (rota por par/impar) |
-| **Tall Tale 3D** `tall-tale` | historias reales divertidas en 3D | media (rota por par/impar) |
+| **Deep Dive 3D** `deep-dive` | "¿Qué pasaría si…?" de cuerpo y ciencia, 3D tipo Zack D. Films | round-robin |
+| **Inside Out** `inside-out` | explicador 2D plano de rayos X | round-robin |
+| **Night File 3D** `night-file` | expedientes de misterio sin resolver, crimen real | round-robin |
+| **Paper Atlas** `paper-atlas` | historia en papel recortado con mapas | round-robin |
+| **Stick Story** `stick-story` | "¿qué harías si…?" con monigotes | round-robin |
+| **Tall Tale 3D** `tall-tale` | historias reales divertidas en 3D | round-robin |
+| **Caricatura 3D** `caricatura` | historias épicas reales con personajes de caricatura en un mundo 3D | round-robin |
 
-**Producción:** cron cada 6 h → 4 videos por ciclo (2 de prioridad + 2 rotativos por par/impar) ≈ **16/día generados**. **Consumo:** 1 subida cada 2 h = **12/día**. La cola se poda a 36 para no crecer sin límite.
+**Producción:** cron cada 6 h → 4 videos por ciclo, rotando los 7 estilos en orden (`ORDEN` en `bot/producir.py`; el job `prio` hace los 2 primeros y `otros` los 2 siguientes) ≈ **16/día generados**. **Consumo:** 1 subida cada 2 h = **12/día** (todos los estilos pesan igual; sale primero el que menos lleva). La cola se poda a 36 para no crecer sin límite.
 
 ## 📁 Estructura del repo
 
@@ -29,7 +30,7 @@ Produce y publica Shorts verticales 9:16 **sin intervención humana**, corriendo
 
 | Workflow | Cron | Qué hace |
 |---|---|---|
-| `producir.yml` | `0 */6 * * *` | Elige estilo por peso → guionista → render Chrome → `video.mp4` + `video.meta.json` a la release `cola` |
+| `producir.yml` | `0 */6 * * *` | Elige los 4 estilos del turno → guionista → render Chrome → `video.mp4` + `video.meta.json` a la release `cola` |
 | `publicar.yml` | `15 */2 * * *` | Toma el video más antiguo de la cola, sube a YouTube, borra los assets de la cola |
 | `latido.yml` | `*/5 * * * *` | Latido a Discord cada 5 min + alertas en tiempo real (inicio/fin de ciclo, video generado, subida con link, errores críticos) |
 
@@ -54,7 +55,7 @@ El canal de Discord recibe: latido cada 5 min, video generado (estilo + título)
 
 ## ⚙️ Ajustes
 
-- Pesos de rotación y `MAX_COLA=36` → `bot/publicar.py`
+- Orden de rotación (`ORDEN`), pesos de subida y `MAX_COLA=36` → `bot/producir.py` / `bot/publicar.py`
 - Crons → los `on.schedule` de cada workflow
 - Pool de temas → `guionista/pools/*.json` (8+ tarjetas por estilo; se amplían añadiendo tarjetas)
 

@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       estilo:
-        description: "estilo único (opcional): inside-out, deep-dive, night-file, paper-atlas, stick-story, tall-tale"
+        description: "estilo único (opcional): inside-out, deep-dive, night-file, paper-atlas, stick-story, tall-tale, caricatura"
         required: false
         default: ""
       run:
@@ -39,7 +39,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        grupo: [prio, otros]     # prio: inside-out + deep-dive · otros: 2 estilos rotando
+        grupo: [prio, otros]     # mitades del turno de 4 estilos (rotación en bot/producir.py)
     steps:
       - uses: actions/checkout@v4
 

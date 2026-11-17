@@ -56,6 +56,11 @@ BIBLIOTECAS = {
         'objetos': [],
         'voces': ['em_alex', 'ef_dora', 'em_santa'],
     },
+    'caricatura': {
+        'escenas': ['hablando', 'ejercito', 'rey', 'duelo', 'carga', 'personaje', 'caida', 'dato', 'final'],
+        'objetos': ['rey', 'capitan', 'soldado', 'aldeano', 'nino'],
+        'voces': ['em_alex', 'ef_dora', 'em_santa'],
+    },
 }
 
 norm = lambda w: re.sub(r"[^a-z0-9']+", '', w.lower())

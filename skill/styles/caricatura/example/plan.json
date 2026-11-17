@@ -1,0 +1,27 @@
+{
+ "estilo": "caricatura",
+ "titulo": "PRUEBA de escenas caricatura",
+ "lineas": [
+  { "texto": "What happens if you hold your breath for as long as you can?" },
+  { "texto": "For the first thirty seconds, nothing much." },
+  { "texto": "Your lungs are full, and your blood is still carrying plenty of oxygen." },
+  { "texto": "But carbon dioxide starts building up," },
+  { "texto": "and that, not the lack of oxygen, is what makes you desperate to breathe." },
+  { "texto": "Your diaphragm starts twitching, trying to force a breath," },
+  { "texto": "and your heart actually slows down to save oxygen." },
+  { "texto": "Push even further, and your brain simply switches you off." },
+  { "texto": "You pass out, and your body starts breathing again on its own." },
+  { "texto": "Which is why you should never try this underwater." }
+ ],
+ "tomas": [
+  { "id": "S01", "linea": 0, "escena": "hablando", "params": { "objeto": "rey", "texto": "47.000 HOMBRES", "ancla_texto": "breath" } },
+  { "id": "S02", "linea": 1, "escena": "ejercito", "params": {} },
+  { "id": "S03", "linea": 2, "escena": "rey", "params": { "etiqueta": "EL REY" } },
+  { "id": "S04", "linea": 4, "escena": "duelo", "params": { "etiqueta": "DOS EJERCITOS" } },
+  { "id": "S05", "linea": 5, "escena": "dato", "params": { "numero": "47.000", "texto": "HOMBRES", "ancla_x": "diaphragm" } },
+  { "id": "S06", "linea": 6, "escena": "personaje", "params": { "accion": "camina" } },
+  { "id": "S07", "linea": 7, "escena": "carga", "params": { "etiqueta": "LA CARGA" } },
+  { "id": "S08", "linea": 8, "escena": "caida", "params": { "etiqueta": "SE CAE" } },
+  { "id": "S09", "linea": 9, "escena": "final", "params": { "etiqueta": "NO LO INTENTES" } }
+ ]
+}

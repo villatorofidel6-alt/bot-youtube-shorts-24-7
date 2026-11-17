@@ -3,8 +3,8 @@
 
 Flujo:
   1. guardia de 2 h (estado_bot.json)
-  2. lista los assets de la release `cola` y elige por peso intercalado
-     (inside-out 5 · deep-dive 5 · resto 2) — el estilo con menor proporción subida gana
+  2. lista los assets de la release `cola` y elige el estilo con menor proporción
+     subida (todos los estilos pesan igual: 1)
   3. descarga el video + .meta.json, lo sube a YouTube (API oficial, sin borrar nada)
   4. borra los assets consumidos, actualiza estado_bot.json y lo commitea
 """
