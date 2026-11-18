@@ -1,19 +1,21 @@
 {
-  "ultimo_upload_ts": 1794963472.1154485,
-  "proximo_upload_ts": 1794970672.1154485,
-  "subidos_total": 7,
-  "generados_total": 18,
+  "ultimo_upload_ts": 1794996553.6140902,
+  "proximo_upload_ts": 1795003753.6140902,
+  "subidos_total": 8,
+  "generados_total": 20,
   "subidos_por_estilo": {
     "inside-out": 1,
     "deep-dive": 1,
     "night-file": 1,
     "paper-atlas": 1,
     "stick-story": 1,
-    "tall-tale": 1
+    "tall-tale": 1,
+    "caricatura": 1
   },
   "cola": [
     "caricatura_20261117_004250_hidaspes.mp4",
     "caricatura_20261117_155501_falange.mp4",
+    "caricatura_20261118_011732_espartaco.mp4",
     "deep-dive_20261116_191959_pesas1000.mp4",
     "deep-dive_20261117_160910_huesos.mp4",
     "inside-out_20261117_155705_pelo.mp4",
@@ -22,7 +24,7 @@
     "paper-atlas_20261117_021117_islas-nuevas.mp4",
     "paper-atlas_20261118_004840_ciudad-nube.mp4",
     "stick-story_20261118_005054_nadadora-miedo.mp4",
-    "tall-tale_20261117_021115_inky-pulpo.mp4"
+    "tall-tale_20261118_010418_halcon-veloz.mp4"
   ],
   "subidos_ids": {
     "corto_20261115_115738_nueva-harbor.mp4": "kY51Uq9RGss",
@@ -31,9 +33,10 @@
     "night-file_20261116_180047_mary-celeste.mp4": "VY6JFKuXX_I",
     "paper-atlas_20261116_180324_mar-muerto.mp4": "2yf_O-4ZcVI",
     "stick-story_20261117_014750_profesora-matem.mp4": "pIyCY5Nbrzc",
-    "tall-tale_20261117_021115_inky-pulpo.mp4": "rGky7h-Sfr0"
+    "tall-tale_20261117_021115_inky-pulpo.mp4": "rGky7h-Sfr0",
+    "caricatura_20261117_004250_hidaspes.mp4": "JfvF7Sb6HLw"
   },
-  "ultimo_evento": "Subido: Se escapó del acuario por una TUBERÍA 🐙",
-  "actualizado_ts": 1794963480.446047,
+  "ultimo_evento": "Subido: ¿Un río con 200 ELEFANTES? El cruce imposible de Alejandro 🐘",
+  "actualizado_ts": 1794996558.556984,
   "intentos": {}
 }
