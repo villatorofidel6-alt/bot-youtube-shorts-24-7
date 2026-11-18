@@ -1,8 +1,8 @@
 {
-  "ultimo_upload_ts": 1794996553.6140902,
-  "proximo_upload_ts": 1795003753.6140902,
-  "subidos_total": 8,
-  "generados_total": 20,
+  "ultimo_upload_ts": 1795027886.0008006,
+  "proximo_upload_ts": 1795035086.0008006,
+  "subidos_total": 9,
+  "generados_total": 23,
   "subidos_por_estilo": {
     "inside-out": 1,
     "deep-dive": 1,
@@ -10,19 +10,21 @@
     "paper-atlas": 1,
     "stick-story": 1,
     "tall-tale": 1,
-    "caricatura": 1
+    "caricatura": 2
   },
   "cola": [
-    "caricatura_20261117_004250_hidaspes.mp4",
     "caricatura_20261117_155501_falange.mp4",
     "caricatura_20261118_011732_espartaco.mp4",
     "deep-dive_20261116_191959_pesas1000.mp4",
     "deep-dive_20261117_160910_huesos.mp4",
+    "deep-dive_20261118_155421_cafeina.mp4",
     "inside-out_20261117_155705_pelo.mp4",
+    "inside-out_20261118_152456_sal.mp4",
     "night-file_20261117_020907_van-meegeren.mp4",
     "night-file_20261117_163222_bobbie.mp4",
     "paper-atlas_20261117_021117_islas-nuevas.mp4",
     "paper-atlas_20261118_004840_ciudad-nube.mp4",
+    "paper-atlas_20261118_152555_frontera-recta.mp4",
     "stick-story_20261118_005054_nadadora-miedo.mp4",
     "tall-tale_20261118_010418_halcon-veloz.mp4"
   ],
@@ -34,9 +36,10 @@
     "paper-atlas_20261116_180324_mar-muerto.mp4": "2yf_O-4ZcVI",
     "stick-story_20261117_014750_profesora-matem.mp4": "pIyCY5Nbrzc",
     "tall-tale_20261117_021115_inky-pulpo.mp4": "rGky7h-Sfr0",
-    "caricatura_20261117_004250_hidaspes.mp4": "JfvF7Sb6HLw"
+    "caricatura_20261117_004250_hidaspes.mp4": "JfvF7Sb6HLw",
+    "caricatura_20261117_155501_falange.mp4": "_deZnUTNRrQ"
   },
-  "ultimo_evento": "Subido: ¿Un río con 200 ELEFANTES? El cruce imposible de Alejandro 🐘",
-  "actualizado_ts": 1794996558.556984,
+  "ultimo_evento": "Subido: ¿Un MURO de lanzas que CAMINA? La falange macedonia 🗡️",
+  "actualizado_ts": 1795027893.9974072,
   "intentos": {}
 }
