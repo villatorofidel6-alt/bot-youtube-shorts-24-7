@@ -1,7 +1,7 @@
 {
-  "ultimo_upload_ts": 1795053154.825491,
-  "proximo_upload_ts": 1795060354.825491,
-  "subidos_total": 10,
+  "ultimo_upload_ts": 1795083609.6280706,
+  "proximo_upload_ts": 1795090809.6280706,
+  "subidos_total": 11,
   "generados_total": 27,
   "subidos_por_estilo": {
     "inside-out": 1,
@@ -10,10 +10,9 @@
     "paper-atlas": 1,
     "stick-story": 1,
     "tall-tale": 1,
-    "caricatura": 3
+    "caricatura": 4
   },
   "cola": [
-    "caricatura_20261118_011732_espartaco.mp4",
     "caricatura_20261119_002456_gaugamela.mp4",
     "deep-dive_20261116_191959_pesas1000.mp4",
     "deep-dive_20261117_160910_huesos.mp4",
@@ -41,9 +40,10 @@
     "tall-tale_20261117_021115_inky-pulpo.mp4": "rGky7h-Sfr0",
     "caricatura_20261117_004250_hidaspes.mp4": "JfvF7Sb6HLw",
     "caricatura_20261117_155501_falange.mp4": "_deZnUTNRrQ",
-    "caricatura_20261118_011732_espartaco.mp4": "Eolh97EVv9U"
+    "caricatura_20261118_011732_espartaco.mp4": "Eolh97EVv9U",
+    "caricatura_20261119_002456_gaugamela.mp4": "-jUnP3_ZVMg"
   },
-  "ultimo_evento": "Subido: ¿70 GLADIADORES vs ROMA? La revuelta de Espartaco ⛓️",
-  "actualizado_ts": 1795053165.166124,
+  "ultimo_evento": "Subido: ¿47.000 vs 100.000? La carga LOCA de Alejandro en Gaugamela ⚔️",
+  "actualizado_ts": 1795083616.5176246,
   "intentos": {}
 }
