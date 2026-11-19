@@ -1,11 +1,11 @@
 {
-  "ultimo_upload_ts": 1795083609.6280706,
-  "proximo_upload_ts": 1795090809.6280706,
-  "subidos_total": 11,
-  "generados_total": 27,
+  "ultimo_upload_ts": 1795120607.878159,
+  "proximo_upload_ts": 1795127807.878159,
+  "subidos_total": 12,
+  "generados_total": 31,
   "subidos_por_estilo": {
     "inside-out": 1,
-    "deep-dive": 1,
+    "deep-dive": 2,
     "night-file": 1,
     "paper-atlas": 1,
     "stick-story": 1,
@@ -13,20 +13,23 @@
     "caricatura": 4
   },
   "cola": [
-    "caricatura_20261119_002456_gaugamela.mp4",
     "deep-dive_20261116_191959_pesas1000.mp4",
     "deep-dive_20261117_160910_huesos.mp4",
     "deep-dive_20261118_155421_cafeina.mp4",
+    "deep-dive_20261119_155516_atomo.mp4",
     "inside-out_20261117_155705_pelo.mp4",
     "inside-out_20261118_152456_sal.mp4",
     "inside-out_20261119_002746_agua.mp4",
     "night-file_20261117_020907_van-meegeren.mp4",
     "night-file_20261117_163222_bobbie.mp4",
+    "night-file_20261119_161753_mary-celeste.mp4",
     "paper-atlas_20261117_021117_islas-nuevas.mp4",
     "paper-atlas_20261118_004840_ciudad-nube.mp4",
     "paper-atlas_20261118_152555_frontera-recta.mp4",
+    "paper-atlas_20261119_153056_mar-muerto.mp4",
     "stick-story_20261118_005054_nadadora-miedo.mp4",
     "stick-story_20261119_000428_cartas-metro.mp4",
+    "stick-story_20261119_153249_maraton-900.mp4",
     "tall-tale_20261118_010418_halcon-veloz.mp4",
     "tall-tale_20261119_001809_ballena-buceo.mp4"
   ],
@@ -41,9 +44,10 @@
     "caricatura_20261117_004250_hidaspes.mp4": "JfvF7Sb6HLw",
     "caricatura_20261117_155501_falange.mp4": "_deZnUTNRrQ",
     "caricatura_20261118_011732_espartaco.mp4": "Eolh97EVv9U",
-    "caricatura_20261119_002456_gaugamela.mp4": "-jUnP3_ZVMg"
+    "caricatura_20261119_002456_gaugamela.mp4": "-jUnP3_ZVMg",
+    "deep-dive_20261116_191959_pesas1000.mp4": "MwA55cNqGqU"
   },
-  "ultimo_evento": "Subido: ¿47.000 vs 100.000? La carga LOCA de Alejandro en Gaugamela ⚔️",
-  "actualizado_ts": 1795083616.5176246,
+  "ultimo_evento": "Subido: ¿1000 LEVANTAMIENTOS de pesas? Esto pasa dentro 💀🏋️",
+  "actualizado_ts": 1795120613.9473953,
   "intentos": {}
 }
