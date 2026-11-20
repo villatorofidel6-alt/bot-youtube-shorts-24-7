@@ -1,10 +1,10 @@
 {
-  "ultimo_upload_ts": 1795144473.607264,
-  "proximo_upload_ts": 1795151673.607264,
-  "subidos_total": 13,
+  "ultimo_upload_ts": 1795179242.908892,
+  "proximo_upload_ts": 1795186442.908892,
+  "subidos_total": 14,
   "generados_total": 35,
   "subidos_por_estilo": {
-    "inside-out": 1,
+    "inside-out": 2,
     "deep-dive": 2,
     "night-file": 1,
     "paper-atlas": 1,
@@ -13,7 +13,6 @@
     "caricatura": 5
   },
   "cola": [
-    "caricatura_20261120_011136_canas.mp4",
     "deep-dive_20261117_160910_huesos.mp4",
     "deep-dive_20261118_155421_cafeina.mp4",
     "deep-dive_20261119_155516_atomo.mp4",
@@ -49,9 +48,10 @@
     "caricatura_20261118_011732_espartaco.mp4": "Eolh97EVv9U",
     "caricatura_20261119_002456_gaugamela.mp4": "-jUnP3_ZVMg",
     "deep-dive_20261116_191959_pesas1000.mp4": "MwA55cNqGqU",
-    "caricatura_20261120_011136_canas.mp4": "PTK63UyhYyg"
+    "caricatura_20261120_011136_canas.mp4": "PTK63UyhYyg",
+    "inside-out_20261117_155705_pelo.mp4": "cUIbFnKgmN4"
   },
-  "ultimo_evento": "Subido: ¿50.000 ROManos atrapados en HORAS? La bolsa de Cannas 🎯",
-  "actualizado_ts": 1795144477.706252,
+  "ultimo_evento": "Subido: ¿Comer pelo? Esto pasa dentro del estómago 😨",
+  "actualizado_ts": 1795179249.96591,
   "intentos": {}
 }
