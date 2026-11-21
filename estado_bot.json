@@ -1,19 +1,20 @@
 {
-  "ultimo_upload_ts": 1795230772.7613425,
-  "proximo_upload_ts": 1795237972.7613425,
-  "subidos_total": 16,
-  "generados_total": 43,
+  "ultimo_upload_ts": 1795264754.310095,
+  "proximo_upload_ts": 1795271954.310095,
+  "subidos_total": 17,
+  "generados_total": 47,
   "subidos_por_estilo": {
     "inside-out": 2,
     "deep-dive": 2,
     "night-file": 2,
     "paper-atlas": 2,
-    "stick-story": 1,
+    "stick-story": 2,
     "tall-tale": 1,
     "caricatura": 5
   },
   "cola": [
     "caricatura_20261121_000754_alpes.mp4",
+    "caricatura_20261121_065127_falange.mp4",
     "deep-dive_20261117_160910_huesos.mp4",
     "deep-dive_20261118_155421_cafeina.mp4",
     "deep-dive_20261119_155516_atomo.mp4",
@@ -27,19 +28,21 @@
     "night-file_20261119_161753_mary-celeste.mp4",
     "night-file_20261120_153024_alcatraz.mp4",
     "night-file_20261121_005228_van-meegeren.mp4",
-    "paper-atlas_20261117_021117_islas-nuevas.mp4",
     "paper-atlas_20261118_004840_ciudad-nube.mp4",
     "paper-atlas_20261118_152555_frontera-recta.mp4",
     "paper-atlas_20261119_153056_mar-muerto.mp4",
     "paper-atlas_20261120_153240_rio-nube.mp4",
+    "paper-atlas_20261121_061953_rio-contra-rio.mp4",
     "stick-story_20261118_005054_nadadora-miedo.mp4",
     "stick-story_20261119_000428_cartas-metro.mp4",
     "stick-story_20261119_153249_maraton-900.mp4",
     "stick-story_20261120_150911_escaladora-unpie.mp4",
+    "stick-story_20261121_062149_cocinero-calle.mp4",
     "tall-tale_20261118_010418_halcon-veloz.mp4",
     "tall-tale_20261119_001809_ballena-buceo.mp4",
     "tall-tale_20261120_005343_mantis-golpe.mp4",
-    "tall-tale_20261120_153316_tardigrado.mp4"
+    "tall-tale_20261120_153316_tardigrado.mp4",
+    "tall-tale_20261121_063802_rana-congelada.mp4"
   ],
   "subidos_ids": {
     "corto_20261115_115738_nueva-harbor.mp4": "kY51Uq9RGss",
@@ -57,9 +60,10 @@
     "caricatura_20261120_011136_canas.mp4": "PTK63UyhYyg",
     "inside-out_20261117_155705_pelo.mp4": "cUIbFnKgmN4",
     "night-file_20261117_020907_van-meegeren.mp4": "HFGw8IslnHU",
-    "paper-atlas_20261117_021117_islas-nuevas.mp4": "2ryeNiNgx38"
+    "paper-atlas_20261117_021117_islas-nuevas.mp4": "2ryeNiNgx38",
+    "stick-story_20261118_005054_nadadora-miedo.mp4": "1ey-2dF_OxY"
   },
-  "ultimo_evento": "Subido: Una isla NACIÓ en 8 horas 🌋",
-  "actualizado_ts": 1795230778.1827362,
+  "ultimo_evento": "Subido: MIEDO AL AGUA → ESTRECHO 🏊",
+  "actualizado_ts": 1795264759.2929122,
   "intentos": {}
 }
